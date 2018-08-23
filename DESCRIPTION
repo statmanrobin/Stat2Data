@@ -10,4 +10,6 @@ Imports:
     mosaic
 License: GPL-3
 LazyLoad: yes
+URL: https://github.com/statmanrobin/Stat2Data
+BugReports: https://github.com/statmanrobin/Stat2Data
 RoxygenNote: 6.0.1
