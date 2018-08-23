@@ -1,9 +1,9 @@
 \name{AHCAvote2017}
 \alias{AHCAvote2017}
 \docType{data}
-\title{AHCAvote2017 Temporary}
+\title{AHCAvote2017}
 \description{
-Congressional votes on American Health Care Act
+Congressional votes on the American Health Care Act
 }
 \format{
   A data frame with 430 observations on the following 11 variables.
