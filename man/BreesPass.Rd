@@ -1,24 +1,24 @@
 \name{BreesPass}
 \alias{BreesPass}
 \docType{data}
-\title{BreesPass Temporary}
+\title{BreesPass}
 \description{
-BreesPass
+Passing statistics for Drew Brees in 2016
 }
 \format{
   A data frame with 16 observations on the following 5 variables.
   \describe{
-    \item{\code{Game}}{a numeric vector}
-    \item{\code{Opponent}}{a factor with levels \code{ARI} \code{ATL} \code{CAR} \code{DEN} \code{DET} \code{KC} \code{LAR} \code{NYG} \code{OAK} \code{SD} \code{SEA} \code{SF} \code{TB}}
-    \item{\code{Completed}}{a numeric vector}
-    \item{\code{Attempts}}{a numeric vector}
-    \item{\code{Yards}}{a numeric vector}
+    \item{\code{Game}}{Game number}
+    \item{\code{Opponent}}{Opponent abbreviation}
+    \item{\code{Completed}}{Number of completed passes}
+    \item{\code{Attempts}}{Pass attempts}
+    \item{\code{Yards}}{Passing yards}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Drew Brees was the quarterback for the NFL's New Orleans Saints football team in 2016.  This dataset shows some of his passing statistics for each of the 16 regular season games.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+http://www.espn.com/nfl/player/gamelog/_/id/2580/year/2016
 }
 \keyword{datasets}

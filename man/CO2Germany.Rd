@@ -1,21 +1,23 @@
 \name{CO2Germany}
 \alias{CO2Germany}
 \docType{data}
-\title{CO2Germany Temporary}
+\title{Daily CO2 Measurements in Germany}
 \description{
-CO2Germany
+Daily carbon dioxide measurements - April through November 2011
 }
 \format{
   A data frame with 237 observations on the following 2 variables.
   \describe{
-    \item{\code{CO2}}{a numeric vector}
-    \item{\code{Day}}{a numeric vector}
+    \item{\code{CO2}}{Carbon dioxide (CO2) level (in parts per million)}
+    \item{\code{Day}}{Number of day in 2011 (April 1 = day 91}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Scientists at a research station in Brotjacklriegel, Germany recorded
+CO2 levels, in parts per million, in the atmosphere for each day from
+the start of April through November in 2011.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+http://gaw.empa.ch/gawsis/reports.asp?StationID=-739519191
 }
 \keyword{datasets}

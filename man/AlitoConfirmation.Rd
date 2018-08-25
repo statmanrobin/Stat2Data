@@ -1,7 +1,7 @@
 \name{AlitoConfirmation}
 \alias{AlitoConfirmation}
 \docType{data}
-\title{AlitoConfirmation Temporary}
+\title{AlitoConfirmation}
 \description{
 US Senate votes on Samuel Alito confirmation
 }

@@ -1,23 +1,23 @@
 \name{ButterfliesBc}
 \alias{ButterfliesBc}
 \docType{data}
-\title{ButterfliesBc Temporary}
+\title{ButterfliesBc}
 \description{
-ButterfliesBc
+Measurements for a sample of butterflies in Greenland
 }
 \format{
   A data frame with 32 observations on the following 4 variables.
   \describe{
-    \item{\code{Temp}}{a numeric vector}
-    \item{\code{Wing}}{a numeric vector}
-    \item{\code{Sex}}{a factor with levels \code{Female} \code{Male}}
-    \item{\code{Species}}{a factor with levels \code{Bc}}
+    \item{\code{Temp}}{Average temperature for preceding summer (Celsius)}
+    \item{\code{Wing}}{Average wing length (mm)}
+    \item{\code{Sex}}{ \code{Female} or \code{Male}}
+    \item{\code{Species}}{all are \code{Bc}, Boloria chariclea}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Scientists measured wing length of a species of butterfly, Boloria chariclea (Bc), in Greenland each year from 1996 through 2013. They also recorded summer temperatures.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Digitized data from plots in Bowden, J. et al., "High-Arctic butterflies become smaller with rising temperatures", published in Biology Letters 11: 20150574
 }
 \keyword{datasets}

@@ -1,23 +1,28 @@
 \name{CountyHealth}
 \alias{CountyHealth}
 \docType{data}
-\title{CountyHealth Temporary}
+\title{County Health Resources}
 \description{
-CountyHealth
+Medical facilities and doctors in a sample of counties.
 }
 \format{
   A data frame with 53 observations on the following 4 variables.
   \describe{
-    \item{\code{County}}{a factor with levels \code{Bay, FL                             } \code{Beaufort, NC                        } \code{Beaver, PA                          } \code{Bernalillo, NM                      } \code{Bibb, GA                            } \code{Clinton, PA                         } \code{Comanche, TX                        } \code{Concordia, LA                       } \code{Contra Costa, CA                    } \code{Coos, NH                            } \code{Crawford, KS                        } \code{Creek, OK                           } \code{Dona Ana, NM                        } \code{Douglas, OR                         } \code{El Paso, TX                         } \code{Elmore, AL                          } \code{Escambia, FL                        } \code{Fairfield, CT                       } \code{Hamilton, OH                        } \code{Hawaii, HI                          } \code{Hennepin, MN                        } \code{Jefferson, PA                       } \code{Kenai Peninsula, AK                 } \code{Kennebec, ME                        } \code{Kent, MI                            } \code{Labette, KS                         } \code{Linn, IA                            } \code{Linn, OR                            } \code{Macon, NC                           } \code{Mercer, PA                          } \code{Mercer, WV                          } \code{Monmouth, NJ                        } \code{Montgomery, IL                      } \code{Montgomery, MS                      } \code{Nassau, NY                          } \code{New Haven, CT                       } \code{Norfolk, VA                         } \code{Okaloosa, FL                        } \code{Oneida, NY                          } \code{Ottawa, MI                          } \code{Passaic, NJ } \code{Pawnee, OK                          } \code{Pecos, TX                           } \code{Queens, NY                          } \code{Richland, SC                        } \code{Richmond, NC                        } \code{Sandusky, OH                        } \code{Sedgwick, KS                        } \code{Sheboygan, WI                       } \code{Walla Walla, WA                     } \code{Weber, UT                           } \code{Whiteside, IL                       } \code{Windham, CT                         }}
-    \item{\code{MDs}}{a numeric vector}
-    \item{\code{Hospitals}}{a numeric vector}
-    \item{\code{Beds}}{a numeric vector}
+    \item{\code{County}}{County name, state}
+    \item{\code{MDs}}{Number of medical doctors}
+    \item{\code{Hospitals}}{Number of community hospitals}
+    \item{\code{Beds}}{Number of beds in the hospitals}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data compiled from information provided by the American Medical Association on the availability of health care in counties in the United States. A random sample of 53 counties  was chosen from among counties with at least two community hosiptals.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Physicians--American Medical Association, Chicago, IL, Physician Characteristics and Distribution in the U.S., annual (copyright), accessed May 17, 2006. Community hospitals--Health Forum LLC, an American Hospital Association (AHA) Company, Chicago, IL, Hospital Statistics, and unpublished data (copyright), e-mail accessed May 4, 2006 (related Internet site http://www.healthforum.com).
+
+Other web sources: \cr
+http://www.ama-assn.org/
+http://www.healthforum.com/healthforum/html/data_statistics/data_statistics.html
+http://www.cms.hhs.gov http://www.ssa.gov
 }
 \keyword{datasets}

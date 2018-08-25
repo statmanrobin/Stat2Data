@@ -1,24 +1,24 @@
 \name{BirdCalcium}
 \alias{BirdCalcium}
 \docType{data}
-\title{BirdCalcium Temporary}
+\title{BirdCalcium}
 \description{
-BirdCalcium
+Blood calcium levels in birds
 }
 \format{
   A data frame with 20 observations on the following 5 variables.
   \describe{
-    \item{\code{Bird}}{a numeric vector}
-    \item{\code{Sex}}{a factor with levels \code{female} \code{male}}
-    \item{\code{Hormone}}{a factor with levels \code{no} \code{yes}}
-    \item{\code{Group}}{a factor with levels \code{F No} \code{F Yes} \code{M No} \code{M Yes}}
-    \item{\code{Ca}}{a numeric vector}
+    \item{\code{Bird}}{ID number for each bird (1 to 20)}
+    \item{\code{Sex}}{\code{female} or \code{male}}
+    \item{\code{Hormone}}{Treated with hormone (\code{no} or \code{yes})}
+    \item{\code{Group}}{Combined Sex and Hormone (\code{F No}, \code{F Yes}, \code{M No}, or \code{M Yes})}
+    \item{\code{Ca}}{Blood calcium level (mg per 100 ml)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+An experiment looked at the effects of treatment with a hormone for increasing the concentration of calcium in birds.  Twenty birds (robins) were used in the study, ten male and ten female, equally divided between the hormone and no hormone treatments.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Bliss, Chester (1970), Statistics in Biology, McGraw-Hill
 }
 \keyword{datasets}

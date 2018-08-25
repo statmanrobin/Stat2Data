@@ -1,26 +1,25 @@
 \name{BaseballTimes2017}
 \alias{BaseballTimes2017}
 \docType{data}
-\title{BaseballTimes2017 Temporary}
+\title{BaseballTimes2017}
 \description{
-BaseballTimes2017
+Times for one day's major league baseball games
 }
 \format{
   A data frame with 14 observations on the following 7 variables.
   \describe{
-    \item{\code{Game}}{a factor with levels \code{ATL-STL} \code{BAL-OAK} \code{BOS-NYY} \code{CHC-ARI} \code{CIN-MIL} \code{CLE-TBR} \code{COL-MIA} \code{HOU-TEX} \code{KCR-CHW} \code{LAA-SEA} \code{MIN-DET} \code{NYM-PHI} \code{PIT-TOR} \code{SDP-LAD}}
-    \item{\code{League}}{a factor with levels \code{AL} \code{IL} \code{NL}}
-    \item{\code{Runs}}{a numeric vector}
-    \item{\code{Margin}}{a numeric vector}
-    \item{\code{Pitchers}}{a numeric vector}
-    \item{\code{Attendance}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
+    \item{\code{Game}}{MLB teams that played}
+    \item{\code{League}}{\code{AL}=American League, \code{IL}=Interleague, or \code{NL}=National League}
+    \item{\code{Runs}}{Winning margin}
+    \item{\code{Pitchers}}{Number of pitchers used total for two teams}
+    \item{\code{Attendance}}{Announced attendance}
+    \item{\code{Time}}{Time in minutes to play the game}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+ Data from all MLB games played on August 11, 2017. There were no extra-innings game nor any rain delays.
+ }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+https://www.baseball-reference.com/boxes/?month=8&day=11&year=2017
 }
 \keyword{datasets}
