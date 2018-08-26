@@ -1,23 +1,26 @@
 \name{FranticFingers}
 \alias{FranticFingers}
 \docType{data}
-\title{FranticFingers Temporary}
+\title{Finger Tap Rates}
 \description{
-FranticFingers
+Finger tap rates after drug administration
 }
 \format{
   A data frame with 12 observations on the following 4 variables.
   \describe{
-    \item{\code{ID}}{a numeric vector}
-    \item{\code{Rate}}{a numeric vector}
-    \item{\code{Subj}}{a factor with levels \code{A} \code{B} \code{C} \code{D}}
-    \item{\code{Drug}}{a factor with levels \code{Ca} \code{Pl} \code{Th}}
+    \item{\code{ID}}{Case ID}
+    \item{\code{Rate}}{Finger taps in a fixed time interval}
+    \item{\code{Subj}}{Subject code (\code{A}, \code{B}, \code{C}, or \code{D})}
+    \item{\code{Drug}}{Drug administered (\code{Ca}=caffeine, \code{Pl}=placebo, or  \code{Th}=theobromine)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Scientists Scott and Chen published research that compared the effects of caffeine with those of theobromine (a similar chemical found in chocolate) and with those of a placebo. Their experiment used four human subjects and took place over several days. Each day each subject swallowed a tablet containing one of caffeine, theobromine, or the placebo. Two hours later they were timed while tapping a finger in a specified manner (that they had practiced earlier, to control for learning effects). The response is the number
+of taps in a fixed time interval.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+The data was found in Statistics in Biology, Vol. 1, by C. I. Bliss (1967), New York: McGraw Hill.
+
+The original article is Scott, C.C. and Chen, K. K. (1944), "Comparison of the action of 1-ethyl theobromine and caffeine in animals and man,"  Journal of Pharmacological Experimental Therapy, v. 82 (1944), pp 89-97.
 }
 \keyword{datasets}

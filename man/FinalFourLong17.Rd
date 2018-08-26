@@ -1,22 +1,24 @@
 \name{FinalFourLong17}
 \alias{FinalFourLong17}
 \docType{data}
-\title{FinalFourLong17 Temporary}
+\title{NCAA Final Four by Seed (Long Version)}
 \description{
-FinalFourLong17
+NCAA Final Four by seed with individual cases for each team each year
 }
 \format{
-  A data frame with 2496 observations on the following 3 variables.
+  A data frame with 2496 observations on the following 4 variables.
   \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Seed}}{a numeric vector}
-    \item{\code{Final4}}{a numeric vector}
+    \item{\code{Year}}{Year 1979 to 2017}
+    \item{\code{Seed}}{Seed in NCAA men's basketball tournament: 1 to 16}
+    \item{\code{Final4}}{\code{1}=made Final Four or \code{0}=did not make Final Four}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Each year 64 college teams are selected for the NCAA Division I Men's
+Basketball tournament, with 16 teams placed in each of four regions. Within each region the teams are seeded from 1 to 16, with the (presumed) best team as the 1 seed and the (presumed) weakest team as the 16 seed; this practice of seeding teams began in 1979 for the NCAA tournament. Only one team from each region (so four teams each year) advances to the Final Four. This dataset has a row (case) for each team in the NCAA Division I Men's Basketball tournament from 1979 to 2017 along with its seed and an indicator for whether the team made the Final Four that year. This dataset an extention of
+FinalFourLong (that went through 2010).
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Final Four teams and their seed can be found at http://www.championshiphistory.com/ncaahoops.php
 }
 \keyword{datasets}

@@ -1,22 +1,22 @@
 \name{FunnelDrop}
 \alias{FunnelDrop}
 \docType{data}
-\title{FunnelDrop Temporary}
+\title{Funnel Drop Times}
 \description{
-FunnelDrop
+Experiment with a ball swirling thorough a funnel
 }
 \format{
   A data frame with 120 observations on the following 3 variables.
   \describe{
-    \item{\code{Funnel}}{a numeric vector}
-    \item{\code{Tube}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
+    \item{\code{Funnel}}{Height of the funnel (inches)}
+    \item{\code{Tube}}{Height of the drop tube (inches)}
+    \item{\code{Time}}{Time (in seconds) for the ball to drop/swirl though the funnel}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data from a class experiment to see where a steel ball was rolled through a plastic tube into a long plastic funnel.  The angle of the funnel and the angle of the tube with respect to the flat table could be adjusted by changing the height of either (Funnel measured form the table, Tube measured from the top of the funnel).   The ball rolls down the tube, then swirls around the funnel until dropping out at the bottom.  Total trip tm was measured with a stopwatch.  Heights were adjusted after every two drops in a randomized order.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+The funnel dropping experiment was originally described in Gunter, B. (1993) "Through a Funnel Slowly with Ball Bearing and Insight to Teach Experimental Design," The American Statistician, Vol. 47.   These data come from a class experiment based on the setup in that article.
 }
 \keyword{datasets}

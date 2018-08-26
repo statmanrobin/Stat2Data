@@ -1,22 +1,20 @@
 \name{ElephantsFB}
 \alias{ElephantsFB}
 \docType{data}
-\title{ElephantsFB Temporary}
-\description{
-ElephantsFB
+
 }
 \format{
   A data frame with 138 observations on the following 3 variables.
   \describe{
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Height}}{a numeric vector}
-    \item{\code{Firstborn}}{a numeric vector}
+    \item{\code{Age}}{Age (in years)}
+    \item{\code{Height}}{Shoulder height (in cm)}
+    \item{\code{Firstborn}}{Firstborn? (\code{1}=yes, \code{0}=no)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data on 138 male African elephants that lived through droughts in the first two years of life.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data are from Phyllis Lee, Stirling University, and are related to Lee, P., et al. (2013), "Enduring consequences of early experiences: 40-year effects on survival and success among African elephants (Loxodonta Africana)," Biology Letters, 9: 20130011.
 }
 \keyword{datasets}

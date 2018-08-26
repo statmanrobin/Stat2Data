@@ -1,23 +1,23 @@
 \name{DiabeticDogs}
 \alias{DiabeticDogs}
 \docType{data}
-\title{DiabeticDogs Temporary}
+\title{Lactic Acid Turnover in Diabetic Dogs}
 \description{
-DiabeticDogs
+The rate of lactic acid turnover was measured by two methods for normal and diabetic dogs.
 }
 \format{
   A data frame with 20 observations on the following 4 variables.
   \describe{
-    \item{\code{Dog}}{a factor with levels \code{d1} \code{d10} \code{d2} \code{d3} \code{d4} \code{d5} \code{d6} \code{d7} \code{d8} \code{d9}}
-    \item{\code{Method}}{a factor with levels \code{infuse} \code{inject}}
-    \item{\code{Operation}}{a factor with levels \code{no} \code{yes}}
-    \item{\code{Response}}{a numeric vector}
+    \item{\code{Dog}}{Code for individual dogs (\code{d1} through \code{d10})}
+    \item{\code{Method}}{Tracer method to measure response (\code{infuse} or \code{inject})}
+    \item{\code{Operation}}{Pancreas removed to make the dog diabetic? (\code{no} or \code{yes})}
+    \item{\code{Response}}{Rate for biochemical turnover of lactic acid}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Five dogs had their pancreas removed to make them diabetic (Operation=yes), the other five were normal (Operation=no). The rate of turnover of lactic acid was measured for each dog by two methods, infusion and injection.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Forbath, N., A. B. Kenshole, and G. Hetenyi, Jr. (1967),"Turnover lactic acid in normal and diabetic dogs calculated by two tracer methods," Am. J. Physiol. v. 212, pp.1179 - 1183.
 }
 \keyword{datasets}

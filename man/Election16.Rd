@@ -1,27 +1,35 @@
 \name{Election16}
 \alias{Election16}
 \docType{data}
-\title{Election16 Temporary}
+\title{2016 U.S. Presidential Election}
 \description{
-Election16
+2016 presidential election and state demographic data
 }
 \format{
   A data frame with 50 observations on the following 8 variables.
   \describe{
-    \item{\code{State}}{a factor with levels \code{Alabama } \code{Alaska } \code{Arizona } \code{Arkansas } \code{California } \code{Colorado } \code{Connecticut } \code{Delaware } \code{Florida } \code{Georgia } \code{Hawaii } \code{Idaho } \code{Illinois } \code{Indiana } \code{Iowa } \code{Kansas } \code{Kentucky } \code{Louisiana } \code{Maine } \code{Maryland } \code{Massachusetts } \code{Michigan } \code{Minnesota } \code{Mississippi } \code{Missouri } \code{Montana } \code{Nebraska } \code{Nevada } \code{New Hampshire } \code{New Jersey } \code{New Mexico } \code{New York } \code{North Carolina } \code{North Dakota } \code{Ohio } \code{Oklahoma } \code{Oregon } \code{Pennsylvania } \code{Rhode Island } \code{South Carolina } \code{South Dakota } \code{Tennessee } \code{Texas } \code{Utah } \code{Vermont } \code{Virginia } \code{Washington } \code{West Virginia } \code{Wisconsin } \code{Wyoming }}
-    \item{\code{Abr}}{a factor with levels \code{AK} \code{AL} \code{AR} \code{AZ} \code{CA} \code{CO} \code{CT} \code{DE} \code{FL} \code{GA} \code{HI} \code{IA} \code{ID} \code{IL} \code{IN} \code{KS} \code{KY} \code{LA} \code{MA} \code{MD} \code{ME} \code{MI} \code{MN} \code{MO} \code{MS} \code{MT} \code{NC} \code{ND} \code{NE} \code{NH} \code{NJ} \code{NM} \code{NV} \code{NY} \code{OH} \code{OK} \code{OR} \code{PA} \code{RI} \code{SC} \code{SD} \code{TN} \code{TX} \code{UT} \code{VA} \code{VT} \code{WA} \code{WI} \code{WV} \code{WY}}
-    \item{\code{Income}}{a numeric vector}
-    \item{\code{HS}}{a numeric vector}
-    \item{\code{BA}}{a numeric vector}
-    \item{\code{Adv}}{a numeric vector}
-    \item{\code{Dem.Rep}}{a numeric vector}
-    \item{\code{TrumpWin}}{a numeric vector}
+    \item{\code{State}}{State name}
+    \item{\code{Abr}}{Abbreviation for state name}
+    \item{\code{Income}}{Per capita income in the state}
+    \item{\code{HS}}{Percent high school grads}
+    \item{\code{BA}}{Percent college grads}
+    \item{\code{Adv}}{Percent with advanced degrees}
+    \item{\code{Dem.Rep}}{Democratic lean - Republican lean in 2015 Gallup poll}
+    \item{\code{TrumpWin}}{Trump won the state? (\code{1}=yes or \code{0}=no)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset contains information from all 50 states and the District of Columbia for the 2016 U.S. presidential election.  It is similar to Election08 for the 2008 election.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Income data from
+https://www.census.gov/search-results.html?q=per+capita+income+by+state&search.x=0&search.y=0&search=submit&page=1&stateGeo=none&searchtype=web&cssp=SERP
+
+2015 data via American Community Survey
+https://en.wikipedia.org/wiki/List_of_U.S._states_by_educational_attainment
+from Bureau, U.S. Census. "2011-2015 American Community Survey 5-Year Estimates. factfinder.census.gov. Retrieved 2017-01-19.
+
+http://www.gallup.com/poll/188969/red-states-outnumber-blue-first-time-gallup-tracking.aspx
+
 }
 \keyword{datasets}
