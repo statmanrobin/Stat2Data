@@ -1,23 +1,23 @@
 \name{HeatingOil}
 \alias{HeatingOil}
 \docType{data}
-\title{HeatingOil Temporary}
+\title{Heating Oil Consumption}
 \description{
-HeatingOil
+Monthly US residential consumption of fuel oil (1983-2016)
 }
 \format{
   A data frame with 408 observations on the following 4 variables.
   \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Month}}{a numeric vector}
-    \item{\code{t}}{a numeric vector}
-    \item{\code{FuelOil}}{a numeric vector}
+    \item{\code{Year}}{Year (1983 to 2016)}
+    \item{\code{Month}}{Month (1=Jan through 12=Dec)}
+    \item{\code{t}}{Time index (1 to 408)}
+    \item{\code{FuelOil}}{aResidential consumption of fuel oil (in 1,000 barrels/day)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+U.S. residential consumption of distillate fuel oil each month from January 1983 through December 2016.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+U.S. Energy Information Administration website, https://www.eia.gov/totalenergy/data/monthly/index.php
 }
 \keyword{datasets}
