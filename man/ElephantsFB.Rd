@@ -1,8 +1,11 @@
 \name{ElephantsFB}
 \alias{ElephantsFB}
 \docType{data}
-
+\title{Male African Elephants}
+\description{
+Age and height of male African elephants
 }
+
 \format{
   A data frame with 138 observations on the following 3 variables.
   \describe{
