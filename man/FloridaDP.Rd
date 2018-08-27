@@ -19,4 +19,5 @@ Mike Radelet's data on imposition of the death penalty for murderers in Florida 
 }
 \source{
 Radelet, M. (1981), "Racial Characteristics and Imposition of the Death Penalty," American Sociological Review, 46, 918-927.
+}
 \keyword{datasets}
