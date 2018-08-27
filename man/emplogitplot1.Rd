@@ -43,3 +43,9 @@ single quantitative predictor variable.
 \details{
 
 }
+\examples{
+data(MedGPA)
+emplogitplot1(Acceptance~GPA,data=MedGPA)
+
+data(Putts1)
+}

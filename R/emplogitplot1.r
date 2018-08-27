@@ -18,14 +18,14 @@
 #' single quantitative predictor variable.
 #' @details
 #'
-# @examples
-# data(MedGPA)
-# emplogitplot1(Acceptance~GPA,data=MedGPA)
-# GroupTable=emplogitplot1(Acceptance~MCAT,ngroups=5,out=TRUE,data=MedGPA)
-# emplogitplot1(Acceptance~MCAT,data=MedGPA,breaks=c(0,34.5,39.5,50.5),dotcol="red",linecol="black")
-#
-# data(Putts1)
-# emplogitplot1(Made~Length,data=Putts1,ngroups="all")
+#' @examples
+#' data(MedGPA)
+#' emplogitplot1(Acceptance~GPA,data=MedGPA)
+# 'GroupTable=emplogitplot1(Acceptance~MCAT,ngroups=5,out=TRUE,data=MedGPA)
+# 'emplogitplot1(Acceptance~MCAT,data=MedGPA,breaks=c(0,34.5,39.5,50.5),dotcol="red",linecol="black")
+#'
+#' data(Putts1)
+# 'emplogitplot1(Made~Length,data=Putts1,ngroups="all")
 
 emplogitplot1=function(formula,data=NULL,ngroups=3,breaks=NULL,
                        yes=NULL,padj=TRUE,out=FALSE,showplot=TRUE,showline=TRUE,
@@ -48,11 +48,11 @@ emplogitplot1=function(formula,data=NULL,ngroups=3,breaks=NULL,
   }
   ngroups=length(breaks)-1
   newdata$XGroups=cut(newdata$X,breaks=breaks,labels=1:ngroups)
-  Cases=as.numeric(mosaic::tally(~XGroups,data=newdata))
-  XMean=as.numeric(mosaic::mean(X~XGroups,data=newdata))
-  XMin=as.numeric(mosaic::min(X~XGroups,data=newdata))
-  XMax=as.numeric(mosaic::max(X~XGroups,data=newdata))
-  NumYes=as.numeric(mosaic::sum((Y==yes)~XGroups,data=newdata))
+  Cases=as.numeric(table(newdata$XGroups))
+  XMean=as.numeric(aggregate(X~XGroups,data=newdata,mean)$X)
+  XMin=as.numeric(aggregate(X~XGroups,data=newdata,min)$X)
+  XMax=as.numeric(aggregate(X~XGroups,data=newdata,max)$X)
+  NumYes=as.numeric(table(newdata$Y,newdata$XGroups)[yes,])
   Prop=round(NumYes/Cases,3)
   AdjProp=round((NumYes+0.5)/(Cases+1),3)
   Logit=as.numeric(log(AdjProp/(1-AdjProp)))
