@@ -1,24 +1,25 @@
 \name{Airlines}
 \alias{Airlines}
 \docType{data}
-\title{Airlines Temporary}
+\title{Airlines Ontime Records}
 \description{
-Airlines
+Ontime arrivals for American and Delta airlines at LaGuardia and O'Hare airports
 }
 \format{
   A data frame with 10333 observations on the following 5 variables.
   \describe{
-    \item{\code{airline}}{a factor with levels \code{American} \code{Delta}}
-    \item{\code{airport}}{a factor with levels \code{LGA} \code{ORD}}
-    \item{\code{OnTime}}{a factor with levels \code{no} \code{yes}}
-    \item{\code{IndOHare}}{a numeric vector}
-    \item{\code{IndDelta}}{a numeric vector}
-  }
+    \item{\code{airline}}{\code{American} or \code{Delta}}
+    \item{\code{airport}}{ \code{LGA}=LaGuardia \code{ORD}=O'Hare}
+    \item{\code{OnTime}}{ \code{no} or \code{yes}}
+    \item{\code{IndOHare}}{Is the airport ORD? (\code{1}=yes or \code{0}=no) }
+    \item{\code{IndDelta}}{Is the airport LGA}
+    }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Ontime/late data for individual flights to LaGuardia and O'Hare airports by American and Delta airlines.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data collected on 9/20/16 from
+http://www.transtats.bts.gov/ot_delay/OT_DelayCause1.asp?pn=1
 }
 \keyword{datasets}

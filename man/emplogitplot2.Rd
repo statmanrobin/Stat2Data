@@ -2,7 +2,7 @@
 % Please edit documentation in R/emplogitplot2.r
 \name{emplogitplot2}
 \alias{emplogitplot2}
-\title{Empirical logit plot for one quantitative variable}
+\title{Empirical logit plot for one quantitative variable by categorical groups}
 \usage{
 emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
   yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,

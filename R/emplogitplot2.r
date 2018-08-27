@@ -1,4 +1,4 @@
-#' Empirical logit plot for one quantitative variable
+#' Empirical logit plot for one quantitative variable by categorical groups
 #'
 #' @param formula A formula of the form (binary) Response~Quantitative Predictor+Factor
 #' @param data A dataframe
