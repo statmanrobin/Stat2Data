@@ -6,9 +6,9 @@
 \usage{
 emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
   yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,
-  showline = TRUE, ylab = "Log(Odds)", xlab = NULL, putlegend = "n",
-  levelcol = NULL, pch = NULL, main = "", ylim = NULL, xlim = NULL,
-  lty = NULL, lwd = 1, cex = 1)
+  showline = TRUE, ylab = "Log(Odds)", xlab = NULL,
+  putlegend = "n", levelcol = NULL, pch = NULL, main = "",
+  ylim = NULL, xlim = NULL, lty = NULL, lwd = 1, cex = 1)
 }
 \arguments{
 \item{formula}{A formula of the form (binary) Response~Quantitative Predictor+Factor}
@@ -46,4 +46,13 @@ single quantitative predictor variable broken down by a single categorical facto
 }
 \details{
 
+}
+\examples{
+data(MedGPA)
+emplogitplot2(Acceptance~GPA+Sex,data=MedGPA)
+
+GroupTable2=emplogitplot2(Acceptance~MCAT+Sex,ngroups=5,out=TRUE,data=MedGPA,putlegend="topleft")
+
+emplogitplot2(Acceptance~MCAT+Sex,data=MedGPA,breaks=c(0,34.5,39.5,50.5),
+              levelcol=c("red","blue"),putlegend="bottomright")
 }

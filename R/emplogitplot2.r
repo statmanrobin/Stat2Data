@@ -20,14 +20,16 @@
 #' single quantitative predictor variable broken down by a single categorical factor.
 #' @details
 #'
-# @examples
-# data(MedGPA)
-# emplogitplot1(Acceptance~GPA,data=MedGPA)
-# GroupTable=emplogitplot1(Acceptance~MCAT,ngroups=5,out=TRUE,data=MedGPA)
-# emplogitplot1(Acceptance~MCAT,data=MedGPA,breaks=c(0,34.5,39.5,50.5),dotcol="red",linecol="black")
+#' @examples
+#' data(MedGPA)
+#' emplogitplot2(Acceptance~GPA+Sex,data=MedGPA)
+#'
+#' GroupTable2=emplogitplot2(Acceptance~MCAT+Sex,ngroups=5,out=TRUE,data=MedGPA,putlegend="topleft")
+#'
+#' emplogitplot2(Acceptance~MCAT+Sex,data=MedGPA,breaks=c(0,34.5,39.5,50.5),
+#'               levelcol=c("red","blue"),putlegend="bottomright")
 #
-# data(Putts1)
-# emplogitplot1(Made~Length,data=Putts1,ngroups="all")
+
 
 emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
                        yes=NULL,padj=TRUE,out=FALSE,showplot=TRUE,showline=TRUE,
@@ -53,7 +55,7 @@ emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
   numlevels=length(Zlevels)
   FactorData=NULL
   for (i in Zlevels){
-    NewLevel=cbind(Factor=i,emplogitplot1(Y~X,breaks=breaks,data=filter(newdata,Z==i),padj=padj,out=TRUE,showplot=FALSE))
+    NewLevel=cbind(Factor=i,emplogitplot1(Y~X,breaks=breaks,data=subset(newdata,Z==i),padj=padj,out=TRUE,showplot=FALSE))
     FactorData=rbind(FactorData,NewLevel)
   }
   #Set up plot symbols if needed
@@ -64,7 +66,7 @@ emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
   if(showplot){
     plot(Logit~XMean,data=FactorData,type="n",ylab=ylab,ylim=ylim,xlim=xlim,xlab=xlab,cex=cex,main=main)
     for (i in 1:numlevels){
-      Sub=filter(FactorData,Factor==Zlevels[i])
+      Sub=subset(FactorData,Factor==Zlevels[i])
       points(Sub$XMean,Sub$Logit,pch=pch[i],col=levelcol[i],cex=cex)
       if(showline){abline(lm(Logit~XMean,data=Sub),col=levelcol[i],lty=lty[i],lwd=lwd)}
     }
@@ -72,6 +74,6 @@ emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
       legend(putlegend,legend=Zlevels,col=levelcol,lty=lty,title=oldnames[3])
       }
     }
-  
+
   if(out){return(FactorData)}
 }

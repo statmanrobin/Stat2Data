@@ -6,9 +6,9 @@
 \usage{
 emplogitplot1(formula, data = NULL, ngroups = 3, breaks = NULL,
   yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,
-  showline = TRUE, ylab = "Log(Odds)", xlab = NULL, dotcol = "black",
-  linecol = "blue", pch = 16, main = "", ylim = NULL, xlim = NULL,
-  lty = 1, lwd = 1, cex = 1)
+  showline = TRUE, ylab = "Log(Odds)", xlab = NULL,
+  dotcol = "black", linecol = "blue", pch = 16, main = "",
+  ylim = NULL, xlim = NULL, lty = 1, lwd = 1, cex = 1)
 }
 \arguments{
 \item{formula}{A formula of the form (binary) Response~Predictor}
