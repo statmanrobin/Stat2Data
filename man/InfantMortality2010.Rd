@@ -1,16 +1,15 @@
 \name{InfantMortality2010}
 \alias{InfantMortality2010}
 \docType{data}
-\title{InfantMortality2010}
+\title{Infant Mortality Rates}
 \description{
-Infant mortality rates in the United States (1920-2010)
+Infant mortality rates in the United States by decade (1920-2010)
 }
-%\useage{data(InfantMortality2010)}
 \format{
   A dataset with 10 observations on the following 2 variables.
-  \tabular{rl}{
-    \code{Mortality} \tab {Deaths witin one year of birth (per 1000 births}\cr
-    \code{Year} \tab {1920-2010 (by decades)}\cr
+  \describe{
+    \item{\code{Mortality}}{Deaths within one year of birth (per 1000 births}
+    \item{\code{Year}}{Year (1920-2010 by decades)}
   }
 }
 \details{
