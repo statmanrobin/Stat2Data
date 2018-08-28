@@ -1,22 +1,22 @@
 \name{LewyBody2Groups}
 \alias{LewyBody2Groups}
 \docType{data}
-\title{LewyBody2Groups Temporary}
+\title{Lewy Bodies and Dimentia}
 \description{
-LewyBody2Groups
+Dementia study comparing two groups of patients
 }
 \format{
   A data frame with 39 observations on the following 3 variables.
   \describe{
-    \item{\code{Type}}{a factor with levels \code{DLB} \code{DLB/AD}}
-    \item{\code{APC}}{a numeric vector}
-    \item{\code{MMSE}}{a numeric vector}
+    \item{\code{Type}}{\code{DLB}=Dementia with Lewy Bodies or \code{DLB/AD}=DLB and Alzheimer's Disease}
+    \item{\code{APC}}{Annualized Percentage Change from baseline volume of the brain}
+    \item{\code{MMSE}}{Change in functional performance on the Mini Mental State Examination}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies, some of whom also were diagnosed with Alzheimer’s Disease.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Z. Nedelksa et al. (2015), "Pattern of brain atrophy rates in autopsy-confirmed dementia with Lewy bodies,"" Neurobiology of Aging, 36: 452-461.
 }
 \keyword{datasets}
