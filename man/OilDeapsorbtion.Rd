@@ -1,23 +1,23 @@
 \name{OilDeapsorbtion}
 \alias{OilDeapsorbtion}
 \docType{data}
-\title{OilDeapsorbtion Temporary}
+\title{Effect of Unltrasound on Oil Deapsorbtion}
 \description{
-OilDeapsorbtion
+Experiment to measure effect of ultrasound on deapsorbing oil from sand
 }
 \format{
   A data frame with 40 observations on the following 4 variables.
   \describe{
-    \item{\code{Salt}}{a numeric vector}
-    \item{\code{Ultra}}{a numeric vector}
-    \item{\code{Oil}}{a numeric vector}
-    \item{\code{Diff}}{a numeric vector}
+    \item{\code{Salt}}{\code{1}=salt water or \code{0}=distilled water}
+    \item{\code{Ultra}}{Amount of time each sample was exposed to ultrasound (5 or 10 minutes)}
+    \item{\code{Oil}}{Amount of oil in the sample either (5ml or 10 ml)}
+    \item{\code{Diff}}{Difference of oil remaining compared to an equivalent control run (no ultrasound)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This data set is the result of a science fair experiment run by a high school student.  The basic question was whether exposing sand with oil in it (think oil spill) to ultrasound could help the oil deapsorb from it better than sand that was not exposed to ultrasound.  There were two levels of ultrasound tested (5 minutes and 10 minutes) and two levels of oil (5 ml and 10 ml).  There was also a question of whether exposure to salt water or fresh water made a difference so half the samples had salt water, the others distilled water.  Each combination of factor levels was replicated 5 times.  There were also an equivalent number of control observations run, all factors being the same but without any exposure to ultrasound.  Each experimental run was paired with an appropriate control run and the response variable is the difference in the amount of oil left (control minus experimental).
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Experiment run by Las Vegas high school student Chris Mathews for a science fair project in spring 2016.
 }
 \keyword{datasets}

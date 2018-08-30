@@ -1,23 +1,25 @@
 \name{Meniscus}
 \alias{Meniscus}
 \docType{data}
-\title{Meniscus Temporary}
+\title{Meniscus Repair Methods}
 \description{
-Meniscus
+Comparing meniscus repair methods on cadever knees
 }
 \format{
   A data frame with 18 observations on the following 4 variables.
   \describe{
-    \item{\code{Method}}{a numeric vector}
-    \item{\code{FailureLoad}}{a numeric vector}
-    \item{\code{Displacement}}{a numeric vector}
-    \item{\code{Stiffness}}{a numeric vector}
+    \item{\code{Method}}{Meniscus repair method (\code{1} = Vertical Suture, \code{2} = Meniscus Arrow, \code{3} = FasT-Fix)}
+    \item{\code{FailureLoad}}{Load at failure (in Newtons)}
+    \item{\code{Displacement}}{Displacment (in mm)}
+    \item{\code{Stiffness}}{Stiffness (Newtons/mm)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Eightteen, lightly embalmed, cadaveric knee specimens were used in a study to compare three different methods of meniscus repair.  The specimens were randomly assigned to one of the three treatments: vertical suture, meniscus arrow, FasT-Fix.  They were evaluated on three different response variables: load at failure, stiffness, and displacement.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+P. Borden, J. Nyland, D.N.M. Caborn, D. Pienkowski (2003), "Biomechanical Comparison of the FasT-Fix Meniscal Repair Suture System with Vertical Mattress Sutures and Meniscus Arrows," The American Journal of Sports Medicine, Vol. 31, #3, pp. 374-378
+
+Dataset downloaded from http://www.stat.ufl.edu/~winner/data/meniscus.txt
 }
 \keyword{datasets}

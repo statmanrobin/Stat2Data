@@ -1,23 +1,23 @@
 \name{Putts3}
 \alias{Putts3}
 \docType{data}
-\title{Putts3 Temporary}
+\title{Hypothetical Putting Data (Short Form)}
 \description{
-Putts3
+Hypothetical putting results for a golfing statistician
 }
 \format{
   A data frame with 5 observations on the following 4 variables.
   \describe{
-    \item{\code{Length}}{a numeric vector}
-    \item{\code{Made}}{a numeric vector}
-    \item{\code{Missed}}{a numeric vector}
-    \item{\code{Trials}}{a numeric vector}
+    \item{\code{Length}}{Length of the attempted putt (in feet)}
+    \item{\code{Made}}{Number of putts made at this length}
+    \item{\code{Missed}}{Number of putts missed at this length}
+    \item{\code{Trials}}{Total number of putts attempted at this length}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This is a hypothetical revision of the table of putting succcess in Putts2 that helps demonstrate overdispersion.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Modified from personal observations by one of the Stat2 authors.
 }
 \keyword{datasets}

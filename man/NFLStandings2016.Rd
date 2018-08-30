@@ -1,30 +1,31 @@
 \name{NFLStandings2016}
 \alias{NFLStandings2016}
 \docType{data}
-\title{NFLStandings2016 Temporary}
+\title{NFL Standings for 2016 Regular Season}
 \description{
-NFLStandings2016
+Standings and team statistics for National Football League (NFL) teams in the 2016 season
 }
 \format{
   A data frame with 32 observations on the following 11 variables.
   \describe{
-    \item{\code{Team}}{a factor with levels \code{Arizona Cardinals} \code{Atlanta Falcons} \code{Baltimore Ravens} \code{Buffalo Bills} \code{Carolina Panthers} \code{Chicago Bears} \code{Cincinnati Bengals} \code{Cleveland Browns} \code{Dallas Cowboys} \code{Denver Broncos} \code{Detroit Lions} \code{Green Bay Packers} \code{Houston Texans} \code{Indianapolis Colts} \code{Jacksonville Jaguars} \code{Kansas City Chiefs} \code{Los Angeles Rams} \code{Miami Dolphins} \code{Minnesota Vikings} \code{New England Patriots} \code{New Orleans Saints} \code{New York Giants} \code{New York Jets} \code{Oakland Raiders} \code{Philadelphia Eagles} \code{Pittsburgh Steelers} \code{San Diego Chargers} \code{San Francisco 49ers} \code{Seattle Seahawks} \code{Tampa Bay Buccaneers} \code{Tennessee Titans} \code{Washington Redskins}}
-    \item{\code{Wins}}{a numeric vector}
-    \item{\code{Losses}}{a numeric vector}
-    \item{\code{Ties}}{a numeric vector}
-    \item{\code{WinPct}}{a numeric vector}
-    \item{\code{PointsFor}}{a numeric vector}
-    \item{\code{PointsAgainst}}{a numeric vector}
-    \item{\code{NetPts}}{a numeric vector}
-    \item{\code{YardsFor}}{a numeric vector}
-    \item{\code{YardsAgainst}}{a numeric vector}
-    \item{\code{TDs}}{a numeric vector}
+    \item{\code{Team}}{Team name}
+    \item{\code{Wins}}{Wins in the 2016 regular season (out of 16 games)}
+    \item{\code{Losses}}{Losses in the 2016 regular season}
+    \item{\code{Ties}}{Ties in the 2016 regular season (ties are very rare in the NFL)}
+    \item{\code{WinPct}}{Winning percentage = (Wins+0.5*Ties)/16 games}
+    \item{\code{PointsFor}}{Points scored}
+    \item{\code{PointsAgainst}}{Points allowed}
+    \item{\code{NetPts}}{Points scored minus Point allowed}
+    \item{\code{YardsFor}}{Offensive yards gained by the team}
+    \item{\code{YardsAgainst}}{Offensive yards against the team}
+    \item{\code{TDs}}{Touchdowns scored}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Standings for the 2016 regular season of the National Football League (NFL) along with points and scored and allowed for each team in its16 games.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data downloaded from: \cr
+http://www.pro-football-reference.com/years/2016/
 }
 \keyword{datasets}

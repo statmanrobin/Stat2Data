@@ -14,11 +14,11 @@ Factors relating to Mississippi River levee failure
     \item{\code{Sediments}}{Sediments present? (\code{1}=yes or \code{0}=no)}
     \item{\code{BorrowPit}}{Borrow pit present? (\code{1}=yes or \code{0}=no)}
     \item{\code{Meander}}{Type of meander (\code{1}=inside bend, \code{2}=outside bend, \code{3}=chute, \code{4}=straight)}
-    \item{\code{ChannelWidth}}{Width of the river channel}
-    \item{\code{FloodwayWidth}}{Width of floodway (levee to levee, levee to bluff, or bluff to bluff, as appropriate)}
+    \item{\code{ChannelWidth}}{Width of the river channel (in meters)}
+    \item{\code{FloodwayWidth}}{Width of floodway (in meters, levee to levee, levee to bluff, or bluff to bluff, as appropriate)}
     \item{\code{ConstrictionFactor}}{Constriction of the floodway over time (1880s to present)}
     \item{\code{LandCover}}{\code{1}=open water, \code{2}=grassy, \code{3}=agricultural, \code{4}=forest}
-    \item{\code{VegWidth}}{Vegative buffer width}
+    \item{\code{VegWidth}}{Vegative buffer width (in meters)}
     \item{\code{Sinuosity}}{River length divided by valley length for 10 miles up- and down-valley from levee site}
     \item{\code{Dredging}}{Dredging intensity}
     \item{\code{Revetement}}{Is there a stone structure (wall) meant to hold up the bank?  (\code{1}=yes or \code{0}=no)}

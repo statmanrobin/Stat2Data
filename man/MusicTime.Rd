@@ -1,25 +1,25 @@
 \name{MusicTime}
 \alias{MusicTime}
 \docType{data}
-\title{MusicTime Temporary}
+\title{Estimating Time with Different Music Playing}
 \description{
-MusicTime
+Estimates of 45 seconds with different music playing
 }
 \format{
   A data frame with 60 observations on the following 6 variables.
   \describe{
-    \item{\code{MusicBg}}{a factor with levels \code{no} \code{yes}}
-    \item{\code{Subject}}{a factor with levels \code{subj1} \code{subj10} \code{subj11} \code{subj12} \code{subj13} \code{subj14} \code{subj15} \code{subj16} \code{subj17} \code{subj18} \code{subj19} \code{subj2} \code{subj20} \code{subj3} \code{subj4} \code{subj5} \code{subj6} \code{subj7} \code{subj8} \code{subj9}}
-    \item{\code{Sex}}{a factor with levels \code{f} \code{m}}
-    \item{\code{TimeGuess}}{a numeric vector}
-    \item{\code{Music}}{a factor with levels \code{calm} \code{control} \code{upbeat}}
-    \item{\code{Accuracy}}{a numeric vector}
+    \item{\code{MusicBg}}{Music playing in the background (\code{no} or \code{yes})}
+    \item{\code{Subject}}{Code for each subject (\code{subj1} through \code{subj20})}
+    \item{\code{Sex}}{Subject's sex (\code{f}=female or \code{m}=male)}
+    \item{\code{TimeGuess}}{Subject's time estimating 45 seconds (in seconds)}
+    \item{\code{Music}}{Type of music (\code{calm}, \code{control}, or \code{upbeat})}
+    \item{\code{Accuracy}}{Absolute value of TimeGuess minus 45}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Participants were asked to judge when 45 seconds had passed in silence (control), while listening to an upbeat song (Metropolis, by David Guetta and Nicky Romero), and while listening to a calm song (Bach's Das Wohltemperierte Klavier, Prelude in C Major). The order in which the three conditions were experienced was randomized for each participant.  Time until subject guessed 45 seconds had elapsed (TimeGuess) and the magnitude of the difference from 45 (Accuracy) were recorded.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data collected by Ksenia Vlasov at Oberlin College.
 }
 \keyword{datasets}
