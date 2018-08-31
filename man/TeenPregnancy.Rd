@@ -1,23 +1,23 @@
 \name{TeenPregnancy}
 \alias{TeenPregnancy}
 \docType{data}
-\title{TeenPregnancy Temporary}
+\title{State Teen Pregnancy Rates}
 \description{
-TeenPregnancy
+State teen pregnancy rates, Civil War participation, and church atendance.
 }
 \format{
   A data frame with 50 observations on the following 4 variables.
   \describe{
-    \item{\code{State}}{a factor with levels \code{AK} \code{AL} \code{AR} \code{AZ} \code{CA} \code{CO} \code{CT} \code{DE} \code{FL} \code{GA} \code{HI} \code{IA} \code{ID} \code{IL} \code{IN} \code{KS} \code{KY} \code{LA} \code{MA} \code{MD} \code{ME} \code{MI} \code{MN} \code{MO} \code{MS} \code{MT} \code{NC} \code{ND} \code{NE} \code{NH} \code{NJ} \code{NM} \code{NV} \code{NY} \code{OH} \code{OK} \code{OR} \code{PA} \code{RI} \code{SC} \code{SD} \code{TN} \code{TX} \code{UT} \code{VA} \code{VT} \code{WA} \code{WI} \code{WV} \code{WY}}
-    \item{\code{CivilWar}}{a factor with levels \code{B} \code{C} \code{O} \code{U}}
-    \item{\code{Church}}{a numeric vector}
-    \item{\code{Teen}}{a numeric vector}
+    \item{\code{State}}{State abbreviation}
+    \item{\code{CivilWar}}{Role in Civil War (\code{B}=border, \code{C}=Confederate, \code{O}=other, or \code{U}=union)}
+    \item{\code{Church}}{Percentage in state survey who attended church in previous week}
+    \item{\code{Teen}}{Number of pregnancies per 1000 teenage girls in state}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+State level data on teen pregnancies, church attendance, and role in the U.S. Civil War.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+2010 teen pregnancy rate, per 1000 teenage women, per year.  Source:  Guttmacher Institute, via Tanya Lewis (5 May 2014) 'Teen pregnancy rates by state," https://www.livescience.com
 }
 \keyword{datasets}

@@ -13,7 +13,7 @@ DataSets for Stat2 Textbook (by Cannon, et. al.)
 Package: \tab Stat2Data\cr
 Type: \tab Package\cr
 Version: \tab 2.0\cr
-Date: \tab 2018-08-11\cr
+Date: \tab 2018-08-31\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }

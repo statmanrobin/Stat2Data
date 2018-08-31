@@ -1,26 +1,26 @@
 \name{ThreeCars2017}
 \alias{ThreeCars2017}
 \docType{data}
-\title{ThreeCars2017 Temporary}
+\title{Price, Age, and Mileage of Three Used car Models}
 \description{
-ThreeCars2017
+Data from cars.com for a samples of three different cars
 }
 \format{
   A data frame with 90 observations on the following 7 variables.
   \describe{
-    \item{\code{CarType}}{a factor with levels \code{Accord} \code{Maxima} \code{Mazda6}}
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Price}}{a numeric vector}
-    \item{\code{Mileage}}{a numeric vector}
-    \item{\code{Mazda6}}{a numeric vector}
-    \item{\code{Accord}}{a numeric vector}
-    \item{\code{Maxima}}{a numeric vector}
+    \item{\code{CarType}}{Model (\code{Accord}, \code{Maxima}, or \code{Mazda6})}
+    \item{\code{Age}}{Age of used car (years)}
+    \item{\code{Price}}{Price (in thousands of dollars)}
+    \item{\code{Mileage}}{Mileage (in thousands of miles)}
+    \item{\code{Mazda6}}{Is the car a Mazda6? (\code{1}=yes or \code{0}=no)}
+    \item{\code{Accord}}{Is the car an Accord? (\code{1}=yes or \code{0}=no)}
+    \item{\code{Maxima}}{Is the car a Maxima? (\code{1}=yes or \code{0}=no)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data for a sample of cars from three models (Mazda6, Honda Accord, Toyota Maxima) from a website. The dataset AccordPrice is a subset of this file.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data obtained from cars.com, February 2017 using zip code 44107, Lakewood, Ohio.
 }
 \keyword{datasets}

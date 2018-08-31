@@ -1,24 +1,24 @@
 \name{Rectangles}
 \alias{Rectangles}
 \docType{data}
-\title{Rectangles Temporary}
+\title{Measurements of Rectangles}
 \description{
-Rectangles
+Measurements for a hypothetical set of nine rectangles.
 }
 \format{
   A data frame with 9 observations on the following 5 variables.
   \describe{
-    \item{\code{Case}}{a numeric vector}
-    \item{\code{Width}}{a numeric vector}
-    \item{\code{Length}}{a numeric vector}
-    \item{\code{Area}}{a numeric vector}
-    \item{\code{logArea}}{a numeric vector}
+    \item{\code{Case}}{ID number for each rectangle}
+    \item{\code{Width}}{Width (1, 4, or 10)}
+    \item{\code{Length}}{Length (1, 4, or 10)}
+    \item{\code{Area}}{Area}
+    \item{\code{logArea}}{Log (base 10) of area}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Areas for rectangles of width 1, 4, or 10 and length of 1, 4, or 10.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Areas computed for a hypothetical set of rectangles.
 }
 \keyword{datasets}

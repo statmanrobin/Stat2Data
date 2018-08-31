@@ -1,30 +1,30 @@
 \name{WordsWithFriends}
 \alias{WordsWithFriends}
 \docType{data}
-\title{WordsWithFriends Temporary}
+\title{Words with Friends Scores}
 \description{
-WordsWithFriends
+Results from online game Words with Friends, from solo play
 }
 \format{
   A data frame with 444 observations on the following 11 variables.
   \describe{
-    \item{\code{Points}}{a numeric vector}
-    \item{\code{OppPoints}}{a numeric vector}
-    \item{\code{WinMargin}}{a numeric vector}
-    \item{\code{Start}}{a factor with levels \code{first} \code{pass}}
-    \item{\code{Ss}}{a numeric vector}
-    \item{\code{BlanksNumber}}{a numeric vector}
-    \item{\code{J}}{a numeric vector}
-    \item{\code{Q}}{a numeric vector}
-    \item{\code{X}}{a numeric vector}
-    \item{\code{Z}}{a numeric vector}
-    \item{\code{Blanks}}{a factor with levels \code{0blanks} \code{1blank} \code{2blanks}}
+    \item{\code{Points}}{Number of points scored by the author}
+    \item{\code{OppPoints}}{Number of points scored by opponent ("solo")}
+    \item{\code{WinMargin}}{Points minus OppPoints, so margin of victory (or loss)}
+    \item{\code{Start}}{Did the author go first or pass? (\code{first} or \code{pass})}
+    \item{\code{Ss}}{Number of S tiles (0 to 5)}
+    \item{\code{BlanksNumber}}{Number of Blank tiles (0 to 2)}
+    \item{\code{J}}{Did the author get the J tile? (\code{1}=yes, \code{0}=no)}
+    \item{\code{Q}}{Did the author get the Q tile? (\code{1}=yes, \code{0}=no)}
+    \item{\code{X}}{Did the author get the X tile? (\code{1}=yes, \code{0}=no)}
+    \item{\code{Z}}{Did the author get the Z tile? (\code{1}=yes, \code{0}=no)}
+    \item{\code{Blanks}}{Number of Blank tiles (\code{0blanks}, \code{1blank}, or \code{2blanks})}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Results collected fomr one of the authors playing the "solo" mode of Words with Friends.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Author's iPhone
 }
 \keyword{datasets}

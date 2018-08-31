@@ -1,22 +1,22 @@
 \name{Undoing}
 \alias{Undoing}
 \docType{data}
-\title{Undoing Temporary}
+\title{Defense of Undoing OCD Symptoms in Psychotherapy}
 \description{
-Undoing
+Ratings of an OCD symptom in psychotherapy sessions
 }
 \format{
   A data frame with 44 observations on the following 3 variables.
   \describe{
-    \item{\code{Group}}{a factor with levels \code{I} \code{II} \code{III} \code{IV} \code{V} \code{VI}}
-    \item{\code{Score}}{a numeric vector}
-    \item{\code{Symbol}}{a numeric vector}
+    \item{\code{Group}}{Time frame of the session  (\code{I}=early through \code{VI}=late)}
+    \item{\code{Score}}{Rating of OCD symptom on a 1 to 4 scale}
+    \item{\code{Symbol}}{Indicator for groups I, III, and IV}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptoms (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed, reached until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Sampson, Harold, Joseph Weiss, L. Mlodansky, and Edward Hause (1972) "Defense analysis and the emergence of warded off mental contents," Archives of General Psychiatry, v. 26, pp. 524-532.
 }
 \keyword{datasets}

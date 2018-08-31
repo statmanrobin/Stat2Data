@@ -1,23 +1,23 @@
 \name{SleepingShrews}
 \alias{SleepingShrews}
 \docType{data}
-\title{SleepingShrews Temporary}
+\title{Shrew Heart Rates at Stages of Sleep}
 \description{
-SleepingShrews
+Heart rates for a sample of six tree shrews at each of three stages of sleep.
 }
 \format{
   A data frame with 18 observations on the following 4 variables.
   \describe{
-    \item{\code{ID}}{a numeric vector}
-    \item{\code{Shrew}}{a factor with levels \code{A} \code{B} \code{C} \code{D} \code{E} \code{F}}
-    \item{\code{Phase}}{a factor with levels \code{DSW} \code{LSW} \code{REM}}
-    \item{\code{Rate}}{a numeric vector}
+    \item{\code{ID}}{Row ID}
+    \item{\code{Shrew}}{Shrew ID (\code{A} through \code{F})}
+    \item{\code{Phase}}{Phase of sleep  (\code{DSW}=deep wave, \code{LSW}=light wave, or \code{REM}=dreaming)}
+    \item{\code{Rate}}{Heart rate (beats per minute)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Heart rates were recorded for a sample of six tree shrews at each of three stages of sleep.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+??
 }
 \keyword{datasets}

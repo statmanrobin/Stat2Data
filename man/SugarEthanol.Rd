@@ -1,22 +1,22 @@
 \name{SugarEthanol}
 \alias{SugarEthanol}
 \docType{data}
-\title{SugarEthanol Temporary}
+\title{Sugar Metabolism}
 \description{
-SugarEthanol
+Effects of oxygen on sugar metabolism
 }
 \format{
   A data frame with 16 observations on the following 3 variables.
   \describe{
-    \item{\code{Sugar}}{a factor with levels \code{Galactose} \code{Glucose}}
-    \item{\code{Oxygen}}{a numeric vector}
-    \item{\code{Ethanol}}{a numeric vector}
+    \item{\code{Sugar}}{Type of sugar  (\code{Galactose} or \code{Glucose})}
+    \item{\code{Oxygen}}{Oxygen concentration}
+    \item{\code{Ethanol}}{Ethanol concentration}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Many biochemical reactions are slowed or prevented by the presence of oxygen. For example, there are two simple forms of fermentation, one which converts each molecule of sugar to two molecules of lactic acid, and a second which converts each molecule of sugar to one each of lactic acid, ethanol, and carbon dioxide. This experiment was designed to compare the inhibiting effect of oxygen on the metabolism of two different sugars, glucose and galactose, by Streptococcus bacteria. In this case there were four levels of oxygen that were applied to the two kinds of sugar.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data are found in Statistics: The Exploration and Analysis of Data by Jay Devore and Roxy Peck (1960). St. Paul, MN: West.  The original article is "Effects of oxygen concentration on pyruvate formatelyase in situ and sugar metabolism of Streptocucoccus mutans and Streptococcus samguis," Infection and Immunity, pp. 129-134
 }
 \keyword{datasets}

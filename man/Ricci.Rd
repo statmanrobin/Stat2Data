@@ -1,24 +1,26 @@
 \name{Ricci}
 \alias{Ricci}
 \docType{data}
-\title{Ricci Temporary}
+\title{Firefighter Promotion Exam Scores}
 \description{
-Ricci
+Data on firefighter promotion exams as part of the Ricci v. DeStafano court case
 }
 \format{
   A data frame with 118 observations on the following 5 variables.
   \describe{
-    \item{\code{Race}}{a factor with levels \code{B} \code{H} \code{W}}
-    \item{\code{Position}}{a factor with levels \code{Captain} \code{Lieutenant}}
-    \item{\code{Oral}}{a numeric vector}
-    \item{\code{Written}}{a numeric vector}
-    \item{\code{Combine}}{a numeric vector}
+    \item{\code{Race}}{Race of firefighter (\code{B}=black,  \code{H}=Hispanic, or \code{W}=white)}
+    \item{\code{Position}}{Promotion desired (\code{Captain} or \code{Lieutenant})}
+    \item{\code{Oral}}{Oral exam score}
+    \item{\code{Written}}{Written exam score}
+    \item{\code{Combine}}{Combined score (written exam gets 60\% weight)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The city of New Haven, Connecticut administered exams (both written and oral) in November and December of 2003 to firefighters hoping to qualify for promotion to either Lieutenant or Captain in the city fire department.  A final score consisting of a 60\% weight for the written exam and a 40\% weight for the oral exam was computed for each person who took the exam.  For each person who took the exams, there are measurements on their race (black, white, or Hispanic), which position they were trying for (Lieutenant, Captain), scores on the oral and written exams, and the combined score. These data were used as part of a court case (Ricci v.DeStafano) dealing with racial discrimination
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data (RicciData.csv ) and documentation (Ricci.txt) downloaded from http://www.amstat.org/publications/jse/jse_data_archive.htm
+
+An article on using these data: Miao, W. (2011) "Did the Results of Promotion Exams Have a Disparate Impact on Minorities? Using Statistical Evidence in Ricci v. DeStefano," JSE 19:1at www.amstat.org/publications/jse/v19n1/wilson.pdf
 }
 \keyword{datasets}

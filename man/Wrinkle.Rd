@@ -1,26 +1,26 @@
 \name{Wrinkle}
 \alias{Wrinkle}
 \docType{data}
-\title{Wrinkle Temporary}
+\title{Moving Wet Objects with Wrinkled Fingers}
 \description{
-Wrinkle
+Results from an experiment to move wet/dry objects with wrinkled/dry fingers
 }
 \format{
   A data frame with 80 observations on the following 7 variables.
   \describe{
-    \item{\code{Participant}}{a factor with levels \code{p1} \code{p10} \code{p11} \code{p12} \code{p13} \code{p14} \code{p15} \code{p16} \code{p17} \code{p18} \code{p19} \code{p2} \code{p20} \code{p3} \code{p4} \code{p5} \code{p6} \code{p7} \code{p8} \code{p9}}
-    \item{\code{Time}}{a numeric vector}
-    \item{\code{Condition}}{a factor with levels \code{non-wrinkled/dry} \code{non-wrinkled/wet} \code{wrinkled/dry} \code{wrinkled/wet}}
-    \item{\code{Fingers}}{a factor with levels \code{non} \code{wrinkled}}
-    \item{\code{Objects}}{a factor with levels \code{dry} \code{wet}}
-    \item{\code{WrinkledThenNon}}{a numeric vector}
-    \item{\code{DryThenWet}}{a numeric vector}
+    \item{\code{Participant}}{Participant ID  (\code{p1} to \code{p20})}
+    \item{\code{Time}}{Time to move objects (seconds)}
+    \item{\code{Condition}}{\code{non-wrinkled/dry}, \code{non-wrinkled/wet}, \code{wrinkled/dry}, or \code{wrinkled/wet}}
+    \item{\code{Fingers}}{Status of fingers (\code{non} or \code{wrinkled})}
+    \item{\code{Objects}}{Status of objects (\code{dry} or \code{wet})}
+    \item{\code{WrinkledThenNon}}{Wrinkled first? (\code{1}=yes or \code{1}=no)}
+    \item{\code{DryThenWet}}{Dry first? (\code{1}=yes or \code{1}=no)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Each of 20 participants were measured doing a "transfer task" several times under each of four conditions. The transfer task was to pick up an item with the right hand thumb and index finger, pass the item through a small hole and grab it with the left hand, and then put the item into a box that had a hole in the lid. Sometimes the participant's fingers were wrinkled; sometimes the items were sitting in water.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Kareklas, Nettle, and Smulders (2013) ``Water-induced finger wrinkles improve handling of wet objects”, Biology Letters, http://dx.doi.org/10.1098/rsbl.2012.0999
 }
 \keyword{datasets}

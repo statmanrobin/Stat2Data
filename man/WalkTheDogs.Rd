@@ -1,26 +1,26 @@
 \name{WalkTheDogs}
 \alias{WalkTheDogs}
 \docType{data}
-\title{WalkTheDogs Temporary}
+\title{Did the Author Walk the Dogs Today?}
 \description{
-WalkTheDogs
+Daily pedometer data for one of the authors
 }
 \format{
   A data frame with 223 observations on the following 7 variables.
   \describe{
-    \item{\code{StepCount}}{a numeric vector}
-    \item{\code{Kcal}}{a numeric vector}
-    \item{\code{Miles}}{a numeric vector}
-    \item{\code{Weather}}{a factor with levels \code{cold} \code{rain} \code{shine}}
-    \item{\code{Day}}{a factor with levels \code{F} \code{M} \code{R} \code{S} \code{T} \code{U} \code{W}}
-    \item{\code{Walk}}{a numeric vector}
-    \item{\code{Steps}}{a numeric vector}
+    \item{\code{StepCount}}{Number of steps taken in the day}
+    \item{\code{Kcal}}{Calories burned (according to pedometer)}
+    \item{\code{Miles}}{Miles walked}
+    \item{\code{Weather}}{\code{cold}, \code{rain}, or \code{shine}}
+    \item{\code{Day}}{Day of week (\code{F}=Friday, \code{M}=Monday, \code{R}=Thursday, \code{S}=Saturday, \code{T}=Tuesday, \code{U}=Sunday, \code{W}=Wednesday)}
+    \item{\code{Walk}}{Were the dogs walked?  (\code{1}=yes or \code{0}=no)}
+    \item{\code{Steps}}{Steps in units of 1,000 (so StepCount/1000)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+One of the authors recorded daily pedometer data, the weather, and whether or not the dogs got walked.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+One of the author's pedometer records.
 }
 \keyword{datasets}
