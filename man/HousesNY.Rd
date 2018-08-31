@@ -8,7 +8,7 @@ House prices for a sample of houses in Canton NY
 \format{
   A data frame with 53 observations on the following 5 variables.
   \describe{
-    \item{\code{Price}}{Estimated price (in $1,000’s)}
+    \item{\code{Price}}{Estimated price (in $1,000's)}
     \item{\code{Beds}}{Number of bedrooms}
     \item{\code{Baths}}{Number of bathrooms}
     \item{\code{Size}}{Floor area of the house (in 1,000 square feet)}

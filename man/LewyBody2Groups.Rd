@@ -14,7 +14,7 @@ Dementia study comparing two groups of patients
   }
 }
 \details{
-Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies, some of whom also were diagnosed with Alzheimer’s Disease.
+Brain MRIs were used to study the brains of patients with Dementia with Lewy Bodies, some of whom also were diagnosed with Alzheimer's Disease.
 }
 \source{
 Z. Nedelksa et al. (2015), "Pattern of brain atrophy rates in autopsy-confirmed dementia with Lewy bodies,"" Neurobiology of Aging, 36: 452-461.

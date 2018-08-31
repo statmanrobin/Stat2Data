@@ -10,7 +10,8 @@ Times for one day's major league baseball games
   \describe{
     \item{\code{Game}}{MLB teams that played}
     \item{\code{League}}{\code{AL}=American League, \code{IL}=Interleague, or \code{NL}=National League}
-    \item{\code{Runs}}{Winning margin}
+    \item{\code{Runs}}{Runs scored by the two teams combined}
+    \item{\code{Margin}}{Winning margin}
     \item{\code{Pitchers}}{Number of pitchers used total for two teams}
     \item{\code{Attendance}}{Announced attendance}
     \item{\code{Time}}{Time in minutes to play the game}

@@ -16,7 +16,7 @@ Data on houses sold between 2005 and 2015 in Grinnell, Iowa
     \item{\code{LotSize}}{Lot size (in acres)}
     \item{\code{YearBuilt}}{Year the house was built; many pre-1900 homes are listed as 1900}
     \item{\code{YearSold}}{The year the house was sold, for this case}
-    \item{\code{MonthSold}}{The month the house was sold (1=Jan, 3=Feb, … )}
+    \item{\code{MonthSold}}{The month the house was sold (1=Jan, 2=Feb, to 12=Dec)}
     \item{\code{DaySold}}{Day of the mponth the house was sold (1 to 31)}
     \item{\code{CostPerSqFt}}{SalePrice / SquareFeet (round to nearest penny)}
     \item{\code{OrigPrice}}{List price of the house when originally put on the market (dollars)}

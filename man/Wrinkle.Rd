@@ -21,6 +21,6 @@ Results from an experiment to move wet/dry objects with wrinkled/dry fingers
 Each of 20 participants were measured doing a "transfer task" several times under each of four conditions. The transfer task was to pick up an item with the right hand thumb and index finger, pass the item through a small hole and grab it with the left hand, and then put the item into a box that had a hole in the lid. Sometimes the participant's fingers were wrinkled; sometimes the items were sitting in water.
 }
 \source{
-Kareklas, Nettle, and Smulders (2013) ``Water-induced finger wrinkles improve handling of wet objects”, Biology Letters, http://dx.doi.org/10.1098/rsbl.2012.0999
+Kareklas, Nettle, and Smulders (2013) "Water-induced finger wrinkles improve handling of wet objects", Biology Letters, http://dx.doi.org/10.1098/rsbl.2012.0999
 }
 \keyword{datasets}

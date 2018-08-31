@@ -17,8 +17,7 @@ Daily closing prices of Apple, Google, and Microsoft stocks (12/1/2015 to 12/1/2
 }
 \details{
 Closing price of Apple (AAPL), Google/Alphabet (GOOG) and Microsoft (MSFT) stocks for each trading day in a two-year period from 12/1/2015 to 12/1/2017.
-
-
+}
 \source{
 Data downloaded using the Quandl R package (12/2/2017)
 }
