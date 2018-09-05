@@ -33,9 +33,11 @@ Data for Major League Baseball teams from the 2007 regular season
   }
 }
 \details{
-Data for all 30 Major League Baseball (MLB) teams for the 2007 regular season. 
+Data for all 30 Major League Baseball (MLB) teams for the 2007 regular season.
 This includes team batting statistics (BattingAvg through SLG) and team pitching statistics
-(ERA through WHIP) 
+(ERA through WHIP)
+
+Updated to MLBStandings2016 in second edition.
 }
 \source{
 Data downloaded from baseball-reference.com:\cr

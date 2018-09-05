@@ -3,7 +3,7 @@
 \docType{data}
 \title{PorschePrice}
 \description{
-Prices for Porsche cars offered for sale at an internet site. 
+Prices for Porsche cars offered for sale at an internet site.
 }
 %\useage{data(PorschePrice)}
 \format{
@@ -15,12 +15,14 @@ Prices for Porsche cars offered for sale at an internet site.
   }
 }
 \details{
-A student was interested in pries for used Porsche sports cars being sold on the internet. 
-He selected a random sample of 30 Porsches from the ones being advertised at autotrader.com. 
-For each car he recorded the asking price, mileage, and model year (which he converted to age). 
+A student was interested in pries for used Porsche sports cars being sold on the internet.
+He selected a random sample of 30 Porsches from the ones being advertised at autotrader.com.
+For each car he recorded the asking price, mileage, and model year (which he converted to age).
+
+This dataset was replaced by AccordPrice for second edition.
 }
 \source{
-Data collected for a student project from autotrader.com in February 2007. 
+Data collected for a student project from autotrader.com in February 2007.
 }
 
 \keyword{datasets}

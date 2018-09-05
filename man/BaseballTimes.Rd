@@ -19,7 +19,7 @@ Game times and boxscore information for baseball games
   }
 }
 \details{
-Data were collected for 15 Major Leage Baseball (MLB) games played on August 26, 2008. 
+Data were collected for 15 Major Leage Baseball (MLB) games played on August 26, 2008. This dataset used in first edition, but updaed to BaseballTimes2017 for the second edition.
 }
 \source{
 Data from boxscores at www.baseball-reference.com

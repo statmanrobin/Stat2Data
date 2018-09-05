@@ -5,7 +5,7 @@
 LaDainian Tomlinson Rushing Yards
 }
 \description{
-Rushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season. 
+Rushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season.
 }
 %%\usage{data(TomlinsonRush)}
 \format{
@@ -18,8 +18,10 @@ Rushing yards for each game LaDainian Tomlinson played in the 2006 National Foot
   }
 }
 \details{
-For each of the sixteen games the San Diego Chargers played in the 2006 NFL regular season 
-we have the number of times LaDainian Tomlinson ran the ball and the total yards he gained. 
+For each of the sixteen games the San Diego Chargers played in the 2006 NFL regular season
+we have the number of times LaDainian Tomlinson ran the ball and the total yards he gained.
+
+This data set from the first edition was replaced by BreesPass in the second edition.
 }
 \source{
 Data downloaded from http://www.pro-football-reference.com/players/T/TomlLa00/gamelog/2006/

@@ -16,6 +16,8 @@ Daily carbon dioxide measurements - April through November 2011
 Scientists at a research station in Brotjacklriegel, Germany recorded
 CO2 levels, in parts per million, in the atmosphere for each day from
 the start of April through November in 2011.
+
+This data was renamed to CO2Germany for the second edition.
 }
 \source{
 http://gaw.empa.ch/gawsis/reports.asp?StationID=-739519191

@@ -22,10 +22,12 @@ suffered from migraines and randomly assigned them to receive either the TMS (tr
 stimulation) treatment or a sham (placebo) treatment from a device that did not deliver any
 stimulation. Subjects were instructed to apply the device at the onset of migraine symptoms and
 then assess how they felt two hours later.  This dataset is a two-way table of the results.
+
+This dataset renamed as Migraines in second edition.
 }
 \source{
-Based on results in R. B. Lipton, et. al. (2010) ``Single-pulse Transcranial Magnetic Stimulation 
-for Acute Treatment of Migraine with Aura: A Randomised, Double-blind, Parallel-group, 
+Based on results in R. B. Lipton, et. al. (2010) ``Single-pulse Transcranial Magnetic Stimulation
+for Acute Treatment of Migraine with Aura: A Randomised, Double-blind, Parallel-group,
 Sham-controlled Trial," 9(4):373-380.
 }
 

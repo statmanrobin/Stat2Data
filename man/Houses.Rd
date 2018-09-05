@@ -18,9 +18,11 @@ Houses
 This dataset contains selling prices for 20 houses that were sold in 2008 in a small midwestern
 town. The file also contains data on the size of each house (in square feet) and the size of the lot
 (in square feet) that the house is on.
+
+Updated to HousesNY in second edition.
 }
 \source{
-Data collected from zillow.com in June 2008. 
+Data collected from zillow.com in June 2008.
 }
 
 \keyword{datasets}

@@ -20,6 +20,8 @@ Survey of students in grades 9-12 concerning health-risk behiviors
 }
 \details{
 Data from the Centers for Disease Control's Youth Risk Behavior Surveillance System (YRBSS).
+
+This data set is from the first edition, but not used in the second edition.
 }
 \source{
 http://www.cdc.gov/HealthyYouth/yrbs/index.htm

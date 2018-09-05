@@ -29,8 +29,10 @@ Health services data for 83 metropolitan areas
 }
 \details{
 The U.S. Census Bureau regularly collects infomration for many metropolitan areas in the United
-States, including data on number of phsycians and number (and size) of hospitals.  
+States, including data on number of phsycians and number (and size) of hospitals.
 This dataset has such information for 83 different metropolian areas.
+
+This dataset is in the frst edition, but replaced by CountyHealth in the second edition.
 }
 \source{
 U.S. Census Bureau: 2006 State and Metropolitan Area Data Book (Table B-6) \cr

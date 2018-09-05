@@ -21,6 +21,8 @@ to two molecules of lactic acid, and a second which converts each molecule of su
 lactic acid, ethanol, and carbon dioxide. This experiment was designed to compare the inhibiting effect of oxygen on the
 metabolism of two different sugars, glucose and galactose, by Streptococcus bacteria. In this case
 there were four levels of oxygen that were applied to the two kinds of sugar.
+
+Renamed to SugarEthanol in second edition.
 }
 \source{
 Data are found in

@@ -21,7 +21,9 @@ found in chocolate) and with those of a placebo. Their experiment used four huma
 took place over several days. Each day each subject swallowed a tablet containing one of caffeine,
 theobromine, or the placebo. Two hours later they were timed while tapping a finger in a specified
 manner (that they had practiced earlier, to control for learning effects). The response is the number
-of taps in a fixed time interval
+of taps in a fixed time interval.
+
+Renamed FranticFingers in second edition.
 }
 \source{
 The data was found in Statistics in Biology, Vol. 1, by C. I. Bliss (1967), New York: McGraw Hill.
