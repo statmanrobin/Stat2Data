@@ -1,9 +1,9 @@
 \name{SpeciesArea}
 \alias{SpeciesArea}
 \docType{data}
-\title{Species Area}
+\title{Land Area and Mammal Species}
 \description{
-Land area and number of mammal species for island in Southeast Asia
+Land area and number of mammal species for islands in Southeast Asia
 }
 %\useage{data(SpeciesArea)}
 \format{
@@ -23,8 +23,8 @@ related to the size of an island and would like to be able to predict the number
 size of an island.
 }
 \source{
-Heaney, Lawrence R. (1984) Mammalian species richness on islands on the Sunda Shelf, Southeast Asia,
-Oecologia.
+Heaney, Lawrence R. (1984) "Mammalian species richness on islands on the Sunda Shelf, Southeast Asia,"
+Oecologia, 61:11 17.
 }
 
 \keyword{datasets}

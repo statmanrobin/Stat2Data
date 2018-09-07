@@ -1,7 +1,7 @@
 \name{Retirement}
 \alias{Retirement}
 \docType{data}
-\title{Retirement}
+\title{Yearly Contributions to a Supplemental Retirement Account}
 \description{
 Contributions to a supplemental retirement account (1997-2012)
 }
@@ -15,7 +15,7 @@ Contributions to a supplemental retirement account (1997-2012)
 }
 \details{
 A faculty member opened a supplemental retirement account (SRA) in 1997 to
-investment money for retirement. This dataset shows the annual contributions to that account. 
+invest money for retirement. This dataset shows the annual contributions to that account.
 Annual contributions were adjusted downward during sabbatical
 years in order to maintain a steady family income.
 }

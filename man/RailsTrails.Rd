@@ -41,10 +41,10 @@ Sample of homes in Northampton, MA to see whether being close to a bike trail en
   }
 }
 \details{
-This dataset comprises 104 homes in Northampton: MA that were sold in 2007. The authors measured the shortest distance from each home to a railtrail on streets and pathways with Google maps and recorded the Zillow.com estimate of each home's price in 1998 and 2011. Additional attributes such as square footage: number of bedrooms and bathrooms are available from a realty database from 2007. We divide the houses into two groups based on distance to the trail (DistGroup).
+This dataset comprises 104 homes in Northampton, MA that were sold in 2007. The authors measured the shortest distance from each home to a railtrail on streets and pathways with Google maps and recorded the Zillow.com estimate of each home's price in 1998 and 2011. Additional attributes such as square footage, number of bedrooms and number of bathrooms are available from a realty database from 2007. We divide the houses into two groups based on distance to the trail (DistGroup).
 }
 \source{
-From July 2015 JSE,Datasets and Stories:  "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
+From July 2015 JSE Datasets and Stories:  "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
 
 http://www.amstat.org/publications/jse/v23n2/horton.pdf
 }

@@ -1,11 +1,10 @@
 \name{Pines}
 \alias{Pines}
 \docType{data}
-\title{Pines}
+\title{Measurements of Pine Tree Seedlings}
 \description{
 Data from pine seedlings planted in 1990
 }
-%\usage{data(Pines)}
 \format{
   A dataset with 1000 observations on the following 15 variables.
   \tabular{rl}{
@@ -27,7 +26,7 @@ Data from pine seedlings planted in 1990
   }
 }
 \details{
-This dataset contains information data from an experiment conducted by the Department
+This dataset contains data from an experiment conducted by the Department
 of Biology at Kenyon College at a site near the campus in Gambier, Ohio. In April 1990, student
 and faculty volunteers planted 1000 white pine (Pinus strobes) seedlings at the Brown Family Environmental
 Center. These seedlings were planted in two grids, distinguished by 10- and 15-foot

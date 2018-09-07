@@ -1,7 +1,7 @@
 \name{Swahili}
 \alias{Swahili}
 \docType{data}
-\title{Swahili}
+\title{Attitudes Towards Swahili in Kenyan Schools}
 \description{
 Attitudes towards the Swahili language among Kenyan school children
 }
@@ -30,7 +30,7 @@ be 200 (an individual who gave the most positive possible response to every ques
 possible score would be 40 (an individual who gave the most negative response to every question).
 }
 \source{
-Thanks to Dr. Babusi of Kenyatta University for sharing these data. 
+Thanks to Dr. Babusi of Kenyatta University for sharing these data.
 }
 
 \keyword{datasets}

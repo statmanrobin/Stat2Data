@@ -1,7 +1,7 @@
 \name{MLB2007Standings}
 \alias{MLB2007Standings}
 \docType{data}
-\title{MLB2007Standings}
+\title{Standings and Team Statistics from the 2007 Baseball Season}
 \description{
 Data for Major League Baseball teams from the 2007 regular season
 }
@@ -21,14 +21,14 @@ Data for Major League Baseball teams from the 2007 regular season
     \code{Doubles} \tab {Number of doubles hit}\cr
     \code{Triples} \tab {Number of triple hit}\cr
     \code{RBI} \tab {Number of runs batted in}\cr
-    \code{SB} \tab {Number of stoen bases}\cr
+    \code{SB} \tab {Number of stolen bases}\cr
     \code{OBP} \tab {On base percentage}\cr
     \code{SLG} \tab {Slugging percentage}\cr
     \code{ERA} \tab {Earned run average (earned runs allowed per 9 innings)}\cr
     \code{HitsAllowed} \tab {Number of hits against the team}\cr
     \code{Walks} \tab {Number of walks allowed}\cr
     \code{StrikeOuts} \tab {Number of strikeouts (by the team's pitchers)}\cr
-    \code{Saves} \tab {Number of games saved (by the team's pitchers}\cr
+    \code{Saves} \tab {Number of games saved (by the team's pitchers)}\cr
     \code{WHIP} \tab {Number of walks and hits per inning pitched}\cr
   }
 }

@@ -1,7 +1,7 @@
 \name{RiverElements}
 \alias{RiverElements}
 \docType{data}
-\title{RiverElements}
+\title{Elements in River Water Samples}
 \description{
 Concentrations of elements in river water samples from upstate NY
 }
@@ -43,17 +43,17 @@ Some geologists were interested in the water chemistry of rivers in upstate New 
 water samples at three different locations in four rivers (Grasse, Oswegatchie, Raquette, and St.
 Regis). The sampling sites were chosen to investigate how the composition of the water changes as
 it flows from the source to the mouth of each river. The sampling sites were labeled as upstream,
-midstream, and downstream. This dataset contains the concentations (parts per million) of a variety of elements 
-in thoise water samples. 
-The dataset RiverIron contains the information for iorn (FE) alone, along with the log of the concentration. 
+midstream, and downstream. This dataset contains the concentations (parts per million) of a variety of elements
+in thoise water samples.
+The dataset RiverIron contains the information for iorn (FE) alone, along with the log of the concentration.
 }
 \source{
-Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data. 
+Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data.
 }
 \references{
-Chiarenzelli, Lock, Cady, Bregani and Whitney, 
-"Variation in river multi-element chemistry related to bedrock buffering: 
-an example from the Adirondack region of northern New York, USA", 
+Chiarenzelli, Lock, Cady, Bregani and Whitney,
+"Variation in river multi-element chemistry related to bedrock buffering:
+an example from the Adirondack region of northern New York, USA",
  Environmental Earth Sciences, Volume 67, Number 1 (2012), 189-204
 }
 

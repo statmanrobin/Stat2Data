@@ -1,7 +1,7 @@
 \name{MathPlacement}
 \alias{MathPlacement}
 \docType{data}
-\title{Math Placement}
+\title{Math Placement Exam Results}
 \description{
 Results from a Math Placement exam at a liberal arts college
 }
@@ -11,7 +11,7 @@ Results from a Math Placement exam at a liberal arts college
   \tabular{rl}{
     \code{Student} \tab {Identification number for each student}\cr
     \code{Gender} \tab {0=Female, 1=Male}\cr
-    \code{PSATM} \tab {PSAT score in MAth}\cr
+    \code{PSATM} \tab {PSAT score in Math}\cr
     \code{SATM} \tab {SAT score in Math}\cr
     \code{ACTM} \tab {ACT Score in Math}\cr
     \code{Rank} \tab {Adjusted rank in HS class}\cr
@@ -28,7 +28,7 @@ Results from a Math Placement exam at a liberal arts college
   }
 }
 \details{
-Scores and course results for students taking a math placement exam at a college. 
+Scores and course results for students taking a math placement exam at a college.
 }
 \source{
 Personal correspondence

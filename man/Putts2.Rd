@@ -1,7 +1,7 @@
 \name{Putts2}
 \alias{Putts2}
 \docType{data}
-\title{Putts2}
+\title{Putting Success by Length (Short Form)}
 \description{
 Putting results for a golfing statistician (by length of the putts)
 }
@@ -16,13 +16,13 @@ Putting results for a golfing statistician (by length of the putts)
   }
 }
 \details{
-A statistician golfer kept careful records of every putt he attempted when playing golf, 
-recording the length of the putt and whether or not he was successful in making the putt.  
+A statistician golfer kept careful records of every putt he attempted when playing golf,
+recording the length of the putt and whether or not he was successful in making the putt.
 For each different length, this dataset records the number putts made, missed, and the total number
 of attempts from that length. A similar dataset, Putts1, has one case for each of the 587 attempted putts,
-showing the length and outcome. 
+showing the length and outcome.
 }
- 
+
 \source{
 Personal observations by one of the Stat2 authors
 }

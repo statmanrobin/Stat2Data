@@ -1,11 +1,10 @@
 \name{SATGPA}
 \alias{SATGPA}
 \docType{data}
-\title{SAT scores and GPA}
+\title{SAT Scores and GPA}
 \description{
 A sample of SAT scores and grade point averages for statistics students
 }
-%\useage{data(SATGPA)}
 \format{
   A dataset with 24 observations on the following 3 variables.
   \tabular{rl}{
@@ -17,8 +16,7 @@ A sample of SAT scores and grade point averages for statistics students
 \details{
 In recent years many colleges have re-examined the traditional role the scores on the Scholastic
 Aptitude Tests (SAT's) play in making decisions on which students to admit. Do SAT scores really
-help predict success in college? To investigate this question a group of 24 introductory statistics
-students supplied the data in this dataset showing their score on the Verbal portion of the SAT
+help predict success in college? To investigate this question a group of 24 introductory statistics students supplied the data in this dataset showing their score on the Verbal and Math portions of the SAT
 as well as their current grade point average (GPA) on a 0.0-4.0 scale.
 }
 \source{

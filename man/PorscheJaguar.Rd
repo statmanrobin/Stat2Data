@@ -1,11 +1,10 @@
 \name{PorscheJaguar}
 \alias{PorscheJaguar}
 \docType{data}
-\title{PorscheJaguar}
+\title{Porsche and Jaguar Prices}
 \description{
 Compare prices for Porsche and Jaguar cars offered for sale at an internet site
 }
-%\useage{data(PorscheJaguar)}
 \format{
   A dataset with 60 observations on the following 5 variables.
   \tabular{rl}{
@@ -17,7 +16,7 @@ Compare prices for Porsche and Jaguar cars offered for sale at an internet site
   }
 }
 \details{
-Two students collected samples of Porsche and Jaguar cars that were offered for sale at an internet site.  
+Two students collected samples of Porsche and Jaguar cars that were offered for sale at an internet site.
 In addition to asking price, they recorded the model year (converting to age) and mileage of each advertised car.
 }
 \source{

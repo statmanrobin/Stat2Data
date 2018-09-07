@@ -1,7 +1,7 @@
 \name{ReligionGDP}
 \alias{ReligionGDP}
 \docType{data}
-\title{ReligionGDP}
+\title{Religion and GDP for Countries}
 \description{
 Data on religiosity of countries from the Pew Global Attitudes Project
 }
@@ -25,12 +25,12 @@ The Pew Research Center's Global Attitudes Project surveyed
 people around the world and asked (among many other questions) whether they agreed that "belief
 in God is necessary for morality," whether religion is very important in their lives, and whether
 they pray at least once per day. The variable Religiosity is the sum of the percentage of positive
-responses on these three items, measured in each of 44 countries. The dataset also includes the 
+responses on these three items, measured in each of 44 countries. The dataset also includes the
 per capita GDP for each country and indicator variables
 that record the part of the world the country is in.
 }
 \source{
-Data from the 2007 Spring Survey conducted through the 
+Data from the 2007 Spring Survey conducted through the
 Pew Global Attitudes Project at http://www.pewglobal.org.
 }
 

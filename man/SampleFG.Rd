@@ -1,11 +1,10 @@
 \name{SampleFG}
 \alias{SampleFG}
 \docType{data}
-\title{SampleFG}
+\title{Field Goal Attempts in the NFL}
 \description{
 A sample of 30 field goal attempts in the National Football League
 }
-%\useage{data(SampleFG)}
 \format{
   A dataset with 30 observations on the following 13 variables.
   \tabular{rl}{
@@ -15,7 +14,7 @@ A sample of 30 field goal attempts in the National Football League
     \code{FirstName} \tab {First name}\cr
     \code{Year} \tab {Year}\cr
     \code{Team} \tab {Abbreviation for team name}\cr
-    \code{Date} \tab {Code for date:  mmdddyy}\cr
+    \code{Date} \tab {Code for date:  mmddyy}\cr
     \code{FGAttempts} \tab {Field goals attempted by the kicker that game}\cr
     \code{FGMade} \tab {Field goals made by the kicker that game}\cr
     \code{Attempt} \tab {Which attempt during the game?}\cr
@@ -25,8 +24,8 @@ A sample of 30 field goal attempts in the National Football League
   }
 }
 \details{
-This is a subset  of just 30 field goal attempts selected at random from the larger sample of attempts made by NFL kickers 
-that is summarized in FGByDistance. 
+This is a subset  of just 30 field goal attempts selected at random from the larger sample of attempts made by NFL kickers
+that is summarized in FGByDistance.
 }
 \source{
 We thank Sean Forman and Doug Drinen of Sports Reference LLC for providing us with the NFL field goal data

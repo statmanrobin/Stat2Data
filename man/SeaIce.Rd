@@ -15,7 +15,7 @@ Area of sea ice in the Arctic measured yearly in September (1979 to 2015)
   }
 }
 \details{
-Climatologists have been measuring the amount of sea ice in both the Arctic and Antarctic regions for a number of years.  This datafile gives information about the amount of sea in the arctic region as measured in September (the time when the amount of ice is at its least) since 1979.  The basic research question is to see if we can use time to model the amount of sea ice.
+Climatologists have been measuring the amount of sea ice in both the Arctic and Antarctic regions for a number of years.  This datafile gives information about the amount of sea ice in the arctic region as measured in September (the time when the amount of ice is at its least) since 1979.  The basic research question is to see if we can use time to model the amount of sea ice.
 
 In fact, there are two ways to measure the amount of sea ice: Area and Extent.  Area measures the actual amount of space taken up by ice.  Extent measures the area inside the outer boundaries created by the ice.  If there are areas inside the outer boundaries that are not ice (think about a slice of swiss cheese), then the Extent will be a larger number than the Area.  In fact, this is almost always true.
 

@@ -1,7 +1,7 @@
 \name{NCbirths}
 \alias{NCbirths}
 \docType{data}
-\title{NCbirths}
+\title{North Carolina Birth Records}
 \description{
 Data from births in North Carolina in 2001
 }
@@ -34,7 +34,7 @@ records that statistician John Holcomb selected from the North Carolina State Ce
 and Environmental Statistics.
 }
 \source{
-Thanks to John Holcomb at Cleveland State University for sharing these data. 
+Thanks to John Holcomb at Cleveland State University for sharing these data.
 }
 
 \keyword{datasets}

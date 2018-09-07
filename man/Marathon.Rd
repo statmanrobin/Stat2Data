@@ -1,7 +1,7 @@
 \name{Marathon}
 \alias{Marathon}
 \docType{data}
-\title{Marathon}
+\title{Daily Training for a Marathon Runner}
 \description{
 Training records for a marathon runner
 }
@@ -21,10 +21,10 @@ Training records for a marathon runner
     }
 }
 \details{
-Information from training records of a marathoner over a five-year period from 2002-2006. 
+Information from training records of a marathoner over a five-year period from 2002-2006.
 }
 \source{
-Data from training records of one of the Stat2 authors. 
+Data from training records of one of the Stat2 authors.
 }
 
 \keyword{datasets}

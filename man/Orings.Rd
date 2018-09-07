@@ -1,7 +1,7 @@
 \name{Orings}
 \alias{Orings}
 \docType{data}
-\title{Orings}
+\title{Space Shuttle O-Rings}
 \description{
 Number of damaged O-rings on space shuttle launches and launch temperature
 }
@@ -14,11 +14,11 @@ Number of damaged O-rings on space shuttle launches and launch temperature
   }
 }
 \details{
-The space shuttle Challenger explodes shortly after liftoff in 1987.  The subsequent investigation focused on the
-failure of O-ring seals, which allowed liquid hydrogen and oxygen to mix and explode. These failures might be 
-related to temperature at the launch site which was near freezing (32 degrees F) on that day.  
+The space shuttle Challenger exploded shortly after liftoff in 1987.  The subsequent investigation focused on the
+failure of O-ring seals, which allowed liquid hydrogen and oxygen to mix and explode. These failures might be
+related to temperature at the launch site which was near freezing (32 degrees F) on that day.
 This dataset shows the number of O-ring failures on previous shuttle launches, along with an indicator for whether the
-temperature was above or below 65 degrees F.  
+temperature was above or below 65 degrees F.
 }
 \source{
 Data can be found in "Risk analysis of the space shuttle: Pre-challenger prediction of failure" by Siddhartha R.

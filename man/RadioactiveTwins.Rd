@@ -1,16 +1,16 @@
 \name{RadioactiveTwins}
 \alias{RadioactiveTwins}
 \docType{data}
-\title{Comparing Twins Ability to Clear Radioactivity Particles}
+\title{Comparing Twins Ability to Clear Radioactive Particles}
 \description{
-Experiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles
+Experiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs
 }
 \format{
   A data frame with 30 observations on the following 3 variables.
   \describe{
-    \item{\code{TwinPair}}{Identifies the twin pairs (1 to 7)}
+    \item{\code{TwinPair}}{Identifies the twin pairs (1 to 15)}
     \item{\code{Env}}{Residential enviornment  (\code{Rural} or \code{Urban})}
-    \item{\code{Rate}}{Clearance rate (percentage radioactive remaining after one hour)}
+    \item{\code{Rate}}{Clearance rate (percentage radioactive particles remaining after one hour)}
   }
 }
 \details{

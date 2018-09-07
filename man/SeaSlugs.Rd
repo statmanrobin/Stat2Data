@@ -1,8 +1,7 @@
 \name{SeaSlugs}
 \alias{SeaSlugs}
 \docType{data}
-\title{Sea Slugs
-}
+\title{Sea Slug Larvae}
 \description{
 Metamorphose rates for sea slugs exposed to different water samples
 }

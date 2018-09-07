@@ -1,11 +1,10 @@
 \name{PorschePrice}
 \alias{PorschePrice}
 \docType{data}
-\title{PorschePrice}
+\title{Porsche Prices}
 \description{
 Prices for Porsche cars offered for sale at an internet site.
 }
-%\useage{data(PorschePrice)}
 \format{
   A dataset with 30 observations on the following 3 variables.
   \tabular{rl}{
@@ -15,7 +14,7 @@ Prices for Porsche cars offered for sale at an internet site.
   }
 }
 \details{
-A student was interested in pries for used Porsche sports cars being sold on the internet.
+A student was interested in prices for used Porsche sports cars being sold on the internet.
 He selected a random sample of 30 Porsches from the ones being advertised at autotrader.com.
 For each car he recorded the asking price, mileage, and model year (which he converted to age).
 

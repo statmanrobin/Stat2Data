@@ -15,7 +15,7 @@ Standings and team statistics for National Football League (NFL) teams in the 20
     \item{\code{WinPct}}{Winning percentage = (Wins+0.5*Ties)/16 games}
     \item{\code{PointsFor}}{Points scored}
     \item{\code{PointsAgainst}}{Points allowed}
-    \item{\code{NetPts}}{Points scored minus Point allowed}
+    \item{\code{NetPts}}{Points scored minus Points allowed}
     \item{\code{YardsFor}}{Offensive yards gained by the team}
     \item{\code{YardsAgainst}}{Offensive yards against the team}
     \item{\code{TDs}}{Touchdowns scored}

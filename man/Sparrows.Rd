@@ -1,11 +1,10 @@
 \name{Sparrows}
 \alias{Sparrows}
 \docType{data}
-\title{Sparrows}
+\title{Sparrow Measurements}
 \description{
 Weight and wing length for a sample of Savannah sparrows
 }
-%\useage{data(Sparrows)}
 \format{
   A dataset with 116 observations on the following 3 variables.
   \tabular{rl}{

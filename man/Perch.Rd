@@ -1,7 +1,7 @@
 \name{Perch}
 \alias{Perch}
 \docType{data}
-\title{Perch}
+\title{Perch Sizes}
 \description{
 Size of perch caught in a Finnish lake
 }
@@ -16,7 +16,7 @@ Size of perch caught in a Finnish lake
   }
 }
 \details{
-This dataset comes from a sample of fish (perch) caught at Lake Laengelmavesi in Finland. 
+This dataset comes from a sample of fish (perch) caught at Lake Laengelmavesi in Finland.
 }
 \source{
 JSE Data Archive, http://www.amstat.org/publications/jse/jse_data_archive.htm, submitted by Juha Puranen.

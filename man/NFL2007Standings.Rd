@@ -1,7 +1,7 @@
 \name{NFL2007Standings}
 \alias{NFL2007Standings}
 \docType{data}
-\title{NFL2007Standings}
+\title{NFL Standings for 2007 Regular Season}
 \description{
 Standings for National Football League teams in 2007
 }
@@ -22,10 +22,12 @@ Standings for National Football League teams in 2007
   }
 }
 \details{
-Data for all 32 National Football League (NFL) teams for the 2007 regular season. 
+Data for all 32 National Football League (NFL) teams for the 2007 regular season.
+
+Updated to NFLStandings2016 in the second edition.
 }
 \source{
-1Data downloaded from www.nfl.com
+Data downloaded from www.nfl.com
 }
 
 \keyword{datasets}

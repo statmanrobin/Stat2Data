@@ -3,7 +3,7 @@
 \docType{data}
 \title{Racial Animus and City Demgraphics}
 \description{
-Demogrphiacs and a measurement of racial animus in cities based on Google searches
+Demographics and a measurement of racial animus in cities based on Google searches
 }
 \format{
   A data frame with 196 observations on the following 7 variables.

@@ -3,7 +3,7 @@
 \docType{data}
 \title{Meniscus Repair Methods}
 \description{
-Comparing meniscus repair methods on cadever knees
+Comparing meniscus repair methods on cadaver knees
 }
 \format{
   A data frame with 18 observations on the following 4 variables.

@@ -1,7 +1,7 @@
 \name{MedGPA}
 \alias{MedGPA}
 \docType{data}
-\title{MedGPA}
+\title{GPA and Medical School Admission}
 \description{
 Medical school admission status and information on GPA and standardized test scores
 }
@@ -24,7 +24,7 @@ Medical school admission status and information on GPA and standardized test sco
 }
 \details{
 This dataset has information gathered on 55 medical school applicants
-from a liberal arts college in the Midwest. 
+from a liberal arts college in the Midwest.
 }
 \source{
 Data collected at a midwestern liberal arts college.

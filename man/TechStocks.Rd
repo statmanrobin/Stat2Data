@@ -8,7 +8,7 @@ Daily closing prices of Apple, Google, and Microsoft stocks (12/1/2015 to 12/1/2
 \format{
   A data frame with 504 observations on the following 5 variables.
   \describe{
-    \item{\code{Date}}{Date (coded as \code{mm/dd/yyy})}
+    \item{\code{Date}}{Date (coded as \code{mm/dd/yyyy})}
     \item{\code{AAPL}}{Apple Inc. closing price}
     \item{\code{GOOG}}{Alphabet Inc. (Google) closing price}
     \item{\code{MSFT}}{Microsoft Corp. closing price}

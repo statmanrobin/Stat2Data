@@ -1,9 +1,7 @@
 \name{Olives}
 \alias{Olives}
 \docType{data}
-\title{
-Olives
-}
+\title{Fenthion in Olive Oil}
 \description{
 Measurements of the pesticide fenthion in olive oil over time
 }

@@ -1,15 +1,14 @@
 \name{Popcorn}
 \alias{Popcorn}
 \docType{data}
-\title{Popcorn}
+\title{Popcorn Popping Success}
 \description{
-Unpopped kernels in bags of microwave popcorn 
+Unpopped kernels in bags of microwave popcorn
 }
-%\useage{data(Popcorn)}
 \format{
   A dataset with 12 observations on the following 3 variables.
   \tabular{rl}{
-    \code{Unpopped} \tab {Number of unpopped kernels (adjusted for size difference}\cr
+    \code{Unpopped} \tab {Number of unpopped kernels (adjusted for size difference)}\cr
     \code{Brand} \tab {\code{Orville} or \code{Seaway}}\cr
     \code{Trial} \tab {Trial number}\cr
   }

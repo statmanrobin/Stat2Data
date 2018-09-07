@@ -1,11 +1,10 @@
 \name{Overdrawn}
 \alias{Overdrawn}
 \docType{data}
-\title{Overdrawn}
+\title{Overdrawn Checking Account?}
 \description{
-Overdrawn
+Survey of college students to took at factors related to having overdrawn a checking account.
 }
-%\useage{data(Overdrawn)}
 \format{
   A dataset with 450 observations on the following 4 variables.
   \tabular{rl}{

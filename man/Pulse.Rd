@@ -1,7 +1,7 @@
 \name{Pulse}
 \alias{Pulse}
 \docType{data}
-\title{Pulse}
+\title{Pulse Rates and Exercise}
 \description{
 Pulse rates before and after exercise for a sample of statistics students
 }
@@ -19,13 +19,13 @@ Pulse rates before and after exercise for a sample of statistics students
   }
 }
 \details{
-Students in a Stat2 class recorded resting pulse rates (in class), 
-did three "laps" walking up/down a nearby set of stairs, and then 
+Students in a Stat2 class recorded resting pulse rates (in class),
+did three "laps" walking up/down a nearby set of stairs, and then
 measured their pulse rate after the exercise.  They provided additional information about
-height, weight, exercise, and smoking habits via a survey. 
+height, weight, exercise, and smoking habits via a survey.
 }
 \source{
-Data compiled over several semesters from students taking a Stat2 course. 
+Data compiled over several semesters from students taking a Stat2 course.
 }
 
 \keyword{datasets}

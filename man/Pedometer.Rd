@@ -1,11 +1,10 @@
 \name{Pedometer}
 \alias{Pedometer}
 \docType{data}
-\title{Pedometer}
+\title{Pedometer Walking Data}
 \description{
 Daily walking amounts recorded on a personal pedometer from September-December 2011
 }
-%\useage{data(Pedometer)}
 \format{
   A dataset with 68 observations on the following 8 variables.
   \tabular{rl}{
@@ -15,7 +14,7 @@ Daily walking amounts recorded on a personal pedometer from September-December 2
     \code{kcal} \tab {Number of calories burned walking at a moderate speed}\cr
     \code{Mile} \tab {Total number of miles walked}\cr
     \code{Rain} \tab {Type of weather (\code{rain} or \code{shine})}\cr
-    \code{Day} \tab {Day of the week (\code{U}=Sunday, \code{M}=Monday, 
+    \code{Day} \tab {Day of the week (\code{U}=Sunday, \code{M}=Monday,
 \code{T}=Tuesday, \code{W}=Wednesday, \code{R}=Thursday, \code{F}=Friday, \code{S}=Saturday}\cr
     \code{DayType} \tab {Coded as \code{Weekday} or \code{Weekend}}\cr
   }

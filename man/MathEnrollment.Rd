@@ -1,7 +1,7 @@
 \name{MathEnrollment}
 \alias{MathEnrollment}
 \docType{data}
-\title{Math Enrollments}
+\title{Enrollments in Math Courses}
 \description{
 Semester enrollments in mathematics courses
 }
@@ -16,7 +16,7 @@ Semester enrollments in mathematics courses
 }
 \details{
 Total enrollments in mathematics courses at a
-small liberal arts college were obtained for each semester from Fall 2001 to Spring 2012. 
+small liberal arts college were obtained for each semester from Fall 2001 to Spring 2012.
 }
 \source{
 The data were obtained from http://Registrar.Kenyon.edu on June 1, 2012.
