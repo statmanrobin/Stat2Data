@@ -1,11 +1,10 @@
 \name{WeightLossIncentive7}
 \alias{WeightLossIncentive7}
 \docType{data}
-\title{WeightLossIncentive7}
+\title{Do Financial Incentives Improve Weight Loss? (7 Months)}
 \description{
 Weight loss after seven months with/without a financial incentive
 }
-%\usage{data(WeightLossIncentive7)}
 \format{
   A dataset with 33 observations on the following 2 variables.
   \tabular{rl}{
@@ -13,7 +12,7 @@ Weight loss after seven months with/without a financial incentive
     \code{Month7Loss} \tab {Weight loss (in pounds) after seven months}\cr
   }
 }
-\details{  
+\details{
     Researchers investigated
 whether financial incentives would help people lose weight more successfully. Some participants in
 the study were randomly assigned to a treatment group that was offered financial incentives for

@@ -7,14 +7,13 @@ LaDainian Tomlinson Rushing Yards
 \description{
 Rushing yards for each game LaDainian Tomlinson played in the 2006 National Football League (NFL regular) season.
 }
-%%\usage{data(TomlinsonRush)}
 \format{
   A dataset with 16 observations on the following 4 variables.
   \tabular{rl}{
     \code{Game}\tab {Week number in the 2006 season}\cr
     \code{Opponent}\tab {Name of opposing team}\cr
     \code{Attempts}\tab {Number of rushing attempts}\cr
-    \code{Yards}\tab {Total yards gamed rushing for the game}\cr
+    \code{Yards}\tab {Total yards gained rushing for the game}\cr
   }
 }
 \details{

@@ -1,11 +1,10 @@
 \name{TMS}
 \alias{TMS}
 \docType{data}
-\title{TMS}
+\title{Migraines and TMS}
 \description{
 Effects of transcranial magnetic stimulation (TMS) on migraine headaches
 }
-%\usage{data(TMS)}
 \format{
   A dataset with 2 observations on the following 4 variables.
   \tabular{rl}{

@@ -3,12 +3,12 @@
 \docType{data}
 \title{Stand Your Ground Simpson's Paradox }
 \description{
-Zimmerman
+Data from 220 cases in Florida where a "Stand your ground" defense was used.
 }
 \format{
   A data frame with 220 observations on the following 5 variables.
   \describe{
-    \item{\code{Convicted}}{Convicted? (\code{No} or \code{Yes})}
+    \item{\code{Convicted}}{Was the defendant Convicted? (\code{No} or \code{Yes})}
     \item{\code{IndWhiteVictim}}{Was the victim white? (\code{1}=yes or \code{0}=no)}
     \item{\code{IndWhiteDefendant}}{Was the defendant white? (\code{1}=yes or \code{0}=no)}
     \item{\code{VictimRace}}{Race of the victim (\code{Minority} or \code{White})}

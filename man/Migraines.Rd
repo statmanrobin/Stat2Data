@@ -22,6 +22,8 @@ stimulation) treatment or a sham (placebo) treatment from a device that did not 
 stimulation. Subjects were instructed to apply the device at the onset of migraine symptoms and
 then assess how they felt two hours later. This dataset is a two-way table of the results.
 
+This dataset was called TMS in the first edition.
+
 }
 \source{
 Based on results in R. B. Lipton, et al, (2010) "Single-pulse Transcranial Magnetic Stimulation

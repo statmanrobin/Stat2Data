@@ -14,7 +14,7 @@ Ratings of an OCD symptom in psychotherapy sessions
   }
 }
 \details{
-A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptoms (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed, reached until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.
+A patient had been diagnosed with OCD (obsessive/compulsive disorder) and underwent a series of psychotherapy sessions.  Notes from the sessions were presented to three different experienced therapists who rated sessions with a particular OCD symptom (defense of undoing) on a 1 to 4 scale (smaller values indicating worse symptoms). If all three judges agreed on the stage of a session, that determined the category.  Otherwise, they discussed until they reached a consensus. The sessions were also grouped into six groups with I being the earliest sessions and VI being the latest.
 }
 \source{
 Sampson, Harold, Joseph Weiss, L. Mlodansky, and Edward Hause (1972) "Defense analysis and the emergence of warded off mental contents," Archives of General Psychiatry, v. 26, pp. 524-532.

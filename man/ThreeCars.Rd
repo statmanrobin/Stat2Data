@@ -1,7 +1,7 @@
 \name{ThreeCars}
 \alias{ThreeCars}
 \docType{data}
-\title{Three Cars}
+\title{Prices of Three Used Car Models (2007)}
 \description{
 Compare prices for Porsche, Jaguar, and BMW cars offered for sale at an internet site
 }
@@ -20,9 +20,11 @@ Compare prices for Porsche, Jaguar, and BMW cars offered for sale at an internet
   }
 }
 \details{
-Two students collected samples of Porsche, Jaguar, and BMW cars that were offered for sale at an internet site.  
+Two students collected samples of Porsche, Jaguar, and BMW cars that were offered for sale at an internet site.
 In addition to asking price, they recorded the model year (converting to age) and mileage of each advertised car.
-The PorschePrice dataset has only the Porsche data and the PorscheJaguar dataset has the data for those two models.
+The PorschePrice dataset (from the first edition) has only the Porsche data and the PorscheJaguar dataset has the data for those two models.
+
+This dataset has been updated (with different car models) to ThreeCars2017 for the second edition.
 }
 \source{
 Student project data collected from autotrader.com in Spring 2007.

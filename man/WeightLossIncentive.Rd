@@ -1,11 +1,10 @@
 \name{WeightLossIncentive}
 \alias{WeightLossIncentive}
 \docType{data}
-\title{WeightLossIncentive}
+\title{Do Financial Incentives Improve Weight Loss?}
 \description{
 An experiment to see if financial incentives improve weight loss
 }
-%\usage{data(WeightLossIncentive)}
 \format{
   A dataset with 38 observations on the following 3 variables.
   \tabular{rl}{

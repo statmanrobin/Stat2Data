@@ -10,7 +10,7 @@ Morality data over 20 years for 1314 women from Whickham, England
   \describe{
     \item{\code{Outcome}}{Status at 20-year follow-up (\code{Alive} or \code{Dead})}
     \item{\code{Smoker}}{Smoker at baseline? (\code{No} or \code{Yes})}
-    \item{\code{Age}}{Age (in years)}
+    \item{\code{Age}}{Age (in years at baseline)}
     \item{\code{AgeGroup}}{Age group (\code{18-64} or \code{65+})}
     \item{\code{Alive}}{Numeric code for Outcome (\code{1}=alive or \code{0}=dead)}
   }

@@ -1,11 +1,10 @@
 \name{YouthRisk2007}
 \alias{YouthRisk2007}
 \docType{data}
-\title{YouthRisk2007}
+\title{Riding with a Driver Who Has Been Drinking}
 \description{
-Risky behavior (riding with a drnk driver) in youths
+Risky behavior (riding with a drinking driver) in youths
 }
-%\usage{data(YouthRisk2007)}
 \format{
   A dataset with 13387 observations on the following 6 variables.
   \tabular{rl}{

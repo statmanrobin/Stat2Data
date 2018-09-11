@@ -5,7 +5,6 @@
 \description{
 Survey of students in grades 9-12 concerning health-risk behiviors
 }
-%\usage{data(YouthRisk2009)}
 \format{
   A dataset with 500 observations on the following 6 variables.
   \describe{

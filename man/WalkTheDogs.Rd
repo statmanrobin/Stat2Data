@@ -18,7 +18,7 @@ Daily pedometer data for one of the authors
   }
 }
 \details{
-One of the authors recorded daily pedometer data, the weather, and whether or not the dogs got walked.
+One of the authors recorded daily pedometer data, the weather, and whether or not he walked the dogs.
 }
 \source{
 One of the author's pedometer records.

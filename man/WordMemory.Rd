@@ -1,11 +1,10 @@
 \name{WordMemory}
 \alias{WordMemory}
 \docType{data}
-\title{WordMemory}
+\title{Experiment on Word Memory}
 \description{
 Percentage of different types of words recalled
 }
-%\usage{data(WordMemory)}
 \format{
   A dataset with 40 observations on the following 4 variables.
   \tabular{rl}{

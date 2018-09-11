@@ -16,7 +16,7 @@ Experiment to compare visual and verbal performance
   }
 }
 \details{
-Subjects to carry out two kinds of tasks, one visual (identify letters), one verbal (identify sentences); and to report the results in either of two ways, one visual (pointing at a response), one verbal (speaking a response).  Time to complete each task was recorded in seconds).
+Subjects carried out two kinds of tasks, one visual (identify letters), one verbal (identify sentences); and to report the results in either of two ways, one visual (pointing at a response), one verbal (speaking a response).  Time to complete each task was recorded in seconds.
 }
 \source{
 Original experiment from Brooks, L., R. (1968)  "Spatial and verbal components of the act of recall," Canadian J. Psych. V 22, pp. 349 - 368.  These data collected from a Mount Holyoke College psychology class.

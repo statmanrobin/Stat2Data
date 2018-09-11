@@ -1,7 +1,7 @@
 \name{TextPrices}
 \alias{TextPrices}
 \docType{data}
-\title{Text Prices}
+\title{Textbook Prices}
 \description{
 Prices and number of pages for a sample of college textbooks
 }

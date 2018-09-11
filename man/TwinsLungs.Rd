@@ -1,11 +1,10 @@
 \name{TwinsLungs}
 \alias{TwinsLungs}
 \docType{data}
-\title{TwinsLungs}
+\title{Comparing Twins Ability to Clear Radioactive Particles}
 \description{
-Comparing lung function for twins between rural and urban environments
+Experiment comparing twins (one urban, one rural) ability to clear airborne radioactive particles from their lungs
 }
-%\usage{data(TwinsLungs)}
 \format{
   A dataset with 14 observations on the following 3 variables.
   \tabular{rl}{

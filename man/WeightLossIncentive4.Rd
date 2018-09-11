@@ -1,11 +1,10 @@
 \name{WeightLossIncentive4}
 \alias{WeightLossIncentive4}
 \docType{data}
-\title{WeightLossIncentive4}
+\title{Do Financial Incentives Improve Weight Loss? (4 Months)}
 \description{
 Weight loss after four months with/without a financial incentive
 }
-%\usage{data(WeightLossIncentive4)}
 \format{
   A dataset with 36 observations on the following 2 variables.
   \tabular{rl}{

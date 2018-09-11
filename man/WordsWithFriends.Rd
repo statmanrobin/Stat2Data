@@ -3,7 +3,7 @@
 \docType{data}
 \title{Words with Friends Scores}
 \description{
-Results from online game Words with Friends, from solo play
+Results from the online game Words with Friends (solo play)
 }
 \format{
   A data frame with 444 observations on the following 11 variables.
@@ -22,7 +22,7 @@ Results from online game Words with Friends, from solo play
   }
 }
 \details{
-Results collected fomr one of the authors playing the "solo" mode of Words with Friends.
+Results collected from one of the authors playing the "solo" mode of Words with Friends.
 }
 \source{
 Author's iPhone
