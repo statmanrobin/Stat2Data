@@ -2,12 +2,11 @@
 \alias{AutoPollution}
 \docType{data}
 \title{
-AutoPollution
+Noise Levels of Filters to Reduce Automobile Pollution
 }
 \description{
-AutoPollution
+Measurements of noise levels for different filters to reduce pollution levels of automobiles.
 }
-%\useage{data(AutoPollution)}
 \format{
   A dataset with 36 observations on the following 4 variables.
   \tabular{rl}{
@@ -29,7 +28,7 @@ standard filter and the noise level for each car was measured.
 Data explanation and link can be found at http://lib.stat.cmu.edu/DASL/Stories/airpollutionfilters.html.
 }
 \references{
- A.Y. Lewin and M.F. Shakun, Policy Sciences: Methodology and Cases, Pergammon Press, 1976, p 313. 
+ A.Y. Lewin and M.F. Shakun, Policy Sciences: Methodology and Cases, Pergammon Press, 1976, p 313.
 }
 
 \keyword{datasets}

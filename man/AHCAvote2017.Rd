@@ -1,9 +1,9 @@
 \name{AHCAvote2017}
 \alias{AHCAvote2017}
 \docType{data}
-\title{AHCAvote2017}
+\title{Congressional Votes on American Health Care Act (in 2017)}
 \description{
-Congressional votes on the American Health Care Act
+Congressional votes on the American Health Care Act in 2017
 }
 \format{
   A data frame with 430 observations on the following 11 variables.
@@ -11,14 +11,14 @@ Congressional votes on the American Health Care Act
     \item{\code{STATE}}{State name}
     \item{\code{Dist}}{Congressional district}
     \item{\code{Party}}{Party affiliation (\code{D}=Democrat, \code{R}=Republican)}
-    \item{\code{Dem}}{1=Democat, 0=Republican}
-    \item{\code{Rep}}{1=Republican, 0=Democrat}
+    \item{\code{Dem}}{\code{1}=Democat, \code{0}=Republican}
+    \item{\code{Rep}}{\code{1}=Republican, \code{0}=Democrat}
     \item{\code{uni2013}}{Percentage of citizens without health care in 2013}
     \item{\code{uni2015}}{Percentage of citizens without health care in 2015}
     \item{\code{uniChange}}{uni2015 - uni2013}
     \item{\code{Member}}{Name of representative}
-    \item{\code{AHCAvote}}{1=yes, 0=no}
-    \item{\code{Trump}}{1= Trump won district, 0=Clinton won district}
+    \item{\code{AHCAvote}}{\code{1}=yes, \code{0}=no}
+    \item{\code{Trump}}{\code{1}=Trump won district, \code{0}=Clinton won district}
   }
 }
 \details{

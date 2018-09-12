@@ -1,9 +1,9 @@
 \name{AccordPrice}
 \alias{AccordPrice}
 \docType{data}
-\title{AccordPrice}
+\title{Prices of Used Honda Accords (in 2017)}
 \description{
-Age, Price, and Mileage of used Honda Accords
+Age, price, and mileage of used Honda Accords in 2017
 }
 \format{
   A data frame with 30 observations on the following 3 variables.

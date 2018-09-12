@@ -3,10 +3,10 @@
 \alias{Stat2Data}
 \docType{package}
 \title{
-DataSets for Stat2 Textbook
+DataSets for Stat2: Modeling with Regression and ANOVA
 }
 \description{
-DataSets for Stat2 Textbook (by Cannon, et. al.)
+DataSets for Stat2: Modeling with Regression and ANOVA (second edition) and Stat2: Building Models for a World of Data (first edition)
 }
 \details{
 \tabular{ll}{
@@ -21,7 +21,7 @@ LazyLoad: \tab yes\cr
 This package included datasets for both the first and second editions of the text.
 }
 \author{
-Robin Lock
+Ann Cannon, George Cobb, Bradley Hartlaub, Julie Legler, Robin Lock, Thomas Moore, Allan Rossman, Jeffrey Witmer
 
 Maintainer: Robin Lock <rlock@stlawu.edu>
 }

@@ -1,9 +1,9 @@
 \name{AlitoConfirmation}
 \alias{AlitoConfirmation}
 \docType{data}
-\title{AlitoConfirmation}
+\title{US Senate Votes on Samuel Alito for the Supreme Court}
 \description{
-US Senate votes on Samuel Alito confirmation
+US Senate party affiliatoin and votes on confirming Samuel Alito for the Supreme Court
 }
 \format{
   A data frame with 100 observations on the following 6 variables.

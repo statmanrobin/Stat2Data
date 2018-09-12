@@ -1,9 +1,9 @@
 \name{AudioVisual}
 \alias{AudioVisual}
 \docType{data}
-\title{AudioVisual}
+\title{Reaction Times to Audio and Visual Stimuli}
 \description{
-Reaction times to audio or visual stimuli
+Data from an experment on reaction times to audio or visual stimuli by Oberlin College students.
 }
 \format{
   A data frame with 72 observations on the following 4 variables.

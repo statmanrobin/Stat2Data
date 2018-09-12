@@ -1,9 +1,9 @@
 \name{Amyloid}
 \alias{Amyloid}
 \docType{data}
-\title{Amyloid}
+\title{Amyloid-beta and Cognitive Impairment}
 \description{
-Abeta measurements and cognitive impairment level
+Amyloid-beta and cognitive impairment for a sample of Catholic priests
 }
 \format{
   A data frame with 57 observations on the following 2 variables.
@@ -13,7 +13,7 @@ Abeta measurements and cognitive impairment level
   }
 }
 \details{
-Amyloid-beta (Abeta) is a protein fragment that has been linked to Alzheimer's disease. Autopsies from a sample of Catholic priests included measurements of Abeta (pmol/g tissue from the posterior cingulate cortex) from three groups: subjects who had exhibited no cognitive impairment before death, subjects who had exhibited mild cognitive impairment, and subjects who had mild to moderate Alzheimer's disease
+Amyloid-beta (Abeta) is a protein fragment that has been linked to Alzheimer's disease. Autopsies from a sample of Catholic priests included measurements of Abeta (pmol/g tissue from the posterior cingulate cortex) from three groups: subjects who had exhibited no cognitive impairment before death, subjects who had exhibited mild cognitive impairment, and subjects who had mild to moderate Alzheimer's disease.
 }
 \source{
 Violetta N. Pivtoraiko, Eric E. Abrahamson, Sue E. Leurgans, Steven T. DeKosky,

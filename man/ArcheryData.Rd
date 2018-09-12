@@ -1,7 +1,7 @@
 \name{ArcheryData}
 \alias{ArcheryData}
 \docType{data}
-\title{ArcheryData}
+\title{Scores in an Archery Class}
 \description{
 Score results from an archery class
 }
@@ -15,7 +15,7 @@ Score results from an archery class
     \code{Day1} \tab {Archery score on first day}\cr
     \code{LastDay} \tab {Archery score on last day}\cr
     \code{Improvement} \tab {Last day - first day score}\cr
-    \code{Improve} \tab {1=improved or 0= did not improve}\cr
+    \code{Improve} \tab {1=improved or 0=did not improve}\cr
   }
 }
 \details{

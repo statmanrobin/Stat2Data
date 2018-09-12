@@ -1,7 +1,7 @@
 \name{Airlines}
 \alias{Airlines}
 \docType{data}
-\title{Airlines Ontime Records}
+\title{Ontime Records for Two Airlines at Two Airports}
 \description{
 Ontime arrivals for American and Delta airlines at LaGuardia and O'Hare airports
 }
