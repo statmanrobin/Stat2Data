@@ -1,13 +1,12 @@
 \name{CalciumBP}
 \alias{CalciumBP}
 \docType{data}
-\title{CalciumBP}
+\title{Do Calcium Supplements Lower Blood Pressure?}
 \description{
-Calcium and blood pressure
+An experiment on calcium supplements and blood pressure in 21 men
 }
-%\useage{data(CalciumBP)}
 \format{
-  A dataset with 21 observations on the following 2 variables.
+  A data frame with 21 observations on the following 2 variables.
   \tabular{rl}{
     \code{Treatment} \tab {\code{Calcium} or \code{Placebo}}\cr
     \code{Decrease} \tab {Beginning-ending blood pressure}\cr
@@ -19,7 +18,7 @@ The subjects were 21 men; each was randomly assigned either to a treatment group
 group. Those in the treatment group took a daily pill containing calcium. Those in the control
 group took a daily pill with no active ingredients. Each subject's blood pressure was measured at
 the beginning of the 12-week study, and again at the end.  The decrease in blood pressure (begin-end)
-was recorded (so a negative value means blood pressure increased). 
+was recorded (so a negative value means blood pressure increased).
 }
 \source{
 Dataset downloaded from online data source Data and Story Library, \cr

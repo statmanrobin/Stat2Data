@@ -1,13 +1,12 @@
 \name{BritishUnions}
 \alias{BritishUnions}
 \docType{data}
-\title{BritishUnions}
+\title{Attitudes Towards British Trade Unions}
 \description{
 Poll attitudes towards British trade unions
 }
-%\useage{data(BritishUnions)}
 \format{
-  A dataset with 17 observations on the following 7 variables.
+  A data frame with 17 observations on the following 7 variables.
   \tabular{rl}{
     \code{Date} \tab {Month of the poll \code{Aug-77} to \code{Sep-79}}\cr
     \code{AgreePct} \tab {Percent who agree (unions have too much power)}\cr

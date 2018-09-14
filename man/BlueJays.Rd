@@ -1,13 +1,12 @@
 \name{BlueJays}
 \alias{BlueJays}
 \docType{data}
-\title{Blue Jays}
+\title{Blue Jay Measurements}
 \description{
 Body measurements for a sample of blue jays
 }
-%\useage{data(BlueJays)}
 \format{
-  A dataset with 123 observations on the following 9 variables.
+  A data frame with 123 observations on the following 9 variables.
   \tabular{rl}{
     \code{BirdID} \tab {ID tag for bird}\cr
     \code{KnownSex} \tab {Sex coded as \code{F} or \code{M}}\cr

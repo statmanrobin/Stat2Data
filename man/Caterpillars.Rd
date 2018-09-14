@@ -1,13 +1,12 @@
 \name{Caterpillars}
 \alias{Caterpillars}
 \docType{data}
-\title{Caterpillars}
+\title{Measurements of Manduca Sexta Caterpillars}
 \description{
 Measurements on a sample of Manduca Sexta caterpillars
 }
-%\useage{data(Caterpillars)}
 \format{
-  A dataset with 267 observations on the following 18 variables.
+  A data frame with 267 observations on the following 18 variables.
   \tabular{rl}{
     \code{Instar} \tab {Coded from 1 (smallest) to 5 (largest) indicating stage of the caterpillar's life}\cr
     \code{ActiveFeeding} \tab {Indicator (\code{Y} or \code{N}) of whether or not the animal is actively feeding}\cr

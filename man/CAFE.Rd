@@ -1,13 +1,12 @@
 \name{CAFE}
 \alias{CAFE}
 \docType{data}
-\title{CAFE}
+\title{US Senate Votes on Corporate Average Fuel Economy Bill}
 \description{
 Senate votes for Corporate Average Fuel Economy (CAFE) bill
 }
-%\useage{data(CAFE)}
 \format{
-  A dataset with 100 observations on the following 7 variables.
+  A data frame with 100 observations on the following 7 variables.
   \tabular{rl}{
     \code{Senator} \tab {Senator's name}\cr
     \code{State} \tab {Code for senator's state}\cr
@@ -19,19 +18,19 @@ Senate votes for Corporate Average Fuel Economy (CAFE) bill
   }
 }
 \details{
-The Corporate Average Fuel Economy (CAFE) bill was proposed by Senators John McCain and
-John Kerry to improve the fuel economy of cars and light trucks sold in the United States. 
-However a critical vote on an amendment in March of 2002 threatened to indefinitely postpone CAFE. 
+The Corporate Average Fuel Economy (CAFE) Bill was proposed by Senators John McCain and
+John Kerry to improve the fuel economy of cars and light trucks sold in the United States.
+However a critical vote on an amendment in March of 2002 threatened to indefinitely postpone CAFE.
 The amendment charged the National Highway Traffic Safety Administration to develop a new standard,
 the effect being to put on indefinite hold the McCain-Kerry bill. It passed by a vote of 62-38.
 A political question of interest is whether there is evidence of monetary influence on a senator's
 vote. Scott Preston, a professor of statistics at SUNY, Oswego, collected data on this vote which
-includes the vote of each senator (1=Yes or 0=No) and 
+includes the vote of each senator (1=Yes or 0=No) and
 monetary contributions that each of the 100 senators received over his or her lifetime from the car
 manufacturers.
 }
 \source{
-Thanks to Prof. Scott Preston for the data. 
+Thanks to Prof. Scott Preston from SUNY Oswego for the data.
 }
 
 \keyword{datasets}

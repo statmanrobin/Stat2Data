@@ -1,13 +1,12 @@
 \name{Clothing}
 \alias{Clothing}
 \docType{data}
-\title{Clothing}
+\title{Sales for a Clothing Retailer}
 \description{
-Clothing retailer
+Data on 60 customers at a clothing retailer
 }
-%\useage{data(Clothing)}
 \format{
-  A dataset with 60 observations on the following 8 variables.
+  A data frame with 60 observations on the following 8 variables.
   \tabular{rl}{
     \code{ID} \tab {Case ID}\cr
     \code{Amount} \tab {Net dollar amount spent by customers in their latest purchase from this retailer}\cr
@@ -21,12 +20,12 @@ Clothing retailer
 }
 \details{
 This dataset represents a random sample of 60 customers from a large clothing
-retailer.  The manager of the store is interested in predicting how much a customer 
-will spend on his or her next purchase based on one or more of the available 
+retailer.  The manager of the store is interested in predicting how much a customer
+will spend on his or her next purchase based on one or more of the available
 explanatory variables.
 }
 \source{
-Personal communication from clothing retailer David Cameron
+Personal communication with David Cameron who completed a more extensive consulting project for the retailer.
 }
 
 \keyword{datasets}

@@ -1,14 +1,14 @@
 \name{BreesPass}
 \alias{BreesPass}
 \docType{data}
-\title{BreesPass}
+\title{Drew Brees Passing Statistics (2016)}
 \description{
-Passing statistics for Drew Brees in 2016
+Passing statistics for football quaterback Drew Brees in 2016
 }
 \format{
   A data frame with 16 observations on the following 5 variables.
   \describe{
-    \item{\code{Game}}{Game number}
+    \item{\code{Game}}{Game number (1 is the first game of the regualr season)}
     \item{\code{Opponent}}{Opponent abbreviation}
     \item{\code{Completed}}{Number of completed passes}
     \item{\code{Attempts}}{Pass attempts}

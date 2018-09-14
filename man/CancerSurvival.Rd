@@ -1,11 +1,10 @@
 \name{CancerSurvival}
 \alias{CancerSurvival}
 \docType{data}
-\title{CancerSurvival}
+\title{Survival Times for Different Cancers}
 \description{
 Cancer survival with ascorbate supplement
 }
-%\useage{data(CancerSurvival)}
 \format{
   A dataset with 64 observations on the following 2 variables.
   \tabular{rl}{

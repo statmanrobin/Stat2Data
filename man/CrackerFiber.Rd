@@ -1,13 +1,12 @@
 \name{CrackerFiber}
 \alias{CrackerFiber}
 \docType{data}
-\title{Cracker Fiber in Diets}
+\title{Effects of Cracker Fiber on Digested Calories}
 \description{
 Digested calories with different types of fiber in crackers
 }
-%\useage{data(CrackerFiber)}
 \format{
-  A dataset with 48 observations on the following 3 variables.
+  A data frame with 48 observations on the following 3 variables.
   \tabular{rl}{
     \code{Subj} \tab {ID for the subject}\cr
     \code{Fiber} \tab {Type of fiber: \code{bran}, \code{combo}, \code{control}, or \code{gum}}\cr
@@ -23,8 +22,7 @@ response is the number of digested calories, measured as the difference between 
 calories passed through the system.
 }
 \source{
-Subset of the data at http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html, 
-originally distributed with with the Data Desk software package. 
+Subset of the data at http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html.
 }
 
 \keyword{datasets}

@@ -1,13 +1,12 @@
 \name{CloudSeeding2}
 \alias{CloudSeeding2}
 \docType{data}
-\title{Cloud Seeding 2}
+\title{Cloud Seeding Experiment (Four Seasons)}
 \description{
 Rainfall amounts from a cloud seeding experiment
 }
-%\usage{data(CloudSeeding2)}
 \format{
-  A dataset with 108 observations on the following 8 variables.
+  A data frame with 108 observations on the following 8 variables.
   \tabular{rl}{
     \code{Period} \tab {ID for time period}\cr
     \code{Seeded} \tab {Treatment coded as \code{S}=seded or  \code{U}=unseeded}\cr

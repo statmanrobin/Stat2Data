@@ -1,13 +1,12 @@
 \name{Cereal}
 \alias{Cereal}
 \docType{data}
-\title{Cereal}
+\title{Nurition Content of Breakfast Cereals}
 \description{
-Breakfast cereals
+Nutrition content for a sample of 36 different brands of breakfast cereals
 }
-%\useage{data(Cereal)}
 \format{
-  A dataset with 36 observations on the following 4 variables.
+  A data frame with 36 observations on the following 4 variables.
   \tabular{rl}{
     \code{Cereal} \tab {Brandname of cereal}\cr
     \code{Calories} \tab {Calories per serving}\cr
@@ -17,12 +16,12 @@ Breakfast cereals
 }
 \details{
 Data give nutrition contents (per serving) for 36 breakfast cereals.
-} 
+}
 \source{
-These data were collected by Patricia Benedict, Ronald Brahler, and 
+These data were collected by Patricia Benedict, Ronald Brahler, and
 Kenneth Motz, who read the nutritional labels on the boxes,
- in an attempt to learn whether cereals high in fiber are 
- also high in sugar and calories.  
+ in an attempt to learn whether cereals high in fiber are
+ also high in sugar and calories.
  The cereals are all of those that were sold at Russo Stop
   & Shop in University Heights, OH, in July, 1990.
 }

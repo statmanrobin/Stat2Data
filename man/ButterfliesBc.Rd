@@ -1,7 +1,7 @@
 \name{ButterfliesBc}
 \alias{ButterfliesBc}
 \docType{data}
-\title{ButterfliesBc}
+\title{Butterfly (Boloria chariclea) Measurements}
 \description{
 Measurements for a sample of butterflies in Greenland
 }

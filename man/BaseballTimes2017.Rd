@@ -1,7 +1,7 @@
 \name{BaseballTimes2017}
 \alias{BaseballTimes2017}
 \docType{data}
-\title{BaseballTimes2017}
+\title{Baseball Game Times of One Day in 2017}
 \description{
 Times for one day's major league baseball games
 }

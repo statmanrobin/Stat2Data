@@ -1,9 +1,9 @@
 \name{BirdCalcium}
 \alias{BirdCalcium}
 \docType{data}
-\title{BirdCalcium}
+\title{Effect of a Hormone on Bird Calcium Levels}
 \description{
-Blood calcium levels in birds
+An experiment on the effects of a hormone on blood calcium levels in robins
 }
 \format{
   A data frame with 20 observations on the following 5 variables.

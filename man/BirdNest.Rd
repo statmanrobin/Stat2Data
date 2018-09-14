@@ -2,14 +2,13 @@
 \alias{BirdNest}
 \docType{data}
 \title{
-BirdNest
+Nest Characteristics for Different Bird Species
 }
 \description{
-Data on bird nests
+Nest and species characteristics for North American passerines
 }
-%\useage{data(BirdNest)}
 \format{
-  A dataset with 84 observations on the following 12 variables.
+  A data frame with 84 observations on the following 12 variables.
   \tabular{rl}{
     \code{Species} \tab {Latin species name}\cr
     \code{Common} \tab {Common species name}\cr
@@ -18,7 +17,7 @@ Data on bird nests
     \code{Nesttype} \tab {Type of nest}\cr
     \code{Location} \tab {Location of nest}\cr
     \code{No.eggs} \tab {Number of eggs}\cr
-    \code{Color} \tab {a numeric vector}\cr
+    \code{Color} \tab {Egg color (\code{0}=plain/solid or \code{1}=speckled/spotted)}\cr
     \code{Incubate} \tab {Mean length of time (in days) the species incubates eggs in the nest}\cr
     \code{Nestling} \tab {Mean length of time (in days) the species cares for babies in the nest until fledged}\cr
     \code{Totcare} \tab {Total care time = Incubate+Nestling}\cr
@@ -28,7 +27,7 @@ Data on bird nests
 \details{
 Amy R. Moore, as a student at Grinnell College in 1999, wanted to study the relationship between
 species characteristics and the type of nest a bird builds, using data collected from available
-sources. For the study, she collected data by species for 83 separate species of North American
+sources. For the study, she collected data by species for 84 separate species of North American
 passerines.
 }
 \source{

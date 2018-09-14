@@ -1,7 +1,7 @@
 \name{BrainpH}
 \alias{BrainpH}
 \docType{data}
-\title{BrainpH}
+\title{Brain pH Measurements}
 \description{
 Brain tissue pH at time of death
 }
