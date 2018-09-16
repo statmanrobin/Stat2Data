@@ -8,11 +8,10 @@ Finger tap rates after drug administration
 \format{
   A data frame with 12 observations on the following 4 variables.
   \describe{
-    \item{\code{ID}}{Case ID}
-    \item{\code{Rate}}{Finger taps in a fixed time interval}
-    \item{\code{Subj}}{Subject code (\code{A}, \code{B}, \code{C}, or \code{D})}
-    \item{\code{Drug}}{Drug administered (\code{Ca}=caffeine, \code{Pl}=placebo, or  \code{Th}=theobromine)}
-  }
+    \item{\code{Subject}}{Subject code (\code{I}, \code{II}, \code{III}, or \code{IV})}
+        \item{\code{Drug}}{Drug administered (\code{Ca}=caffeine, \code{Pl}=placebo, or  \code{Th}=theobromine)}
+    \item{\code{TapRate}}{Finger taps in a fixed time interval}
+   }
 }
 \details{
 Scientists Scott and Chen, published

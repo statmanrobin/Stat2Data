@@ -1,8 +1,7 @@
 \name{HighPeaks}
 \alias{HighPeaks}
 \docType{data}
-\title{Characterisrics of Adirondack Hicking Trails}
-}
+\title{Characteristics of Adirondack Hiking Trails}
 \description{
 Data on hiking trails for each of the 46 "High Peaks" in the Adirondack mountains
 }
