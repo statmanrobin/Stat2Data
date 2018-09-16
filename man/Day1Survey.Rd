@@ -1,13 +1,12 @@
 \name{Day1Survey}
 \alias{Day1Survey}
 \docType{data}
-\title{Day1Survey}
+\title{First Day Survey of Statistics Students}
 \description{
-Data from a first day class survey
+Data from a first day class survey in an introductory statistics course
 }
-%\useage{data(Day1Survey)}
 \format{
-  A dataset with 43 observations on the following 13 variables.
+  A data frame with 43 observations on the following 13 variables.
   \tabular{rl}{
     \code{Section} \tab {Section: \code{1} or \code{2}}\cr
     \code{Class} \tab {Year in school: \code{Freshman},  \code{Sophomore}, \code{Junior}, or \code{Senior}}\cr
@@ -29,7 +28,7 @@ An instructor at a small liberal arts college distributed the a data survey on t
 different sections of the course are given in this dataset.
 }
 \source{
-Student survey in an introductory statistics class. 
+Student survey in an introductory statistics class.
 }
 
 \keyword{datasets}

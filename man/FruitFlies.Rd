@@ -1,13 +1,12 @@
 \name{FruitFlies}
 \alias{FruitFlies}
 \docType{data}
-\title{FruitFlies}
+\title{Fruit Fly Sexual Activity and Longevity}
 \description{
 Sexual activity and lifetimes of fruit flies
 }
-%\useage{data(FruitFlies)}
 \format{
-  A dataset with 125 observations on the following 7 variables.
+  A dataframe with 125 observations on the following 7 variables.
   \tabular{rl}{
     \code{ID} \tab {a numeric vector}\cr
     \code{Partners} \tab {Number of female partners: 0, 1, or 8}\cr
@@ -29,11 +28,13 @@ groups.
 }
 \source{
 The data are given as part of the data archive on the Journal of Statistics Education website
-and can be found on the page http://www.amstat.org/publications/jse/jse_data_archive.htm.
+and can be found on the page \cr
+http://www.amstat.org/publications/jse/jse_data_archive.htm.
 }
 \references{
-Hanley and Hapiro, "Sexual Activity and the Lifespan of Male Fruitflies: A Dataset That Gets Attention," Journal of Statistics Education
-v.2, n.1, (1994), http://www.amstat.org/publications/jse/v2n1/datasets.hanley.html
+Hanley and Hapiro, (1994) "Sexual Activity and the Lifespan of Male Fruitflies: A Dataset That Gets Attention," Journal of Statistics Education
+v.2, n.1\cr
+http://www.amstat.org/publications/jse/v2n1/datasets.hanley.html
 }
 
 \keyword{datasets}

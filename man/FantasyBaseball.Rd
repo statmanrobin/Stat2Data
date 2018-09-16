@@ -1,13 +1,12 @@
 \name{FantasyBaseball}
 \alias{FantasyBaseball}
 \docType{data}
-\title{FantasyBaseball}
+\title{Selection Times in a Fantasy Baseball Draft}
 \description{
 Draft selection times for a fantasy baseball league
 }
-%\useage{data(FantasyBaseball)}
 \format{
-  A dataset with 24 observations on the following 9 variables.
+  A data frame with 24 observations on the following 9 variables.
   \tabular{rl}{
     \code{Round} \tab {Round of the draft (1 to 24)}\cr
     \code{DJ} \tab {Draft time (in seconds) for D.J.}\cr
@@ -21,10 +20,10 @@ Draft selection times for a fantasy baseball league
   }
 }
 \details{
-Time (in seconds) for participants in a draft for a fantasy baseball league to make a selectoion at each round. 
+Time (in seconds) for participants in a draft for a fantasy baseball league to make a selection at each round.
 }
 \source{
-Mathamatical Science Baseball League historical records (online). 
+Mathamatical Science Baseball League historical records (online).
 }
 
 \keyword{datasets}

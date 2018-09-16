@@ -1,14 +1,14 @@
 \name{FinalFourIzzo17}
 \alias{FinalFourIzzo17}
 \docType{data}
-\title{NCAA Final Four by Seed and Tom Izzo}
+\title{NCAA Final Four by Seed and Tom Izzo (through 2017)}
 \description{
-NCAA Final Four by seed with indicator for Tom Izzo's teams
+NCAA Final Four by seed with indicator for Tom Izzo's teams for 1985 - 2017
 }
 \format{
   A data frame with 2112 observations on the following 4 variables.
   \describe{
-    \item{\code{Year}}{Year 1985-2017}
+    \item{\code{Year}}{Year 1985 - 2017}
     \item{\code{Seed}}{Seed in NCAA men's basketball tournament: 1 to 16}
     \item{\code{Final4}}{\code{1}=made Final Four or \code{0}=did not make Final Four}
     \item{\code{Izzo}}{\code{1}=team coached by Tom Izzo or \code{0}=not an Izzo team}

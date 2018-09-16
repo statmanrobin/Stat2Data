@@ -1,11 +1,10 @@
 \name{InsuranceVote}
 \alias{InsuranceVote}
 \docType{data}
-\title{InsuranceVote}
+\title{Congressional Votes on a Health Insurance Bill}
 \description{
-Congressional votes
+Congressional votes on an ObamaCare health insurance bill in 2009
 }
-%\useage{data(InsuranceVote)}
 \format{
   A dataset with 435 observations on the following 9 variables.
   \tabular{rl}{
@@ -27,9 +26,11 @@ while almost all Republicans voted no. This dataset contains data for each of th
 representatives.
 }
 \source{
-Insurance data are from the American Community Survey (http://www.census.gov/acs/www/data_documentation/data_main/). 
-Roll call of congressional votes on this bill can be found 
-at http://clerk.house.gov/evs/2009/roll887.xml.
+Insurance data are from the American Community Survey\cr
+(http://www.census.gov/acs/www/data_documentation/data_main/).
+Roll call of congressional votes on this bill can be found
+at \cr
+http://clerk.house.gov/evs/2009/roll887.xml.
 }
 
 \keyword{datasets}

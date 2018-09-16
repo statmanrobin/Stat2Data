@@ -12,7 +12,7 @@
 #' @param putlegend Position for the legend (default is "n" for no legend)
 #' @param levelcol Vector of colors for the factor levels
 #' @param linecol Color for the line (default is "blue")
-#' @param ... Other grapohical parameter (e.g. xlim, ylim, xlab, ylab, cex)
+#' @param ... Other graphical parameter (e.g. xlim, ylim, xlab, ylab, cex)
 #'
 #' @return A dataframe with group information (if out=TRUE)
 #' @description

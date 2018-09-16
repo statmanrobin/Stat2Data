@@ -1,13 +1,12 @@
 \name{HorsePrices}
 \alias{HorsePrices}
 \docType{data}
-\title{HorsePrices}
+\title{Prices of Horses}
 \description{
-HorsePrices
+Price and related characteristics of horses listed for sale on the internet
 }
-%\useage{data(HorsePrices)}
 \format{
-  A dataset with 50 observations on the following 5 variables.
+  A data frame with 50 observations on the following 5 variables.
   \tabular{rl}{
     \code{HorseID} \tab {ID code for each horse}\cr
     \code{Price} \tab {Price (in dollars)}\cr

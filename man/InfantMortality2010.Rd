@@ -6,7 +6,7 @@
 Infant mortality rates in the United States by decade (1920-2010)
 }
 \format{
-  A dataset with 10 observations on the following 2 variables.
+  A data frame with 10 observations on the following 2 variables.
   \describe{
     \item{\code{Mortality}}{Deaths within one year of birth (per 1000 births}
     \item{\code{Year}}{Year (1920-2010 by decades)}

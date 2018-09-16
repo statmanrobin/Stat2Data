@@ -1,7 +1,7 @@
 \name{LongJumpOlympics2016}
 \alias{LongJumpOlympics2016}
 \docType{data}
-\title{Olympic Men's Long Jump Winning Distances}
+\title{Olympic Men's Long Jump Gold Medal Distance (1900 - 2016)}
 \description{
 Gold medal distance for Olympic men's long jump
 }

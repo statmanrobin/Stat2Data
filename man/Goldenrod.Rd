@@ -5,9 +5,8 @@
 \description{
 Measurements for a sample of goldenrod galls
 }
-%\usage{data(Goldenrod)}
 \format{
-  A dataset with 1055 observations on the following 9 variables.
+  A data frame with 1055 observations on the following 9 variables.
   \tabular{rl}{
     \code{Gdiam03} \tab {Gall diameter in 2003 (in mm)}\cr
     \code{Stdiam03} \tab {Stem diameter in 2003 (in mm)}\cr

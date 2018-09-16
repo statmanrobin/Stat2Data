@@ -1,16 +1,15 @@
 \name{FinalFourShort}
 \alias{FinalFourShort}
 \docType{data}
-\title{FinalFourShort}
+\title{CAA Final Four by Seed (Short Version through 2010)}
 \description{
-NCAA Final Four by seed - short version
+NCAA Final Four participation summarized each year by seed
 }
-%\useage{data(FinalFourShort)}
 \format{
-  A dataset with 512 observations on the following 4 variables.
+  A data frame with 512 observations on the following 4 variables.
   \tabular{rl}{
-    \code{Year} \tab {Year: 1979  to 2010}\cr
-    \code{Seed} \tab {Seed: 1 to 16}\cr
+    \code{Year} \tab {Year (1979  - 2010)}\cr
+    \code{Seed} \tab {Seed in NCAA men's basketball tournament: 1 to 16}\cr
     \code{In} \tab {Number of teams at that seed who made the Final Four that year}\cr
     \code{Out} \tab {Number of teams at that seed who did not made the Final Four that year}\cr
   }
@@ -26,7 +25,8 @@ except that each row combines the count of the results (make/don't make the Fina
 Updated to FinalFourShort17 in second edition.
 }
 \source{
-Final Four teams and their seed can be found at http://www.championshiphistory.com/ncaahoops.php.
+Final Four teams and their seed can be found at \cr
+http://www.championshiphistory.com/ncaahoops.php.
 }
 
 \keyword{datasets}

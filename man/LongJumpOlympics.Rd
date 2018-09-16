@@ -1,15 +1,14 @@
 \name{LongJumpOlympics}
 \alias{LongJumpOlympics}
 \docType{data}
-\title{LongJumpOlympics}
+\title{Olympic Men's Long Jump Gold Medal Distance (1900 - 2008)}
 \description{
-Winning distances in men's Olympic long jump competitions (1920-2008)
+Winning distances in men's Olympic long jump competitions (1900 - 2008)
 }
-%\useage{data(LongJumpOlympics)}
 \format{
-  A dataset with 26 observations on the following 2 variables.
+  A data frame with 26 observations on the following 2 variables.
   \tabular{rl}{
-    \code{Year} \tab {Year of the Olympics (1900-2008)}\cr
+    \code{Year} \tab {Year of the Olympics (1900 - 2008)}\cr
     \code{Gold} \tab {Winning men's long jump distance (in meters)}\cr
   }
 }

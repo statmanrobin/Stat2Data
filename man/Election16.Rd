@@ -22,10 +22,10 @@
 This dataset contains information from all 50 states and the District of Columbia for the 2016 U.S. presidential election.  It is similar to Election08 for the 2008 election.
 }
 \source{
-Income data from
-https://www.census.gov/search-results.html?q=per+capita+income+by+state&search.x=0&search.y=0&search=submit&page=1&stateGeo=none&searchtype=web&cssp=SERP
+Income data from\cr
+https://www.census.gov/search-results.html?q=per+capita+income+by+state&search.x=0 &search.y=0&search=submit&page=1&stateGeo=none&searchtype=web&cssp=SERP
 
-2015 data via American Community Survey
+2015 data via American Community Survey\cr
 https://en.wikipedia.org/wiki/List_of_U.S._states_by_educational_attainment
 from Bureau, U.S. Census. "2011-2015 American Community Survey 5-Year Estimates. factfinder.census.gov. Retrieved 2017-01-19.
 

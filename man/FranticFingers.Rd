@@ -21,6 +21,6 @@ of taps in a fixed time interval.
 \source{
 The data was found in Statistics in Biology, Vol. 1, by C. I. Bliss (1967), New York: McGraw Hill.
 
-The original article is Scott, C.C. and Chen, K. K. (1944), "Comparison of the action of 1-ethyl theobromine and caffeine in animals and man,"  Journal of Pharmacological Experimental Therapy, v. 82 (1944), pp 89-97.
+The original article is Scott, C.C. and Chen, K. K. (1944), "Comparison of the action of 1-ethyl theobromine and caffeine in animals and man,"  Journal of Pharmacological Experimental Therapy, v. 82, pp 89-97.
 }
 \keyword{datasets}

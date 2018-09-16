@@ -1,13 +1,12 @@
 \name{ICU}
 \alias{ICU}
 \docType{data}
-\title{ICU}
+\title{Intensive Care Unit Patients}
 \description{
-Patients at an Intensive Care Unit (ICU)
+Data for a sampom pf 200 patients at an Intensive Care Unit (ICU)
 }
-%\useage{data(ICU)}
 \format{
-  A dataset with 200 observations on the following 9 variables.
+  A data frame with 200 observations on the following 9 variables.
   \tabular{rl}{
     \code{ID} \tab {Patient ID code}\cr
     \code{Survive} \tab {\code{1}=patient survived to discharge or \code{0}=patient died}\cr

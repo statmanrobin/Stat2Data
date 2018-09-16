@@ -1,13 +1,12 @@
 \name{Jurors}
 \alias{Jurors}
 \docType{data}
-\title{Jurors}
+\title{Reporting Rates for Jurors}
 \description{
-Jurors
+Reporting rates for bi-weekly jury pools in Franklin County Court (Columbus, OH).
 }
-%\useage{data(Jurors)}
 \format{
-  A dataset with 52 observations on the following 4 variables.
+  A data frame with 52 observations on the following 4 variables.
   \tabular{rl}{
     \code{Period} \tab {Sequential 2-week periods ove the course of a year}\cr
     \code{PctReport} \tab {Percentage of selected jurors who report}\cr

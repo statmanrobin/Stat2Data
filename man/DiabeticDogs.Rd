@@ -1,7 +1,7 @@
 \name{DiabeticDogs}
 \alias{DiabeticDogs}
 \docType{data}
-\title{Lactic Acid Turnover in Diabetic Dogs}
+\title{Lactic Acid Turnover in Dogs}
 \description{
 The rate of lactic acid turnover was measured by two methods for normal and diabetic dogs.
 }

@@ -1,13 +1,12 @@
 \name{Film}
 \alias{Film}
 \docType{data}
-\title{Film}
+\title{Film Data from Leonard Maltin's Guide}
 \description{
 Film data from Maltin's Movie and Video Guide
 }
-%\useage{data(Film)}
 \format{
-  A dataset with 100 observations on the following 9 variables.
+  A datas frame with 100 observations on the following 9 variables.
   \tabular{rl}{
     \code{Title} \tab {Movie title}\cr
     \code{Year} \tab {Year the movie was released}\cr

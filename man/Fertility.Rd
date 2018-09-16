@@ -1,13 +1,12 @@
 \name{Fertility}
 \alias{Fertility}
 \docType{data}
-\title{Fertility}
+\title{Fertility Data for Women Having Trouble Getting Pregnant}
 \description{
-Fertility measurements for a sample of women
+Fertility measurements for a sample of women who have difficulty getting pregnant
 }
-%\useage{data(Fertility)}
 \format{
-  A dataset with 333 observations on the following 10 variables.
+  A data frame with 333 observations on the following 10 variables.
   \tabular{rl}{
     \code{Age} \tab {Age (in years)}\cr
     \code{LowAFC} \tab {Smallest antral follicle count}\cr
@@ -23,9 +22,9 @@ Fertility measurements for a sample of women
 }
 \details{
 A medical doctor and her team of researchers collected a
-variety of data on women who were having troubling getting pregnant. 
-A key method for assessing fertility is a count of antral follicles (LowAFC or MeanAFC) 
-that can be performed with noninvasive ultrasound. 
+variety of data on women who were having trouble getting pregnant.
+A key method for assessing fertility is a count of antral follicles (LowAFC or MeanAFC)
+that can be performed with noninvasive ultrasound.
 Researchers are interested in how the other variables are related to these counts.
 }
 \source{

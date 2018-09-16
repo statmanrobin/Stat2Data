@@ -1,13 +1,12 @@
 \name{Leukemia}
 \alias{Leukemia}
 \docType{data}
-\title{Leukemia}
+\title{Responses to Treatment for Leukemia}
 \description{
 Treatment results for leukemia patients
 }
-%\useage{data(Leukemia)}
 \format{
-  A dataset with 51 observations on the following 9 variables.
+  A data frame with 51 observations on the following 9 variables.
   \tabular{rl}{
     \code{Age} \tab {Age at diagnosis (in years)}\cr
     \code{Smear} \tab {Differential percentage of blasts}\cr

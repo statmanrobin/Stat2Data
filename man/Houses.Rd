@@ -1,13 +1,12 @@
 \name{Houses}
 \alias{Houses}
 \docType{data}
-\title{Houses}
+\title{House Prices, Sizes, and Lot Areas}
 \description{
-Houses
+Selling price and characteristics for a sample of 20 houses in a small town
 }
-%\useage{data(Houses)}
 \format{
-  A dataset with 20 observations on the following 3 variables.
+  A data frame with 20 observations on the following 3 variables.
   \tabular{rl}{
     \code{Price} \tab {Selling price (in dollars)}\cr
     \code{Size} \tab {Size of the house (in square feet)}\cr

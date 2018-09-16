@@ -1,7 +1,7 @@
 \name{Dinosaurs}
 \alias{Dinosaurs}
 \docType{data}
-\title{Using Iridium Levels in Rock Layers to Investigate Dinosaur Extinction}
+\title{Iridium Levels in Rock Layers to Investigate Dinosaur Extinction}
 \description{
 Iridium levels in prehistoric rock layers
 }
@@ -15,7 +15,7 @@ Iridium levels in prehistoric rock layers
   }
 }
 \details{
-The question of interest is whether a volcanic eruption or asteroid strike had created a dust cloud that led to extinction of most dinosaurs.  Rock samples taken in Gubbio, Italy were measured for the concentration of iridium (a rare metal which is more common in asteroids).  The deeper the sample, the older the rocks.  A sudden increase in iridium at some point in time would lend support for the asteroid hypothesis.
+The question of interest is whether a volcanic eruption or asteroid strike had created a dust cloud that led to extinction of most dinosaurs.  Rock samples taken in Gubbio, Italy were measured for the concentration of iridium (a rare metal which is more common in asteroids).  The deeper the sample, the older the rocks are.  A sudden increase in iridium at some point in time would lend support for the asteroid hypothesis.
 }
 \source{
 Ramsey, Fred L. and Daniel W. Schafer (2002). The Statistical Sleuth, 2nd ed., Pacific Grove, CA, Duxbury, pp.405-407.

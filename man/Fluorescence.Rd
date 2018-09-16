@@ -1,13 +1,12 @@
 \name{Fluorescence}
 \alias{Fluorescence}
 \docType{data}
-\title{Fluorescence}
+\title{Measuring Calcium Binding to Proteins}
 \description{
-Data from an experiment on calcium binding proteins
+Data from an experiment on calcium binding to proteins
 }
-%\useage{data(Fluorescence)}
 \format{
-  A dataset with 51 observations on the following 2 variables.
+  A data frame with 51 observations on the following 2 variables.
   \tabular{rl}{
     \code{Calcium} \tab {Log of free calcium concentration}\cr
     \code{ProteinProp} \tab {Proportion of protein bound to calcium}\cr

@@ -19,9 +19,10 @@ Survey data to see if subjects can guess author's sex from handwriting specimens
   }
 }
 \details{
-Bradley and colleagues at Clarke gave two identical surveys to a sample of 203 students (each student did the survey twice).  Each survey contains 25 writing specimens and students were asked to identify whether the author is male or female.  Of the 25 specimens, 12 are written by a female, 13 by a male.
+Bradley and colleagues at Clarke University gave two identical surveys to a sample of 203 students (each student did the survey twice).  Each survey contains 25 writing specimens and students were asked to identify whether the author is male or female.  Of the 25 specimens, 12 are written by a female, 13 by a male.
 
-An example of the survey form can be found at https://docs.google.com/forms/d/1sO6vlsozsORbqaCTsA7Ta0qZL7_6_MCEPJ7tYeKYyvI/viewform
+An example of the survey form can be found at \cr
+https://docs.google.com/forms/d/1sO6vlsozsORbqaCTsA7Ta0qZL7_6_MCEPJ7tYeKYyvI/viewform
 }
 \source{
 Bradley, S., (2015), "Handwriting and Gender:  A Multi-use Dataset", JSE (Datasets and Stories). March 2015.

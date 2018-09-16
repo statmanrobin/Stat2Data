@@ -1,7 +1,7 @@
 \name{ElephantsFB}
 \alias{ElephantsFB}
 \docType{data}
-\title{Male African Elephants}
+\title{Measurements of Male African Elephants}
 \description{
 Age and height of male African elephants
 }

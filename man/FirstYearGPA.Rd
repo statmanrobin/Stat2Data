@@ -1,16 +1,15 @@
 \name{FirstYearGPA}
 \alias{FirstYearGPA}
 \docType{data}
-\title{FirstYearGPA}
+\title{First Year GPA for College Students}
 \description{
 Predicting first-year college GPA
 }
-%\useage{data(FirstYearGPA)}
 \format{
-  A dataset with 219 observations on the following 10 variables.
+  A data frame with 219 observations on the following 10 variables.
   \tabular{rl}{
-    \code{GPA} \tab {First-year college GPA on a 0.0-4.0 scale}\cr
-    \code{HSGPA} \tab {High school GPA on a 0.0-4.0 scale}\cr
+    \code{GPA} \tab {First-year college GPA on a 0.0 to 4.0 scale}\cr
+    \code{HSGPA} \tab {High school GPA on a 0.0 to 4.0 scale}\cr
     \code{SATV} \tab {Verbal/critical reading SAT score}\cr
     \code{SATM} \tab {Math SAT score}\cr
     \code{Male} \tab {\code{1}= male, \code{0}= female}\cr

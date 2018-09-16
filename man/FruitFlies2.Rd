@@ -3,7 +3,7 @@
 \docType{data}
 \title{Fruit Fly Sexual Activity and Male Competition}
 \description{
-FruitFlies2
+Results from an experiment on male fruit flies with different levels of sexual activity and competion from other males
 }
 \format{
   A data frame with 201 observations on the following 7 variables.
@@ -21,10 +21,10 @@ FruitFlies2
 Researchers randomly assigned virgin male fruit flies to one of two treatments:  live alone or live in an environment where they can sense one other male fly.  Flies were randomly allocated to either have mating opportunities with female flies or to not have such opportunities.  Those flies that were given mating opportunities were given 3, 4, or 5 opportunities to mate (Mating measures this number).  Researchers also measured size, lifespan and activity levels of the fruit flies.
 }
 \source{
-The file we are using is the link called survival at
+The file we are using is the link called survival at \cr
 http://rsbl.royalsocietypublishing.org/content/suppl/2013/02/25/rsbl.2012.1188.DC1.html
 
-The article talking about the data is at
+The article talking about the data is at \cr
 http://rsbl.royalsocietypublishing.org/content/9/2/20121188.full
 }
 \keyword{datasets}

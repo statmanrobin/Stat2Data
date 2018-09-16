@@ -35,7 +35,7 @@ emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
 
 \item{linecol}{Color for the line (default is "blue")}
 
-\item{...}{Other grapohical parameter (e.g. xlim, ylim, xlab, ylab, cex)}
+\item{...}{Other graphical parameter (e.g. xlim, ylim, xlab, ylab, cex)}
 }
 \value{
 A dataframe with group information (if out=TRUE)

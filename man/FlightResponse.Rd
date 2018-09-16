@@ -1,11 +1,10 @@
 \name{FlightResponse}
 \alias{FlightResponse}
 \docType{data}
-\title{FlightResponse}
+\title{Response of Migratory Geese to Helicopter Overflights}
 \description{
-Flight Response of Pacific Brant
+Flight response of Pacific Brant to overflights of helicopters
 }
-%\useage{data(FlightResponse)}
 \format{
   A dataset with 464 observations on the following 7 variables.
   \tabular{rl}{

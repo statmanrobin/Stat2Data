@@ -1,15 +1,14 @@
 \name{Grocery}
 \alias{Grocery}
 \docType{data}
-\title{Grocery}
+\title{Grocery Sales and Discounts}
 \description{
-Grocery store sales
+Grocery store sales with different discounts
 }
-%\useage{data(Grocery)}
 \format{
-  A dataset with 36 observations on the following 5 variables.
+  A data frame with 36 observations on the following 5 variables.
   \tabular{rl}{
-    \code{Discount} \tab {Amount of discount: \code{5.00\%}, \code{10.00\%} or \code{15.00\%}}\cr
+    \code{Discount} \tab {Amount of discount: \code{5.00\%}, \code{10.00\%}, or \code{15.00\%}}\cr
     \code{Store} \tab {Store number (1-12)}\cr
     \code{Display} \tab {\code{Featured End of Aisl}, \code{Featured Middle of A}, or \code{Not Featured}}\cr
     \code{Sales} \tab {Number sold during one week}\cr

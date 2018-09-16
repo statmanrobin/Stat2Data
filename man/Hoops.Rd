@@ -1,13 +1,12 @@
 \name{Hoops}
 \alias{Hoops}
 \docType{data}
-\title{Hoops}
+\title{Grinnell College Basketball Games}
 \description{
-Hoops
+Data from games played by the Grinnell College mens'd basketball tesm between 1997 and 2006
 }
-%\useage{data(Hoops)}
 \format{
-  A dataset with 147 observations on the following 22 variables.
+  A data frame with 147 observations on the following 22 variables.
   \tabular{rl}{
     \code{Game} \tab {An ID number assigned to each game}\cr
     \code{Opp} \tab {Name of the opponent school for the game}\cr
