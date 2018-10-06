@@ -24,7 +24,7 @@ Presence/absence of gunnels (eels) at shoreline quadrats
   }
 }
 \details{
-This datset comes from a study on the habitat preferences of a species
+This dataset comes from a study on the habitat preferences of a species
 of eel, called a gunnel. Biologist Jake Shorty sampled quadrats along a coastline and recorded whether or not
 the species was found in the quadrat.
 }

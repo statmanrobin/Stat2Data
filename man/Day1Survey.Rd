@@ -24,7 +24,7 @@ Data from a first day class survey in an introductory statistics course
   }
 }
 \details{
-An instructor at a small liberal arts college distributed the a data survey on the first day of class. The data for two
+An instructor at a small liberal arts college distributed a data survey on the first day of class. The data for two
 different sections of the course are given in this dataset.
 }
 \source{

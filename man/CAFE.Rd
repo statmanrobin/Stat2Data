@@ -13,7 +13,7 @@ Senate votes for Corporate Average Fuel Economy (CAFE) bill
     \code{Party} \tab {party affiliation: \code{D}=Democrat, \code{I}=Independent, \code{R}=Republican}\cr
     \code{Contribution} \tab {Contributions from car manufactures (dollars)}\cr
     \code{LogContr} \tab {Log of (Contribution+1)}\cr
-    \code{Dem} \tab {\code{1}=Democrat/Indpendent \code{0}=Republican}\cr
+    \code{Dem} \tab {\code{1}=Democrat/Independent \code{0}=Republican}\cr
     \code{Vote} \tab {\code{1}=yes  or \code{0}=no}\cr
   }
 }

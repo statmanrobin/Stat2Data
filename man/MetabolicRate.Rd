@@ -15,7 +15,7 @@ Body size and metabolic rate of Manduca Sexta caterpillars
     \code{Instar} \tab {Number from 1 (smallest) to 5 (largest) indicating stage of the caterpillar's life}\cr
     \code{CO2ppm} \tab {Carbon dioxide concentration (in ppm)}\cr
     \code{Mrate} \tab {Metabolic rate}\cr
-    \code{LogMrate} \tab {Log (base 10) of metablic rate}\cr
+    \code{LogMrate} \tab {Log (base 10) of metabolic rate}\cr
   }
 }
 \details{

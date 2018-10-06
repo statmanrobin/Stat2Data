@@ -13,7 +13,7 @@ Pitch-by-pitch data for baseball pitcher Clayton Kershaw in the 2013 season
     \item{\code{Class}}{One of three classifications (\code{B}=ball, \code{S}=strike, or \code{X}=in play)}
     \item{\code{Result}}{From pitcher's perspective (\code{Neg}=ball or hit,  \code{Pos}=strike or out)}
     \item{\code{Swing}}{Did the batter swing at the pitch? (\code{No} or \code{Yes})}
-    \item{\code{Time}}{Date and time of the pitch (format \code{yyy-mm-ddThh:mm:ssZ}) }
+    \item{\code{Time}}{Date and time of the pitch (format \code{yyyy-mm-ddThh:mm:ssZ}) }
     \item{\code{StartSpeed}}{Speed leaving the pitcher's hand (in mph)}
     \item{\code{EndSpeed}}{Speed crossing home plate (in mph)}
     \item{\code{HDev}}{Horizontal movement (inches)}
@@ -25,7 +25,7 @@ Pitch-by-pitch data for baseball pitcher Clayton Kershaw in the 2013 season
     \item{\code{Nasty}}{A measure on a 0-100 scale of difficulty of the pitch to hit (100 is most difficult)}
     \item{\code{Count}}{Ball strike count (\code{0-0}, \code{0-1}, \code{0-2}, \code{1-1}, \code{1-2}, \code{2-1}, \code{2-2}, \code{3-1}, or \code{3-2})}
     \item{\code{BallCount}}{Number of balls before the pitch (0, 1, 2, or 3)}
-    \item{\code{StrikeCount}}{Number of strikes before the pitch (0, 1, or 2}
+    \item{\code{StrikeCount}}{Number of strikes before the pitch (0, 1, or 2)}
     \item{\code{Inning}}{Inning of the game}
     \item{\code{InningSide}}{Portion of the inning (\code{bottom}= pitcher at home or \code{top}=pitcher away)}
     \item{\code{Outs}}{Number of outs when the pitch is thrown}

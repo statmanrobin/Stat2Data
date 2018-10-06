@@ -1,7 +1,7 @@
 \name{FloridaDP}
 \alias{FloridaDP}
 \docType{data}
-\title{Flolrida Death Penalty Cases}
+\title{Florida Death Penalty Cases}
 \description{
 Florida death penalty cases by race of defendant and victim
 }

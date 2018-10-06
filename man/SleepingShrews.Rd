@@ -18,6 +18,6 @@ Heart rates for a sample of six tree shrews at each of three stages of sleep.
 Heart rates were recorded for a sample of six tree shrews at each of three stages of sleep.
 }
 \source{
-Berger, R. J. and Walker, J. M. (1972) "The Polygraphic Study of Sleep in the Tree Shrew," Brain, Behavior, and Evolutoin, v. 5, pp. 62
+Berger, R. J. and Walker, J. M. (1972) "The Polygraphic Study of Sleep in the Tree Shrew," Brain, Behavior, and Evolution, v. 5, pp. 62
 }
 \keyword{datasets}

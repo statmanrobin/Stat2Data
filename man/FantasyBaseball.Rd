@@ -23,7 +23,7 @@ Draft selection times for a fantasy baseball league
 Time (in seconds) for participants in a draft for a fantasy baseball league to make a selection at each round.
 }
 \source{
-Mathamatical Science Baseball League historical records (online).
+Mathematical Science Baseball League historical records (online).
 }
 
 \keyword{datasets}

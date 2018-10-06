@@ -11,7 +11,7 @@ Monthly US residential consumption of fuel oil (1983-2016)
     \item{\code{Year}}{Year (1983 to 2016)}
     \item{\code{Month}}{Month (1=Jan through 12=Dec)}
     \item{\code{t}}{Time index (1 to 408)}
-    \item{\code{FuelOil}}{aResidential consumption of fuel oil (in 1,000 barrels/day)}
+    \item{\code{FuelOil}}{Residential consumption of fuel oil (in 1,000 barrels/day)}
   }
 }
 \details{

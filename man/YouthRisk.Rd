@@ -20,7 +20,7 @@ Data from the Youth Risk Behavior Surveillance System
 This dataset is derived from
 the 2007 Youth Risk Behavior Surveillance System (YRBSS), which is an annual survey conducted
 by the Centers for Disease Control and Prevention (CDC) to monitor the prevalence of health-risk
-youth behaviors. This datset focuses on whether or not youths have recently (in past 30  days)
+youth behaviors. This dataset focuses on whether or not youths have recently (in past 30  days)
 ridden with a drunk driver.
 }
 \source{

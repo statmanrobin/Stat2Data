@@ -3,12 +3,12 @@
 \docType{data}
 \title{Daily Price and Volume of Apple Stock}
 \description{
-Daily prices and trading volume of Apple stock from July 21st to Ugust 21st in 2016
+Daily prices and trading volume of Apple stock from July 21st to August 21st in 2016
 }
 \format{
   A data frame with 66 observations on the following 4 variables.
   \describe{
-    \item{\code{Date}}{Date as mm/dd/yyy}
+    \item{\code{Date}}{Date as mm/dd/yyyy}
     \item{\code{Price}}{Closing price of Apple stock}
     \item{\code{Change}}{Change in price from previous day}
     \item{\code{Volume}}{Number of shares traded (in millons)}

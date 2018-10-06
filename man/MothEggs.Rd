@@ -14,7 +14,7 @@ Body size and eggs produced for a species of moths
   }
 }
 \details{
-Researchers were interested an association between body size and the number of eggs produced
+Researchers were interested in an association between body size and the number of eggs produced
 by a species of moths.
 }
 \source{

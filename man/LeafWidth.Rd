@@ -10,7 +10,7 @@ Measurements of Dodonaea viscosa leaves
   \describe{
     \item{\code{Width}}{Average width (in mm)}
     \item{\code{Length}}{Average length  (in mm)}
-    \item{\code{LWRatio}}{Length divide by Width}
+    \item{\code{LWRatio}}{Length divided by Width}
     \item{\code{Area}}{Area (in sq. mm) }
     \item{\code{Year}}{Year the leaves were collected}
   }

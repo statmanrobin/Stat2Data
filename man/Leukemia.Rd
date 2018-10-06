@@ -13,7 +13,7 @@ Treatment results for leukemia patients
     \code{Infil} \tab {Percentage of absolute marrow leukemia infiltrate}\cr
     \code{Index} \tab {Percentage labeling index of the bone marrow leukemia cells}\cr
     \code{Blasts} \tab {Absolute number of blasts, in thousands}\cr
-    \code{Temp} \tab {Highest temperature of the patient prior to treatment, in degrees Farenheit}\cr
+    \code{Temp} \tab {Highest temperature of the patient prior to treatment, in degrees Fahrenheit}\cr
     \code{Resp} \tab {\code{1}=responded to treatment or \code{0}=failed to respond}\cr
     \code{Time} \tab {Survival time from diagnosis (in months)}\cr
     \code{Status} \tab {\code{0}=dead or \code{1}=alive}\cr

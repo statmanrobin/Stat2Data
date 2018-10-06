@@ -3,7 +3,7 @@
 \docType{data}
 \title{Intensive Care Unit Patients}
 \description{
-Data for a sampom pf 200 patients at an Intensive Care Unit (ICU)
+Data for a sample of 200 patients at an Intensive Care Unit (ICU)
 }
 \format{
   A data frame with 200 observations on the following 9 variables.
@@ -15,7 +15,7 @@ Data for a sampom pf 200 patients at an Intensive Care Unit (ICU)
     \code{Sex} \tab {\code{1}=female or \code{0}=male}\cr
     \code{Infection} \tab {\code{1}=infection suspected or \code{0}=no infection}\cr
     \code{SysBP} \tab {Systolic blood pressure (in mm of Hg)}\cr
-    \code{Pulse} \tab {Hear rate4 (beats per minute)}\cr
+    \code{Pulse} \tab {Heart rate (beats per minute)}\cr
     \code{Emergency} \tab {\code{1}=emergency admission or \code{0}=elective admission}\cr
   }
 }

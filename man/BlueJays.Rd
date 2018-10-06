@@ -15,7 +15,7 @@ Body measurements for a sample of blue jays
     \code{BillLength} \tab {Length of the bill (in mm)}\cr
     \code{Head} \tab {Distance from tip of bill to back of head (in mm)}\cr
     \code{Mass} \tab {Body mass (in grams)}\cr
-    \code{Skull} \tab {Distance from base of bill to hack of skull (in mm)}\cr
+    \code{Skull} \tab {Distance from base of bill to back of skull (in mm)}\cr
     \code{Sex} \tab {Sex coded as 0=female or 1=male}\cr
   }
 }

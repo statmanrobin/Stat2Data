@@ -44,7 +44,7 @@ water samples at three different locations in four rivers (Grasse, Oswegatchie, 
 Regis). The sampling sites were chosen to investigate how the composition of the water changes as
 it flows from the source to the mouth of each river. The sampling sites were labeled as upstream,
 midstream, and downstream. This dataset contains the concentations (parts per million) of a variety of elements
-in thoise water samples.
+in those water samples.
 The dataset RiverIron contains the information for iorn (FE) alone, along with the log of the concentration.
 }
 \source{

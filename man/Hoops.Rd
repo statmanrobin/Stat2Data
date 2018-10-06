@@ -3,7 +3,7 @@
 \docType{data}
 \title{Grinnell College Basketball Games}
 \description{
-Data from games played by the Grinnell College mens'd basketball tesm between 1997 and 2006
+Data from games played by the Grinnell College men's basketball team between 1997 and 2006
 }
 \format{
   A data frame with 147 observations on the following 22 variables.

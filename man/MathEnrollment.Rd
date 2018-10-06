@@ -9,9 +9,9 @@ Semester enrollments in mathematics courses
 \format{
   A dataset with 11 observations on the following 3 variables.
   \tabular{rl}{
-    \code{Ayear} \tab {Academic year (for the fall)}\cr
+    \code{AYear} \tab {Academic year (for the fall)}\cr
     \code{Fall} \tab {Fall semester total enrollments}\cr
-    \code{Spring} \tab {Spring semster total enrollments}\cr
+    \code{Spring} \tab {Spring semester total enrollments}\cr
   }
 }
 \details{

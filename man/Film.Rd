@@ -6,7 +6,7 @@
 Film data from Maltin's Movie and Video Guide
 }
 \format{
-  A datas frame with 100 observations on the following 9 variables.
+  A data frame with 100 observations on the following 9 variables.
   \tabular{rl}{
     \code{Title} \tab {Movie title}\cr
     \code{Year} \tab {Year the movie was released}\cr
@@ -15,8 +15,8 @@ Film data from Maltin's Movie and Video Guide
     \code{Rating} \tab {Maltin rating (range is 1 to 4, in steps of 0.5)}\cr
     \code{Description} \tab {Number of lines of text Maltin uses to describe the movie}\cr
     \code{Origin} \tab {Country: 0 = USA, 1 = Great Britain, 2 = France, 3 = Italy, 4 = Canada}\cr
-    \code{Time_code} \tab {\code{long}=90 minues or longer \code{short}=under 90 minutes}\cr
-    \code{Good} \tab {\code{1}=rating or 3 stars or better \code{0}=any lower rating}\cr
+    \code{Time_code} \tab {\code{long}=90 minutes or longer \code{short}=under 90 minutes}\cr
+    \code{Good} \tab {\code{1}=rating of 3 stars or better \code{0}=any lower rating}\cr
   }
 }
 \details{

@@ -22,7 +22,7 @@ bring together a new group of potential jurors twenty-six times a year. Random s
 are used to obtain a sample of registered voters in Franklin County every two weeks, and these
 individuals are sent a summons to appear for jury duty. One of the most difficult aspects of Tom's
 job is to get those registered voters who receive a summons to actually appear at the courthouse for
-jury duty. This cataset contains the 1998 and 2000 data for the percentages of individuals who reported
+jury duty. This dataset contains the 1998 and 2000 data for the percentages of individuals who reported
 for jury duty after receiving a summons. The reporting dates
 vary slightly from year to year, so they are coded sequentially from 1, the first group to report in
 January, to 26, the last group to report in December. A variety of methods were used after 1998

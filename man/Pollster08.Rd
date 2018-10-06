@@ -15,7 +15,7 @@ Polls for 2008 U.S. presidential election
     \code{n} \tab {Sample size for the poll}\cr
     \code{Pop} \tab {\code{A}=all,  \code{LV}=likely voters, \code{RV}=registered voters}\cr
     \code{McCain} \tab {Percent supporting John McCain}\cr
-    \code{Obama} \tab {Percent supporting Barak Obama}\cr
+    \code{Obama} \tab {Percent supporting Barack Obama}\cr
     \code{Margin} \tab {Obama percent minus McCain percent}\cr
     \code{Charlie} \tab {Indicator for polls after Charlie Gibson interview with VP candidate Sarah Palin (9/11)}\cr
     \code{Meltdown} \tab {Indicator for polls after Lehman Brothers bankruptcy (9/15)}\cr

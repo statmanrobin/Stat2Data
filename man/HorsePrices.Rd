@@ -11,7 +11,7 @@ Price and related characteristics of horses listed for sale on the internet
     \code{HorseID} \tab {ID code for each horse}\cr
     \code{Price} \tab {Price (in dollars)}\cr
     \code{Age} \tab {Age of the horse (in years)}\cr
-    \code{Height} \tab {Height fo the horse (in hands)}\cr
+    \code{Height} \tab {Height of the horse (in hands)}\cr
     \code{Sex} \tab {\code{f}=female \code{m}=male}\cr
   }
 }

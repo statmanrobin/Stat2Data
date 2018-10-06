@@ -1,7 +1,7 @@
 \name{PeaceBridge2003}
 \alias{PeaceBridge2003}
 \docType{data}
-\title{Monthly Peace Bridge Traffice( 2003-2015)}
+\title{Monthly Peace Bridge Traffic ( 2003-2015)}
 \description{
 Monthly traffic (in 1,000's) across the Peace Bridge between Canada and the U.S.
 }

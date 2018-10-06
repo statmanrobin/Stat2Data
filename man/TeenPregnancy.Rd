@@ -3,7 +3,7 @@
 \docType{data}
 \title{State Teen Pregnancy Rates}
 \description{
-State teen pregnancy rates, Civil War participation, and church atendance.
+State teen pregnancy rates, Civil War participation, and church attendance.
 }
 \format{
   A data frame with 50 observations on the following 4 variables.

@@ -8,7 +8,7 @@ Rainfall amounts from a cloud seeding experiment (winter only)
 \format{
   A data frame with 28 observations on the following 7 variables.
   \tabular{rl}{
-    \code{Seeded} \tab {Treatment coded as \code{S}=seded or  \code{U}=unseeded}\cr
+    \code{Seeded} \tab {Treatment coded as \code{S}=seeded or  \code{U}=unseeded}\cr
     \code{Season} \tab {All in \code{Winter}}\cr
     \code{TE} \tab {Rainfall in East (treatment)}\cr
     \code{TW} \tab {Rainfall in West (treatment}\cr

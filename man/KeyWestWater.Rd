@@ -8,7 +8,7 @@ Hourly water temperatures from Gulf of Mexico near Key West, Florida
 \format{
   A data frame with 6572 observations on the following 3 variables.
   \describe{
-    \item{\code{DateTime}}{Date and time of reading (format \code{mm/dd/yyy h:00})}
+    \item{\code{DateTime}}{Date and time of reading (format \code{mm/dd/yyyy h:00})}
     \item{\code{WaterTemp}}{Water temperature (in degrees Fahrenheit)}
     \item{\code{t}}{Time index (1 to 673)}
   }

@@ -12,7 +12,7 @@ Drug interaction study with oral contraceptives
     \item{\code{StudyPeriod}}{\code{1=first} or \code{2}=second}
     \item{\code{Treatment}}{\code{Drug} or \code{Placebo}}
     \item{\code{EE}}{Bioavailability of the ethinyl estradiol  component of the oral contraceptive (in pg*hr/ml)}
-    \item{\code{ComparisonValues}}{omparison values used for a Tukey nonadditivity plot}
+    \item{\code{ComparisonValues}}{Comparison values used for a Tukey nonadditivity plot}
     \item{\code{Residuals}}{Residuals used for a Tukey nonadditivity plot}
   }
 }

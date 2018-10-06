@@ -11,7 +11,7 @@ Experiment to compare visual and verbal performance
     \item{\code{Subject}}{Subject number (\code{s1} to \code{s20})}
     \item{\code{Task}}{Follow a letter (\code{Visual}) or a sentence (\code{Verbal})}
     \item{\code{Report}}{Point response (\code{Visual}) or say response (\code{Verbal})}
-    \item{\code{Group}}{Combintaton of Task+Report (\code{Letter Point}, \code{Letter Say}, \code{Sentence Point}, or \code{Sentence Say})}
+    \item{\code{Group}}{Combination of Task+Report (\code{Letter Point}, \code{Letter Say}, \code{Sentence Point}, or \code{Sentence Say})}
     \item{\code{Time}}{Response time (in seconds)}
   }
 }

@@ -6,7 +6,7 @@
 Sexual activity and lifetimes of fruit flies
 }
 \format{
-  A dataframe with 125 observations on the following 7 variables.
+  A data frame with 125 observations on the following 7 variables.
   \tabular{rl}{
     \code{ID} \tab {a numeric vector}\cr
     \code{Partners} \tab {Number of female partners: 0, 1, or 8}\cr
@@ -32,7 +32,7 @@ and can be found on the page \cr
 http://www.amstat.org/publications/jse/jse_data_archive.htm.
 }
 \references{
-Hanley and Hapiro, (1994) "Sexual Activity and the Lifespan of Male Fruitflies: A Dataset That Gets Attention," Journal of Statistics Education
+Hanley and Shapiro, (1994) "Sexual Activity and the Lifespan of Male Fruitflies: A Dataset That Gets Attention," Journal of Statistics Education
 v.2, n.1\cr
 http://www.amstat.org/publications/jse/v2n1/datasets.hanley.html
 }

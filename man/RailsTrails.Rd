@@ -25,7 +25,7 @@ Sample of homes in Northampton, MA to see whether being close to a bike trail en
     \item{\code{Latitude}}{Latitude (for mapping)}
     \item{\code{Longitude}}{Longitude (for mapping)}
     \item{\code{NumFullBaths}}{Number of full baths (includes shower or bathtub)}
-    \item{\code{NumHalfBaths}}{Number of half paths (no shower or bathtub)}
+    \item{\code{NumHalfBaths}}{Number of half baths (no shower or bathtub)}
     \item{\code{NumRooms}}{Number of rooms}
     \item{\code{PctChange}}{Percentage change from adjusted 1998 price to 2014 (value of zero means no change)}
     \item{\code{Price1998}}{Zillow 10 year estimate from 2008 (in thousands of dollars)}

@@ -1,7 +1,7 @@
 \name{OilDeapsorbtion}
 \alias{OilDeapsorbtion}
 \docType{data}
-\title{Effect of Unltrasound on Oil Deapsorbtion}
+\title{Effect of Ultrasound on Oil Deapsorbtion}
 \description{
 Experiment to measure the effect of ultrasound on deapsorbing oil from sand
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \title{Fruit Fly Sexual Activity and Male Competition}
 \description{
-Results from an experiment on male fruit flies with different levels of sexual activity and competion from other males
+Results from an experiment on male fruit flies with different levels of sexual activity and competition from other males
 }
 \format{
   A data frame with 201 observations on the following 7 variables.

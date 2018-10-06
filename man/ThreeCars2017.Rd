@@ -3,7 +3,7 @@
 \docType{data}
 \title{Price, Age, and Mileage of Three Used Car Models}
 \description{
-Data from cars.com for a samples of three different models of used cars in 2017
+Data from cars.com for a sample of three different models of used cars in 2017
 }
 \format{
   A data frame with 90 observations on the following 7 variables.

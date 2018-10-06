@@ -16,7 +16,7 @@ Data from 220 cases in Florida where a "Stand your ground" defense was used.
   }
 }
 \details{
-Inspired by the Travor Martin case, combined fatal and non-fatal cases of assault in Florida for which the defendant used the Stand Your Ground law in defense. These data show Simpson's Paradox. Race of the victim is more important than race of the defendant.
+Inspired by the Travon Martin case, combined fatal and non-fatal cases of assault in Florida for which the defendant used the Stand Your Ground law in defense. These data show Simpson's Paradox. Race of the victim is more important than race of the defendant.
 }
 \source{
 Data from Tampa Bay Times, male plus female cases, as of 2/8/15 -- final posted data

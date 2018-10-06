@@ -8,7 +8,7 @@ Congressional votes on an ObamaCare health insurance bill in 2009
 \format{
   A dataset with 435 observations on the following 9 variables.
   \tabular{rl}{
-    \code{Party} \tab {Party affilication: \code{D}=Democrat or \code{R}=Republican}\cr
+    \code{Party} \tab {Party affiliation: \code{D}=Democrat or \code{R}=Republican}\cr
     \code{Dist.} \tab {Congressional district (State-Number)}\cr
     \code{InsVote} \tab {Vote on the health insurance bill: \code{1}=yes or \code{0}=no}\cr
     \code{Rep} \tab {Indicator for Republicans}\cr

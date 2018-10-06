@@ -22,7 +22,7 @@ of bread (multigrain, rye, white, and wholemeal), and put butter on some of
 the sandwiches. \cr
 To conduct the experiment he randomly chose a sandwich,
 broke off a piece, and left it on the ground near an ant hill.  After several
-minutes he placed a jar over the sandwich bit and counteed the number of
+minutes he placed a jar over the sandwich bit and counted the number of
 ants. He repeated the process, allowing time for ants to return to the hill
 after each trial, until he had two samples for each combination of the three
 factors.

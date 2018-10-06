@@ -12,7 +12,7 @@ Ontime arrivals for American and Delta airlines at LaGuardia and O'Hare airports
     \item{\code{airport}}{ \code{LGA}=LaGuardia \code{ORD}=O'Hare}
     \item{\code{OnTime}}{ \code{no} or \code{yes}}
     \item{\code{IndOHare}}{Is the airport ORD? (\code{1}=yes or \code{0}=no) }
-    \item{\code{IndDelta}}{Is the airport LGA}
+    \item{\code{IndDelta}}{Is the airline Delta? (\code{1}=yes or \code{0}=no)}
     }
 }
 \details{

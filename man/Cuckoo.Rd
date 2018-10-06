@@ -16,7 +16,7 @@ Lengths of cuckoo eggs laid in other birds' nests
 \details{
 Cuckoos are knows to lay their eggs in the nests of other (host) birds.
 The eggs are then adopted and hatched by the host birds.
-The data give the lengths of cuckoo eggs found in nests of varous other bird species.
+The data give the lengths of cuckoo eggs found in nests of various other bird species.
 }
 \source{
 Downloaded from DASL at http://lib.stat.cmu.edu/DASL/Datafiles/cuckoodat.html

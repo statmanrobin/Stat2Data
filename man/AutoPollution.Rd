@@ -12,7 +12,7 @@ Measurements of noise levels for different filters to reduce pollution levels of
   \tabular{rl}{
     \code{Noise} \tab {Noise level (decibels)}\cr
     \code{Size} \tab {Vehicle size: \code{1}=small, \code{2}=medium, or \code{3}=large}\cr
-    \code{Type} \tab {\code{1}=standard filer or \code{2}=new filter}\cr
+    \code{Type} \tab {\code{1}=standard filter or \code{2}=new filter}\cr
     \code{Side} \tab {Side of vehicle: code{1}=right or \code{2}=left}\cr
   }
 }
