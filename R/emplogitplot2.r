@@ -9,10 +9,19 @@
 #' @param out Should the function return a dataframe with group and factor information? (default is FALSE)
 #' @param showplot Show the plot? default is TRUE
 #' @param showline Show the regression lines? default is TRUE
+#' @param ylab Text label for the vertical axis (default is "Log(Odds)")
+#' @param xlab Text label for the horizontal axis (default is NULL)
 #' @param putlegend Position for the legend (default is "n" for no legend)
 #' @param levelcol Vector of colors for the factor levels
 #' @param linecol Color for the line (default is "blue")
-#' @param ... Other graphical parameter (e.g. xlim, ylim, xlab, ylab, cex)
+#' @param pch Plot character for the dots
+#' @param main Title for plot
+#' @param ylim Limits for the vertical axis
+#' @param xlim Limits for the horizontal axis
+#' @param lty Line type (default is 1)
+#' @param lwd Line width (default is 1)
+#' @param cex Multiplier for plot symbols
+
 #'
 #' @return A dataframe with group information (if out=TRUE)
 #' @description

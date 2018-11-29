@@ -6,9 +6,9 @@
 \usage{
 emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
   yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,
-  showline = TRUE, ylab = "Log(Odds)", xlab = NULL, putlegend = "n",
-  levelcol = NULL, pch = NULL, main = "", ylim = NULL, xlim = NULL,
-  lty = NULL, lwd = 1, cex = 1)
+  showline = TRUE, ylab = "Log(Odds)", xlab = NULL,
+  putlegend = "n", levelcol = NULL, pch = NULL, main = "",
+  ylim = NULL, xlim = NULL, lty = NULL, lwd = 1, cex = 1)
 }
 \arguments{
 \item{formula}{A formula of the form (binary) Response~Quantitative Predictor+Factor}
@@ -29,13 +29,29 @@ emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
 
 \item{showline}{Show the regression lines? default is TRUE}
 
+\item{ylab}{Text label for the vertical axis (default is "Log(Odds)")}
+
+\item{xlab}{Text label for the horizontal axis (default is NULL)}
+
 \item{putlegend}{Position for the legend (default is "n" for no legend)}
 
 \item{levelcol}{Vector of colors for the factor levels}
 
-\item{linecol}{Color for the line (default is "blue")}
+\item{pch}{Plot character for the dots}
 
-\item{...}{Other graphical parameter (e.g. xlim, ylim, xlab, ylab, cex)}
+\item{main}{Title for plot}
+
+\item{ylim}{Limits for the vertical axis}
+
+\item{xlim}{Limits for the horizontal axis}
+
+\item{lty}{Line type (default is 1)}
+
+\item{lwd}{Line width (default is 1)}
+
+\item{cex}{Multiplier for plot symbols}
+
+\item{linecol}{Color for the line (default is "blue")}
 }
 \value{
 A dataframe with group information (if out=TRUE)

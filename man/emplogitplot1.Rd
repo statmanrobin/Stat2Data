@@ -6,9 +6,9 @@
 \usage{
 emplogitplot1(formula, data = NULL, ngroups = 3, breaks = NULL,
   yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,
-  showline = TRUE, ylab = "Log(Odds)", xlab = NULL, dotcol = "black",
-  linecol = "blue", pch = 16, main = "", ylim = NULL, xlim = NULL,
-  lty = 1, lwd = 1, cex = 1)
+  showline = TRUE, ylab = "Log(Odds)", xlab = NULL,
+  dotcol = "black", linecol = "blue", pch = 16, main = "",
+  ylim = NULL, xlim = NULL, lty = 1, lwd = 1, cex = 1)
 }
 \arguments{
 \item{formula}{A formula of the form (binary) Response~Predictor}
@@ -29,9 +29,27 @@ emplogitplot1(formula, data = NULL, ngroups = 3, breaks = NULL,
 
 \item{showline}{Show the regression line? default is TRUE}
 
+\item{ylab}{Text label for the vertical axis (default is "Log(Odds)")}
+
+\item{xlab}{Text label for the horizontal axis (default is NULL)}
+
 \item{dotcol}{Color for the dots (default is "black")}
 
-\item{linecol}{Color for the line (default is "blue")}
+\item{linecol}{Color for the line (default is "black")}
+
+\item{pch}{Plot character for the dots (default is 16)}
+
+\item{main}{Title for plot}
+
+\item{ylim}{Limits for the vertical axis}
+
+\item{xlim}{Limits for the horizontal axis}
+
+\item{lty}{Line type (default is 1)}
+
+\item{lwd}{Line width (default is 1)}
+
+\item{cex}{Multiplier for plot symbols}
 }
 \value{
 A dataframe with group information (if out=TRUE)
@@ -41,7 +59,22 @@ This function produces an empirical logit plot for a binary response variable an
 single quantitative predictor variable.
 }
 \details{
+Values of the quantiative explanatory variable will be grouped into \code{ngroups}
+roughly equal sized groups, unless \code{breaks} is used to determine the boundaries of the groups.
+Using \code{ngroups="all"} will make each distinct value of the explanatory variable its own group \cr
 
+We find an adjusted proportion for the binary response variable within each of the groups with
+\code{(Number yes +0.5)/(Number of cases+1)}. This is converted to an adjusted log odds
+\code{log(adjp/(1-adjp))}.  The adjustment avoids problems if there are no "successes" or
+all "successes" in a group.  What constitutes a "sucesss" can be specified with \code{yes=}
+and the proportion adjustment can be turned off (if no group proportions are likley to be zero or one)
+with \code{padj=FALSE}.\cr
+
+The function plots the log odds versus the mean of the explanatory variable within each group.
+ A least square line is fit to these points.  The plot can be suppressed with \code{showplot=FALSE}.\cr
+
+ The \code{out=TRUE} option will return a dataframe with the boundaries of each group, proportion,
+ adjusted proportion, mean explanatory variable, and (adjusted or unadjusted) log odds.
 }
 \examples{
 data(MedGPA)

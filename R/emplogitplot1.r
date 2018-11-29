@@ -9,14 +9,42 @@
 #' @param out Should the function return a dataframe with group information? (default is FALSE)
 #' @param showplot Show the plot? default is TRUE
 #' @param showline Show the regression line? default is TRUE
+#' @param ylab Text label for the vertical axis (default is "Log(Odds)")
+#' @param xlab Text label for the horizontal axis (default is NULL)
 #' @param dotcol Color for the dots (default is "black")
-#' @param linecol Color for the line (default is "blue")
+#' @param linecol Color for the line (default is "black")
+#' @param pch Plot character for the dots (default is 16)
+#' @param main Title for plot
+#' @param ylim Limits for the vertical axis
+#' @param xlim Limits for the horizontal axis
+#' @param lty Line type (default is 1)
+#' @param lwd Line width (default is 1)
+#' @param cex Multiplier for plot symbols
+
 #'
 #' @return A dataframe with group information (if out=TRUE)
+#'
 #' @description
 #' This function produces an empirical logit plot for a binary response variable and a
 #' single quantitative predictor variable.
+#'
 #' @details
+#' Values of the quantiative explanatory variable will be grouped into \code{ngroups}
+#' roughly equal sized groups, unless \code{breaks} is used to determine the boundaries of the groups.
+#' Using \code{ngroups="all"} will make each distinct value of the explanatory variable its own group \cr
+#'
+#' We find an adjusted proportion for the binary response variable within each of the groups with
+#' \code{(Number yes +0.5)/(Number of cases+1)}. This is converted to an adjusted log odds
+#' \code{log(adjp/(1-adjp))}.  The adjustment avoids problems if there are no "successes" or
+#' all "successes" in a group.  What constitutes a "sucesss" can be specified with \code{yes=}
+#' and the proportion adjustment can be turned off (if no group proportions are likley to be zero or one)
+#' with \code{padj=FALSE}.\cr
+#'
+#' The function plots the log odds versus the mean of the explanatory variable within each group.
+#'  A least square line is fit to these points.  The plot can be suppressed with \code{showplot=FALSE}.\cr
+#'
+#'  The \code{out=TRUE} option will return a dataframe with the boundaries of each group, proportion,
+#'  adjusted proportion, mean explanatory variable, and (adjusted or unadjusted) log odds.
 #'
 #' @examples
 #' data(MedGPA)
