@@ -12,23 +12,22 @@ TukeyNonaddPlot(formula, data, out = "n",
 
 \item{data}{A dataframe}
 
-\item{out}{Control what is returned. Default is "n"=nothing. Other otions are "comp" for the comparisons, "line" for the equaotn of the line, and "resid" for the cell residuals}
+\item{out}{Control what is returned. Default is "n"=nothing. Other options are "comp" for the comparisons, "line" for the equation of the line, and "resid" for the cell residuals.}
 
 \item{main}{Add a title, default is "Tukey Nonadditivity Plot"}
 
-\item{ylab}{Label vertical axis, default is "Resiuduals"}
+\item{ylab}{Label vertical axis, default is "Residuals"}
 }
 \value{
-Depends on optoin set with \code{out}.
+Depends on the option set with \code{out}.
 }
 \description{
-This function produces a Tukeuy Nonadditivity plot for a two-way ANOVA model.
+This function produces a Tukeuy nonadditivity plot for a two-way ANOVA model.
 }
 \details{
 More details need to be written
 }
 \examples{
-require(mosaic)
 data(Dinosaurs)
 TukeyNonaddPlot(Iridium~Source*factor(Depth),data=Dinosaurs)
 }

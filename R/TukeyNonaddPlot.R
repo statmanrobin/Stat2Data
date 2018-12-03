@@ -16,25 +16,22 @@
 #' More details need to be written
 #'
 #' @examples
-#' require(mosaic)
 #' data(Dinosaurs)
 #' TukeyNonaddPlot(Iridium~Source*factor(Depth),data=Dinosaurs)
 
 TukeyNonaddPlot=function(formula,data,out="n",main="Tukey Nonadditivity Plot",ylab="Residuals"){
-  require(mosaic)
   mod=aov(formula,data)
   newdata=mod$model
   names(newdata)=c("Y","A","B")
   newdata$A=factor(newdata$A); newdata$B=factor(newdata$B)
   I=nlevels(newdata$A)
   J=nlevels(newdata$B)
-  cellmeans=mean(Y~A+B,data=newdata)
-  celltable=matrix(cellmeans,nrow=I,ncol=J)
+  cellmeans=tapply(newdata$Y,list(newdata$A,newdata$B),mean)
   GrandMean=mean(cellmeans)
-  RowEffects=rep(rowMeans(celltable)-GrandMean,J)
-  ColEffects=rep(colMeans(celltable)-GrandMean,each=I)
+  RowEffects=rep(rowMeans(cellmeans)-GrandMean,J)
+  ColEffects=rep(colMeans(cellmeans)-GrandMean,each=I)
   Comparisons=RowEffects*ColEffects/GrandMean
-  CellResid=cellmeans-(RowEffects+ColEffects+GrandMean)
+  CellResid=as.vector(cellmeans)-(RowEffects+ColEffects+GrandMean)
 
   plot(CellResid~Comparisons,ylab=ylab)
   modline=lm(CellResid~Comparisons)
