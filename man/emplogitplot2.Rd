@@ -50,8 +50,6 @@ emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
 \item{lwd}{Line width (default is 1)}
 
 \item{cex}{Multiplier for plot symbols}
-
-\item{linecol}{Color for the line (default is "blue")}
 }
 \value{
 A dataframe with group information (if out=TRUE)
@@ -61,7 +59,25 @@ This function produces an empirical logit plot for a binary response variable an
 single quantitative predictor variable broken down by a single categorical factor.
 }
 \details{
+Values of the quantiative explanatory variable will be grouped into \code{ngroups}
+roughly equal sized groups, unless \code{breaks} is used to determine the boundaries of the groups.
+Using \code{ngroups="all"} will make each distinct value of the explanatory variable its own group \cr
 
+We find a proportion for the binary response variable within each of the groups created from
+the quantitative variable crossed with the cagtegrical variable. To avoid probelms with proportions
+of zero and one, we compute an adjusted proportoin with
+\code{(Number yes +0.5)/(Number of cases+1)}. This is converted to an adjusted log odds
+\code{log(adjp/(1-adjp))}.  What constitutes a "sucesss" can be specified with \code{yes=}
+and the proportion adjustment can be turned off (if no group proportions are likley to be zero or one)
+with \code{padj=FALSE}.\cr
+
+The function plots the log odds versus the mean of the explanatory variable within each group with different
+colors for each of the catgegories defined by the categorical variable.
+ A least square line is fit to these points within each categorical group.
+ The plot can be suppressed with \code{showplot=FALSE}.\cr
+
+ The \code{out=TRUE} option will return a dataframe with the boundaries of each group, proportion,
+ adjusted proportion, mean explanatory variable, and (adjusted or unadjusted) log odds.
 }
 \examples{
 data(MedGPA)

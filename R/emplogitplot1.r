@@ -56,6 +56,11 @@
 #'
 #' data(Putts1)
 #' emplogitplot1(Made~Length,data=Putts1,ngroups="all")
+#'
+#' @import graphics stats
+
+#'
+#' @export
 
 emplogitplot1=function(formula,data=NULL,ngroups=3,breaks=NULL,
                        yes=NULL,padj=TRUE,out=FALSE,showplot=TRUE,showline=TRUE,

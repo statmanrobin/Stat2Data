@@ -7,7 +7,7 @@
 cooksplot(mod)
 }
 \arguments{
-\item{x}{a regression model from lm( )}
+\item{mod}{a regression model from lm( )}
 }
 \value{
 A plot showing standardized residuals versus leverage values with boundaries for unusual cases

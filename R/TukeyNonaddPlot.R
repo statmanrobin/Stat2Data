@@ -6,6 +6,7 @@
 #' @param main Add a title, default is "Tukey Nonadditivity Plot"
 #' @param ylab Label vertical axis, default is "Residuals"
 
+#' @import stats
 #'
 #' @return Depends on the option set with \code{out}.
 #'
@@ -18,6 +19,8 @@
 #' @examples
 #' data(Dinosaurs)
 #' TukeyNonaddPlot(Iridium~Source*factor(Depth),data=Dinosaurs)
+#'
+#' @export
 
 TukeyNonaddPlot=function(formula,data,out="n",main="Tukey Nonadditivity Plot",ylab="Residuals"){
   mod=aov(formula,data)

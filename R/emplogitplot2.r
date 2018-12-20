@@ -13,7 +13,6 @@
 #' @param xlab Text label for the horizontal axis (default is NULL)
 #' @param putlegend Position for the legend (default is "n" for no legend)
 #' @param levelcol Vector of colors for the factor levels
-#' @param linecol Color for the line (default is "blue")
 #' @param pch Plot character for the dots
 #' @param main Title for plot
 #' @param ylim Limits for the vertical axis
@@ -24,10 +23,31 @@
 
 #'
 #' @return A dataframe with group information (if out=TRUE)
+#'
 #' @description
 #' This function produces an empirical logit plot for a binary response variable and with a
 #' single quantitative predictor variable broken down by a single categorical factor.
+#'
 #' @details
+##' Values of the quantiative explanatory variable will be grouped into \code{ngroups}
+#' roughly equal sized groups, unless \code{breaks} is used to determine the boundaries of the groups.
+#' Using \code{ngroups="all"} will make each distinct value of the explanatory variable its own group \cr
+#'
+#' We find a proportion for the binary response variable within each of the groups created from
+#' the quantitative variable crossed with the cagtegrical variable. To avoid probelms with proportions
+#' of zero and one, we compute an adjusted proportoin with
+#' \code{(Number yes +0.5)/(Number of cases+1)}. This is converted to an adjusted log odds
+#' \code{log(adjp/(1-adjp))}.  What constitutes a "sucesss" can be specified with \code{yes=}
+#' and the proportion adjustment can be turned off (if no group proportions are likley to be zero or one)
+#' with \code{padj=FALSE}.\cr
+#'
+#' The function plots the log odds versus the mean of the explanatory variable within each group with different
+#' colors for each of the catgegories defined by the categorical variable.
+#'  A least square line is fit to these points within each categorical group.
+#'  The plot can be suppressed with \code{showplot=FALSE}.\cr
+#'
+#'  The \code{out=TRUE} option will return a dataframe with the boundaries of each group, proportion,
+#'  adjusted proportion, mean explanatory variable, and (adjusted or unadjusted) log odds.
 #'
 #' @examples
 #' data(MedGPA)
@@ -37,7 +57,8 @@
 #'
 #' emplogitplot2(Acceptance~MCAT+Sex,data=MedGPA,breaks=c(0,34.5,39.5,50.5),
 #'               levelcol=c("red","blue"),putlegend="bottomright")
-#
+
+#' @export
 
 
 emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
@@ -45,6 +66,7 @@ emplogitplot2=function(formula,data=NULL,ngroups=3,breaks=NULL,
                        ylab="Log(Odds)",xlab=NULL,putlegend="n",
                        levelcol=NULL,pch=NULL,main="",
                        ylim=NULL,xlim=NULL,lty=NULL,lwd=1,cex=1){
+  Factor=NULL; Z=NULL   #define these to pass package checks
   mod=glm(formula,family=binomial,data)
   newdata=mod$model[,1:3]
   oldnames=names(newdata)

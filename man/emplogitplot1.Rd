@@ -86,4 +86,5 @@ emplogitplot1(Acceptance~MCAT,data=MedGPA,breaks=c(0,34.5,39.5,50.5),dotcol="red
 
 data(Putts1)
 emplogitplot1(Made~Length,data=Putts1,ngroups="all")
+
 }

@@ -30,4 +30,5 @@ More details need to be written
 \examples{
 data(Dinosaurs)
 TukeyNonaddPlot(Iridium~Source*factor(Depth),data=Dinosaurs)
+
 }

@@ -40,4 +40,5 @@ data(Inflation)
 CPIts=ts(Inflation$CPI,start=c(2009,1),frequency=12)
 CPIacf=sluacf(CPIts,maxlag=36,lags=12)
 plot(CPIacf,lwd=2,ci.type="ma",xlim=c(1,36),xaxp=c(0,36,6),main="")
+
 }
