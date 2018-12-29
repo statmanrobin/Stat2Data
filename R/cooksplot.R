@@ -36,7 +36,7 @@ cooksplot=function(mod){
 	StandardizedResiduals=rstudent(mod)
 	Leverage=hatvalues(mod)
 	h=max(abs(StandardizedResiduals))
-	plot(StandardizedResiduals~Leverage,xlim=c(0,max(Leverage)),ylim=c(-h,h))
+	plot(StandardizedResiduals~Leverage,xlim=c(0.0000001,max(Leverage)),ylim=c(-h,h))
 	abline(v=(2*(k+1))/n,lty=2,col="green")
 	abline(v=(3*(k+1))/n,lty=5,col="green")
 	abline(h=2,lty=2,col="blue")
