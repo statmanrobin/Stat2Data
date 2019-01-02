@@ -5,7 +5,7 @@ Version: 2.0.0
 Date: 2018-12-29
 Author: Ann Cannon, George Cobb, Bradley Hartlaub, Julie Legler, Robin Lock, Thomas Moore, Allan Rossman, Jeffrey Witmer
 Maintainer: Robin Lock <rlock@stlawu.edu>
-Description: Datasets for the textbook Stat2: Modeling with Regression and ANOVA (second edition). Also includes data for the first editon, Stat2: Building Models for a World of Data.
+Description: This pacakge contains datasets for the textbook Stat2: Modeling with Regression and ANOVA (second edition). Also includes data for the first editon, Stat2: Building Models for a World of Data.
 License: GPL-3
 LazyLoad: yes
 Depends: R (>= 2.10)
