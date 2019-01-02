@@ -16,7 +16,7 @@ A plot showing standardized residuals versus leverage values with boundaries for
 This function produces an plot of standarized residuals versus leverage values for a regression model.
 Horizontal boundaries identify mild or more extreme standardized residuals.
 Vertical boundaries identify mild and more severe high leverage points.
-Curved boundaries identify mild and more severe values of Cooks D.
+Curved boundaries identify mild and more severe values of Cook's D.
 }
 \details{
 The plot shows standardized residuals (vertical) versus leverage values (horizontal) for all cases in a regression model.
@@ -25,7 +25,7 @@ Horizontal (blue) boundaries mark standardized residuals beyond  +/- 2 (mild) an
 
 Vertical (green) boundaries mark leverage points beyond 2(k+1)/4 (mild) and 3(k+1)/n (more severe), where k= number of predictors.
 
-Curved (red) boundaries for mark influential points beyond 0.5 (mile) and 1.0 (more severe) using Cook's D mile (0.5<D<1) and more severe (D>1) values of Cooks D.
+Curved (red) boundaries for mark influential points beyond 0.5 (mild) and 1.0 (more severe) using Cook's D.
 
 Unusual points are labeled with a case number.
 }
