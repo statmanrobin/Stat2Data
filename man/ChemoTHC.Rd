@@ -9,7 +9,7 @@ Comparison of two treatments for nausea in chemotherapy
   A data frame with 2 observations on the following 4 variables.
   \tabular{rl}{
     \code{Drug} \tab {\code{Prochlorperazine}  or \code{THC}}\cr
-    \code{Effective} \tab {Count of effectrive cases}\cr
+    \code{Effective} \tab {Count of effective cases}\cr
     \code{NotEffective} \tab {Count of noneffective cases}\cr
     \code{Patients} \tab {Number of patients in the treatment}\cr
   }

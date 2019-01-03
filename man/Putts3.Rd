@@ -15,7 +15,7 @@ Hypothetical putting results for a golfing statistician
   }
 }
 \details{
-This is a hypothetical revision of the table of putting succcess in Putts2 that helps demonstrate overdispersion.
+This is a hypothetical revision of the table of putting success in Putts2 that helps demonstrate overdispersion.
 }
 \source{
 Modified from personal observations by one of the Stat2 authors.

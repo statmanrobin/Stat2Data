@@ -11,7 +11,7 @@ Congressional votes on the American Health Care Act in 2017
     \item{\code{STATE}}{State name}
     \item{\code{Dist}}{Congressional district}
     \item{\code{Party}}{Party affiliation (\code{D}=Democrat, \code{R}=Republican)}
-    \item{\code{Dem}}{\code{1}=Democat, \code{0}=Republican}
+    \item{\code{Dem}}{\code{1}=Democrat, \code{0}=Republican}
     \item{\code{Rep}}{\code{1}=Republican, \code{0}=Democrat}
     \item{\code{uni2013}}{Percentage of citizens without health care in 2013}
     \item{\code{uni2015}}{Percentage of citizens without health care in 2015}

@@ -3,7 +3,7 @@
 \docType{data}
 \title{Body Measurements of Mammal Species}
 \description{
-Body measurements for a sample of 28 mammmal species from a Fitch paper on acoustic allometry
+Body measurements for a sample of 28 mammal species from a Fitch paper on acoustic allometry
 }
 \format{
   A data frame with 28 observations on the following 5 variables.

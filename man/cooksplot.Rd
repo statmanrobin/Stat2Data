@@ -13,7 +13,7 @@ cooksplot(mod)
 A plot showing standardized residuals versus leverage values with boundaries for unusual cases
 }
 \description{
-This function produces an plot of standarized residuals versus leverage values for a regression model.
+This function produces an plot of standardized residuals versus leverage values for a regression model.
 Horizontal boundaries identify mild or more extreme standardized residuals.
 Vertical boundaries identify mild and more severe high leverage points.
 Curved boundaries identify mild and more severe values of Cook's D.

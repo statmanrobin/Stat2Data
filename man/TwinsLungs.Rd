@@ -21,7 +21,7 @@ measuring the  level of radioactivity immediately  and  then  again  after  an h
 measure the  rate  of ``tracheobronchial clearance."   The  percentage  of radioactivity remaining
 in the  lungs after  an hour  told  how quickly subjects'  lungs cleared the  inhaled  particles.
 
-This dataset was reanmed as RadioactiveTwins for the second edition.
+This dataset was renamed as RadioactiveTwins for the second edition.
 
 }
 \source{

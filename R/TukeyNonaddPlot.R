@@ -11,7 +11,7 @@
 #' @return Depends on the option set with \code{out}.
 #'
 #' @description
-#' This function produces a Tukeuy nonadditivity plot for a two-way ANOVA model.
+#' This function produces a Tukey nonadditivity plot for a two-way ANOVA model.
 #'
 #' @details
 #' More details need to be written

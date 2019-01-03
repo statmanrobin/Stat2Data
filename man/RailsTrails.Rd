@@ -1,7 +1,7 @@
 \name{RailsTrails}
 \alias{RailsTrails}
 \docType{data}
-\title{Homes in Nothampton MA Near Rail Trails}
+\title{Homes in Northampton MA Near Rail Trails}
 \description{
 Sample of homes in Northampton, MA to see whether being close to a bike trail enhances the value of the home
 }

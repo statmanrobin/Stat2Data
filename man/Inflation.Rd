@@ -16,7 +16,7 @@ Consumer Price Index (CPI) each month for 2009 through 2016
   }
 }
 \details{
-Monthly Consumer Price Index for 2009 to 2016 as produced by the Bureau of Labor Statistics (Series Id. CUUR0000SA0).  Based on prices for all items in U.S. city average for all consumers (not sesaonally) Base period is 1982-1984-100.
+Monthly Consumer Price Index for 2009 to 2016 as produced by the Bureau of Labor Statistics (Series Id. CUUR0000SA0).  Based on prices for all items in U.S. city average for all consumers (not seasonally) Base period is 1982-1984-100.
 }
 \source{
 Data downloaded from Bureau of Labor Statistics at\cr

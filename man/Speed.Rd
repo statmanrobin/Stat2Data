@@ -21,7 +21,7 @@ so that states assumed control of setting speed limits on interstate highways.  
 fatality rates for years before and after the states assumed control for highway speed limits.
 }
 \source{
-Data from the National Highway Saftey Administration website at\cr
+Data from the National Highway Safety Administration website at\cr
 http://www-fars.nhtsa.dot.gov/Main/index.aspx
 }
 

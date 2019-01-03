@@ -43,9 +43,9 @@ Some geologists were interested in the water chemistry of rivers in upstate New 
 water samples at three different locations in four rivers (Grasse, Oswegatchie, Raquette, and St.
 Regis). The sampling sites were chosen to investigate how the composition of the water changes as
 it flows from the source to the mouth of each river. The sampling sites were labeled as upstream,
-midstream, and downstream. This dataset contains the concentations (parts per million) of a variety of elements
+midstream, and downstream. This dataset contains the concentrations (parts per million) of a variety of elements
 in those water samples.
-The dataset RiverIron contains the information for iorn (FE) alone, along with the log of the concentration.
+The dataset RiverIron contains the information for iron (FE) alone, along with the log of the concentration.
 }
 \source{
 Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data.

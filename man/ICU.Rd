@@ -26,7 +26,7 @@ often deals with serious, life-threatening cases, a key variable to study is pat
 coded in the Survive variable as 1 if the patient lived to be discharged and 0 if the patient died.
 }
 \source{
-Data downladed from The Data and Story Library (DASL), http://lib.stat.cmu.edu/DASL/Datafiles/ICU.html.
+Data downloaded from The Data and Story Library (DASL), http://lib.stat.cmu.edu/DASL/Datafiles/ICU.html.
 }
 
 \keyword{datasets}

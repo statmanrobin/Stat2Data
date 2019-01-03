@@ -1,7 +1,7 @@
 \name{Cereal}
 \alias{Cereal}
 \docType{data}
-\title{Nurition Content of Breakfast Cereals}
+\title{Nutrition Content of Breakfast Cereals}
 \description{
 Nutrition content for a sample of 36 different brands of breakfast cereals
 }

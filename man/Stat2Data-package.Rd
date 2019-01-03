@@ -3,10 +3,10 @@
 \alias{Stat2Data}
 \docType{package}
 \title{
-DataSets for Stat2: Modeling with Regression and ANOVA
+Datasets for Stat2: Modeling with Regression and ANOVA
 }
 \description{
-DataSets for Stat2: Modeling with Regression and ANOVA (second edition) and Stat2: Building Models for a World of Data (first edition)
+Datasets for Stat2: Modeling with Regression and ANOVA (second edition) and Stat2: Building Models for a World of Data (first edition)
 }
 \details{
 \tabular{ll}{

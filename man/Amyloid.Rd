@@ -8,7 +8,7 @@ Amyloid-beta and cognitive impairment for a sample of Catholic priests
 \format{
   A data frame with 57 observations on the following 2 variables.
   \describe{
-    \item{\code{Group}}{ \code{mAD}=Alzheimer's, \code{MCI}=mild impairment, \code{NCI}=no impairmnet}
+    \item{\code{Group}}{ \code{mAD}=Alzheimer's, \code{MCI}=mild impairment, \code{NCI}=no impairment}
     \item{\code{Abeta}}{Amount of Abeta from the posterior cingulate cortex (pmol/g tissue)}
   }
 }

@@ -19,7 +19,7 @@ behind a chemical message that tells other bees to attack you? To test this hypo
 dangled a 4x4 array of 16 muslin-wrapped cotton balls over a beehive.
 Eight of 16 balls had been previously stung; the other eight were
 fresh. The response was the total number of new stingers left behind by the bees.
-The process was repeated for a total of nine tials.
+The process was repeated for a total of nine trials.
 
 Used in first edition, but not second edition.
 }

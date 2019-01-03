@@ -22,7 +22,7 @@ Data for a samples of hawks from three different species
     \code{Culmen} \tab {Length (in mm) of the upper bill from the tip to where it bumps into the fleshy part of the bird}\cr
     \code{Hallux} \tab {Length (in mm) of the killing talon}\cr
     \code{Tail} \tab {Measurement (in mm) related to the length of the tail (invented at the MacBride Raptor Center)}\cr
-    \code{StandardTail} \tab {Standared measurement of tail length (in mm)}\cr
+    \code{StandardTail} \tab {Standard measurement of tail length (in mm)}\cr
     \code{Tarsus} \tab {Length of the basic foot bone (in mm)}\cr
     \code{WingPitFat} \tab {Amount of fat in the wing pit}\cr
     \code{KeelFat} \tab {Amount of fat on the breastbone (measured by feel}\cr

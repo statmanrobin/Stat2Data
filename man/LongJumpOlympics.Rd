@@ -18,7 +18,7 @@ Gold medal winning distances for the men's long jump at the Olympics from 1900 t
 Updated to LongJumpOlympics2016 in second edition.
 }
 \source{
-Historcial Olympic long ump results at http://trackandfield.about.com/od/longjump/qt/olymlongjumpmen.htm
+Historical Olympic long ump results at http://trackandfield.about.com/od/longjump/qt/olymlongjumpmen.htm
 }
 
 \keyword{datasets}

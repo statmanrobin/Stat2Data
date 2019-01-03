@@ -11,7 +11,7 @@ Daily prices and trading volume of Apple stock from July 21st to August 21st in 
     \item{\code{Date}}{Date as mm/dd/yyyy}
     \item{\code{Price}}{Closing price of Apple stock}
     \item{\code{Change}}{Change in price from previous day}
-    \item{\code{Volume}}{Number of shares traded (in millons)}
+    \item{\code{Volume}}{Number of shares traded (in millions)}
   }
 }
 \details{

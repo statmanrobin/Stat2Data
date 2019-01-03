@@ -21,7 +21,7 @@ Forty-six mountains in the Adirondacks of upstate New York are
 known as the High Peaks with elevations near or above 4000 feet (although modern measurements
 show a couple of the peaks are actually slightly under 4000 feet). A goal for hikers in the region is
 to become a "46er" by scaling each of these peaks.
-This dataset gives infomation about the hiking trails up each of these peaks.
+This dataset gives information about the hiking trails up each of these peaks.
 }
 \source{
 High Peaks data avaialble at http://www.adirondack.net/tour/hike/highpeaks.cfm.

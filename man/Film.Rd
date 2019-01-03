@@ -23,7 +23,7 @@ Film data from Maltin's Movie and Video Guide
 One statistician movie fan decided to use statistics to study the movie ratings in his favorite movie guide, Movie and
 Video Guide (1996), by Leonard Maltin. Maltin rates movies on a one-star to four-star
 system, in increments of half-stars, with higher numbers being better. The guide also includes additional information on each film.
-The statistican used a random number generator to select a simple random sample
+The statistician used a random number generator to select a simple random sample
 of 100 movies rated by the Guide.
 }
 \source{

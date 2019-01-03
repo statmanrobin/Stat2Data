@@ -3,7 +3,7 @@
 \docType{data}
 \title{Drew Brees Passing Statistics (2016)}
 \description{
-Passing statistics for football quaterback Drew Brees in 2016
+Passing statistics for football quarterback Drew Brees in 2016
 }
 \format{
   A data frame with 16 observations on the following 5 variables.

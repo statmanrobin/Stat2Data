@@ -59,15 +59,15 @@ This function produces an empirical logit plot for a binary response variable an
 single quantitative predictor variable.
 }
 \details{
-Values of the quantiative explanatory variable will be grouped into \code{ngroups}
+Values of the quantitative explanatory variable will be grouped into \code{ngroups}
 roughly equal sized groups, unless \code{breaks} is used to determine the boundaries of the groups.
 Using \code{ngroups="all"} will make each distinct value of the explanatory variable its own group \cr
 
 We find an adjusted proportion for the binary response variable within each of the groups with
 \code{(Number yes +0.5)/(Number of cases+1)}. This is converted to an adjusted log odds
 \code{log(adjp/(1-adjp))}.  The adjustment avoids problems if there are no "successes" or
-all "successes" in a group.  What constitutes a "sucesss" can be specified with \code{yes=}
-and the proportion adjustment can be turned off (if no group proportions are likley to be zero or one)
+all "successes" in a group.  What constitutes a "success" can be specified with \code{yes=}
+and the proportion adjustment can be turned off (if no group proportions are likely to be zero or one)
 with \code{padj=FALSE}.\cr
 
 The function plots the log odds versus the mean of the explanatory variable within each group.

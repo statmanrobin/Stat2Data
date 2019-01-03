@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 # Stat2Data
 
 The goal of Stat2Data is to provide datasets found in the second edition of Stat2: Modeling with Regression and ANOVA.
-The package also has data sets from th4e first editoin and some functions for producing dignostic plots described in the text. 
+The package also has data sets from the first edition and some functions for producing diagnostic plots described in the text. 
 
 ## Installation
 
