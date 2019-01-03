@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# Stat2Data
+
+The goal of Stat2Data is to provide datasets found in the second edition of Stat2: Modeling with Regression and ANOVA.
+The package also has data sets from th4e first editoin and some functions for producing dignostic plots described in the text. 
+
+## Installation
+
+You can install Stat2Data from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("statmanrobin/Stat2Data")
+```
+
