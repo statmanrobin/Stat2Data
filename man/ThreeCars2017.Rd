@@ -18,7 +18,7 @@ Data from cars.com for a sample of three different models of used cars in 2017
   }
 }
 \details{
-Data for a sample of cars from three models (Mazda6, Honda Accord, Toyota Maxima) from a website. The dataset AccordPrice is a subset of this file.
+Data for a sample of cars from three models (Mazda6, Honda Accord, Nissan Maxima) from a website. The dataset AccordPrice is a subset of this file.
 }
 \source{
 Data obtained from cars.com, February 2017 using zip code 44107, Lakewood, Ohio.
