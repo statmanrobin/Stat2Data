@@ -3,7 +3,7 @@
 \docType{data}
 \title{Palm Beach Butterfly Ballot}
 \description{
-Votes for Geroge Bush and Pat Buchanan in Florida counties for the 2000 U.S. presidential election
+Votes for George Bush and Pat Buchanan in Florida counties for the 2000 U.S. presidential election
 }
 \format{
   A dataset with 67 observations on the following 3 variables.
