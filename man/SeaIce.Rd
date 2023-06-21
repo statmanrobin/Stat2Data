@@ -24,6 +24,6 @@ In fact, there are two ways to measure the amount of sea ice: Area and Extent.  
 Data from
 ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/Sep/N_09_areaV2.txt updated data from
 
-Witt, G. (2103) "Using Data from Climate Science to Teach Introductory Statistics," JSE 21:1 available at www.amstat.org/publications/jse/v21n1/witt.pdf
+Witt, G. (2013) "Using Data from Climate Science to Teach Introductory Statistics," JSE 21:1 available at www.amstat.org/publications/jse/v21n1/witt.pdf
 }
 \keyword{datasets}
