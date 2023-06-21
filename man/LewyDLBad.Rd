@@ -1,7 +1,7 @@
 \name{LewyDLBad}
 \alias{LewyDLBad}
 \docType{data}
-\title{Lewy Bodies and Dimentia with Alzheimer's}
+\title{Lewy Bodies and Dementia with Alzheimer's}
 \description{
 Dementia Study with Lewy Bodies
 }
