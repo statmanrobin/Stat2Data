@@ -1,18 +1,29 @@
 Package: Stat2Data
 Type: Package
 Title: Datasets for Stat2
-Version: 2.0.0
-Date: 2018-12-29
-Author: Ann Cannon, George Cobb, Bradley Hartlaub, Julie Legler, Robin Lock, Thomas Moore, Allan Rossman, Jeffrey Witmer
-Maintainer: Robin Lock <rlock@stlawu.edu>
-Description: Datasets for the textbook Stat2: Modeling with Regression and ANOVA (second edition). 
-    The package also includes data for the first edition, Stat2: Building Models for a World of Data
-    and a few functions for plotting diagnostics.
+Version: 2.0.1
+Date: 2026-11-08
+Authors@R: 
+    c(person("Robin", "Lock", email = "rlock@stlawu.edu",
+           role = c("aut", "cre")),
+    person("Ann", "Cannon", email = "ACannon@cornellcollege.edu",
+           role = "aut"),
+    person("Bradley", "Hartlaub", email = "hartlaub@kenyon.edu",
+           role = "aut"),
+    person("Allan", "Rossman", email = "arossman@calpoly.edu",
+           role = "aut"),
+    person("Jeffrey", "Witmer", email = "jeff.witmer@oberlin.edu",
+           role = "aut"))
+Description: Provides datasets for the textbook Stat2: Modeling
+    with Regression and ANOVA (second edition). Also includes
+    datasets from the first edition, Stat2: Building Models for
+    a World of Data, and functions for plotting diagnostic
+    graphics.
 License: GPL-3
 LazyLoad: yes
 Depends: R (>= 2.10)
-Suggests:  stats,graphics
+Suggests: stats,graphics
 URL: https://github.com/statmanrobin/Stat2Data
-BugReports: https://github.com/statmanrobin/Stat2Data
+BugReports: https://github.com/statmanrobin/Stat2Data/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.0
