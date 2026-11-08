@@ -9,15 +9,21 @@
 
 * This is a new release.
 
-## Reverse dependencies
+## revdepcheck results
 
-This is a new release, so there are no reverse dependencies.
+We checked 1 reverse dependencies, comparing R CMD check results across CRAN and dev versions of this package.
 
----
+ * We saw 0 new problems
+ * We failed to check 0 packages
+ 
+ 
+ 
+## Resubmission of archived package
+This package was recently archived 10/12/2026 due to failed check notes
 
-* I have run R CMD check on the NUMBER downstream dependencies.
-  (Summary at ...). 
-  
-* FAILURE SUMMARY
+1. Need to update Description to use Authors@R format  (DONE)
+2. In Description fix BugReports URL to add ../issues  (DONE)
+3. Delete graphics and stats from "Suggests"  (DONE)
+4. Fix issue with braces in AutoPollutoin.Rd (DONE)
 
-* All revdep maintainers were notified of the release on RELEASE DATE.
+All R CMD checks now pass with 0 errors and 0 warning and 0 notes

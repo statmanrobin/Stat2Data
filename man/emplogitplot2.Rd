@@ -4,11 +4,28 @@
 \alias{emplogitplot2}
 \title{Empirical logit plot for one quantitative variable by categorical groups}
 \usage{
-emplogitplot2(formula, data = NULL, ngroups = 3, breaks = NULL,
-  yes = NULL, padj = TRUE, out = FALSE, showplot = TRUE,
-  showline = TRUE, ylab = "Log(Odds)", xlab = NULL,
-  putlegend = "n", levelcol = NULL, pch = NULL, main = "",
-  ylim = NULL, xlim = NULL, lty = NULL, lwd = 1, cex = 1)
+emplogitplot2(
+  formula,
+  data = NULL,
+  ngroups = 3,
+  breaks = NULL,
+  yes = NULL,
+  padj = TRUE,
+  out = FALSE,
+  showplot = TRUE,
+  showline = TRUE,
+  ylab = "Log(Odds)",
+  xlab = NULL,
+  putlegend = "n",
+  levelcol = NULL,
+  pch = NULL,
+  main = "",
+  ylim = NULL,
+  xlim = NULL,
+  lty = NULL,
+  lwd = 1,
+  cex = 1
+)
 }
 \arguments{
 \item{formula}{A formula of the form (binary) Response~Quantitative Predictor+Factor}

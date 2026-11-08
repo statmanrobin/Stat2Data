@@ -4,8 +4,13 @@
 \alias{TukeyNonaddPlot}
 \title{Tukey Nonadditivity Plot for Two-way ANOVA}
 \usage{
-TukeyNonaddPlot(formula, data, out = "n",
-  main = "Tukey Nonadditivity Plot", ylab = "Residuals")
+TukeyNonaddPlot(
+  formula,
+  data,
+  out = "n",
+  main = "Tukey Nonadditivity Plot",
+  ylab = "Residuals"
+)
 }
 \arguments{
 \item{formula}{A formula for a two-way ANOVA in the form Response=FactorA+FactorB (or FactorA*FactorB)}

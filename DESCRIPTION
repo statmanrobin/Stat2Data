@@ -22,8 +22,7 @@ Description: Provides datasets for the textbook Stat2: Modeling
 License: GPL-3
 LazyLoad: yes
 Depends: R (>= 2.10)
-Suggests: stats,graphics
 URL: https://github.com/statmanrobin/Stat2Data
 BugReports: https://github.com/statmanrobin/Stat2Data/issues
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+Config/roxygen2/version: 8.1.1
