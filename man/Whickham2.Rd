@@ -3,7 +3,7 @@
 \docType{data}
 \title{Whickham Health Study}
 \description{
-Morality data over 20 years for 1314 women from Whickham, England
+Mortality data over 20 years for 1314 women from Whickham, England
 }
 \format{
   A data frame with 1314 observations on the following 5 variables.
