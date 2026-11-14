@@ -14,9 +14,9 @@ Results from a Math Placement exam at a liberal arts college
     \code{PSATM} \tab {PSAT score in Math}\cr
     \code{SATM} \tab {SAT score in Math}\cr
     \code{ACTM} \tab {ACT Score in Math}\cr
-    \code{Rank} \tab {Adjusted rank in HS class}\cr
-    \code{Size} \tab {Number of students in HS class}\cr
-    \code{GPAadj} \tab {Adjusted GPA}\cr
+    \code{Rank} \tab {Rank in high school class (adjusted to size class)}\cr
+    \code{Size} \tab {Number of students in graduating high school class}\cr
+    \code{GPAadj} \tab {Adjusted high school GPA}\cr
     \code{PlcmtScore} \tab {Score on math placement exam}\cr
     \code{Recommends} \tab {Recommended course: \code{R0} \code{R01} \code{R1} \code{R12} \code{R2} \code{R3} \code{R4} \code{R6} \code{R8}}\cr
     \code{Course} \tab {Actual course taken}\cr
