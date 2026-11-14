@@ -1,7 +1,7 @@
 \name{LewyBody2Groups}
 \alias{LewyBody2Groups}
 \docType{data}
-\title{Lewy Bodies and Dimentia}
+\title{Lewy Bodies and Dementia}
 \description{
 Dementia study comparing two groups of patients
 }
